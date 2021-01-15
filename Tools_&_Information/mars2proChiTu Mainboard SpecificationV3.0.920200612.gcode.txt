@@ -1,0 +1,185 @@
+; [[The comments after the semicolon, please modify the corresponding parameters according to the comments, the commands after the semicolon will be ignored]]
+; The basic format is Mxxx Ixxx, Mxxx Txxx or Mxxx Sxxx, where Ixx (the first letter of the letter I, integer, not the number 1) is followed by an integer, which can be decimal or hexadecimal (beginning with 0x) ), Sxx is followed by a floating point number
+;
+
+M8513
+
+; [Stepper motor direction control] The direction of I1 and I-1 are just opposite, so if the motor direction is wrong, either change the wiring or change the direction parameter
+M8002 I-1; ;X stepper motor direction, I1 or I-1
+M8003 I1; Y stepper motor direction
+M8004 I-1; Z stepper motor direction
+
+
+;[XYZ axis extrusion head/platform movement configuration] only affects the actual movement direction of the manual interface button;;;;;;;;;;;;;;;;;;;;;;;;;;
+M8005 Z0; 0: Z axis direction, forming support movement,,
+; 1: Resin tank movement in Z axis direction
+To
+;
+; [Speed/Acceleration Setting] The speed is in mm/s and the acceleration is in mm/s^2
+M8006 I30; The maximum starting speed, when the movement speed exceeds this speed, the speed will be used as the starting speed.
+; This speed is mainly to prevent loss of step, if this value is too small, it will cause the rail angle to bulge when rounding
+M8007 I15; The maximum orbit speed value (corresponding to the jerk speed in the open source firmware), if the actual orbit speed of the movement is greater than this value,
+; Will force the movement to decelerate. When filling, there will be a lot of reciprocating movement, this value is large, noise is large, and it is easy to lose steps.
+; This value is small, the speed is slow, when the printing speed is high, the printing quality will be relatively poor
+M8008 I1000; Acceleration, the larger the value, the higher the average speed of actual operation, but the noise is also large, the value is small, the actual speed will be smaller,
+;
+; [[[Step-related parameters]]] After setting the parameters, please print a cube, and then measure the size with a ruler to confirm that the parameters are correct
+;
+M8009 S0.0125; [mm value of each step of XY] such as 20 teeth, tooth pitch of 2mm (mxl specification, 2gt tooth data is 2mm), 1.8 degree stepping motor,
+; 16 subdivision, then (20*2)/((360/1.8)*16)
+;M8009 X0.0125 Y0.0125 ;If you need to set X, Y stepper motor parameters independently, you can use this command
+;
+M8010 S0.000625; [mm value of each step of Z] On non-delta machines, the calculation formula: lead/((360/1.8)*16).
+
+
+;
+; [Various maximum speeds] In order to ensure the stability of the machine, please set according to the actual measurement results
+M8012 I200 ;Maximum speed of XY movement mm/s
+M8013 I5; The maximum speed of Z movement mm/s
+
+
+;
+;?Return to zero speed?
+M8015 I3; The first zero return speed when Z return to zero, the speed is faster, the Z movement speed of the manual interface is also the same as this speed, and the Z-axis lift is also used at this speed
+M8015 S30; The zero return speed when XY return to zero, the speed is faster, the XY movement speed of the manual interface is also the speed at which the XY axis moves
+M8016 I3; The second zero return speed when Z zero return, the speed is slower, reducing the second zero return speed can improve the repeated positioning accuracy of the limit position, if the parameter is 0, the second zero return will not be performed
+
+
+; [Speed ??and distance of Z-axis demolding] During demolding, first rise slowly, then rise quickly, then stay for a while, then fall quickly, then fall slowly
+M8070 S3; unit is mm; Z demoulding slow rising distance
+M8015 P1.0; unit is mm/s; Z demoulding slow rising speed
+
+M8028 S3.0; unit is mm/s; Z demoulding rapid ascent speed
+M8016 P3.0; unit is mm/s; Z demoulding fast descending speed, this parameter is also fast ascending speed and slow descending speed in the old version
+
+M8021 S1.7; unit is mm; Z slow down distance
+M8020 S1.0; unit is mm/s; Z slow down speed
+
+; When printing [Z demoulding, the total distance of each lifting height, in mm, the distance = slow rising distance + fast rising distance]
+M8070 Z7; if movement z is not needed, set it to 0
+
+; [Dwelling time after ascending when Z axis is demolding]
+M8016 D0; The unit is ms (milliseconds),
+;
+; [X, Y, Z maximum stroke] unit is mm
+M8024 I0; X maximum stroke, the axis is used for demoulding in the X direction or used for scraping. If the direction does not need to move, the stroke is set to zero, and the manual interface cannot operate scraping. If it is set to non-zero, turn it on The axis will return to zero
+M8025 I0; Y maximum stroke, this axis is used to block the lens of the projector, the lens is blocked at the reset position, and the lens is not blocked at the maximum stroke position. If the axis movement is not required, set this parameter to 0, manual interface It can’t be operated either. If a non-zero setting is set, the axis will return to zero after power on
+M8026 I165; Z maximum stroke, this stroke is the movement stroke of Z, be sure to measure it with a ruler, set it carefully, after the pause and print, the Z axis will stay at the maximum stroke position
+;
+
+;
+; [XY axis limit switch position type]
+
+M8029 I0 ;0: Unilateral limit, only X-, Y-, Z- limit is used, Z+ is not used
+; 2: Bilateral limit, if Z+ and Z- limit are used at the same time, Z+ can limit the maximum stroke of Z
+
+;
+;
+;
+; [XYZ limit switch wiring type] If this configuration is wrong, when the motor is operated in the manual interface, the motor cannot move in a certain direction and the buzzer
+; There will be a dizzying sound.
+; Simple judgment method, if the configuration is normal, the buzzer will emit a beep when the position is changed from not limit to limit.
+; When the position is changed from the limit position to the limit position, the buzzer will not sound. If the phenomenon is found to be opposite, please modify this configuration
+M8029 T0 ;0: limit switch is normally open (when not limit,-and s voltage is high level, when limit is low level)
+; 1: The limit switch is normally closed (when the limit switch is not limited, the voltage of-and s is low, and when the limit is high)
+;
+;?Z-axis limit switch position?
+M8029 S0 ;0: Limit when the extruder is closest to the platform, and the limit is connected to Z-
+; 1: Limit when the extruder is farthest away from the platform, and the limit is connected to Z+
+;
+; [Whether the XYZ axis returns to (0,0,0) after homing,]
+M8029 C0 ;0: return to XYZ(0,0,0) position, that is, the position where the extruder returns to the coordinate zero position
+; ;1: Stay at the limit position
+;
+;;
+;?Fan 1 control?
+M8030 I-1 ;>0: If you need to force fan 1 to automatically turn on the fan when the temperature is greater than a certain temperature, set a temperature greater than 0.
+;0: If set to 0, the default is not to transfer
+;-1: Always open MF
+;-2: Open when the file is printed, close EF when not printed
+;?Fan 2 control?
+M8030 T-1 ;0: If set to 0, the default is not
+;1: >0 Once exposed, fan 2 will turn, if no exposure, the fan will stop LED
+;-1:<0 Always open MF
+;-2: Open when the file is printed, close EF when not printed
+
+;?LED interface control?
+M8030 S4; 0: Normally off
+; 1: Normally open
+;2: Open when the file is printed, close EF when not printed
+;3: Close when the file is printed, open when not printed
+;4: Once exposed, the LED will turn on, if not exposed, the LED will stop LED
+
+; [Does SD card/U disk support folder display]
+M8034 I1 ;0: not supported
+; 1: Support
+;
+
+
+
+
+
+;?The warm-up time for the projector to turn on?
+M8070 T10; unit is s
+
+
+; [Projector communication baud rate, if serial port control is not needed, set the baud rate to 0]
+M8070 I9600; Projector communication baud rate
+
+
+;?Projector boot command?
+M8070'* 0 IR 001\r'; \r \n \t \x6e can be used to represent special characters such as carriage return, line feed, tabulation, and hexadecimal 0x6e, up to 40 characters
+
+
+
+;?Projector shutdown command?
+M8071'* 0 IR 002\r'; projector shutdown command
+;
+
+
+;?Machine Type?
+M8080 I0 ;0: XYZ common type,
+
+;
+; [Thermal resistance type] Temperature sensor type
+M8081 I0 ;0: ideal NTC 100K 1% 3950 B,
+;
+;
+
+;[Z zero point and limit position setting] 0: limit position is the same as Z zero point 1: limit position is different from Z zero point
+M8083 I1; The limit position is different from the zero point of Z, it needs to be used with M8084 Z* instruction
+;
+;
+;; [Difference between Z limit point and zero point limit, the value is usually positive]
+M8084 Z0; If you want to set the offset in the configuration, please remove the semicolon in front of the command line, and you can also configure the offset automatically through "Set Z to zero" on the interface
+;
+;
+; [Start LOGO time]
+M8085 I3000; boot logo duration, minimum 100ms, maximum 6000ms
+
+;?Screensaver time?
+M8085 T0; How long will it take to enter the screen saver interface in standby mode, in seconds (s), when it is 0, it means that the screen saver is disabled
+
+
+; [External drive settings]
+M8087 I0 T0; I: The setup time from the direction signal valid to the pulse signal high level, the unit is ns
+; T: The shortest hold time of the pulse signal, the unit is ns, if there is no external drive control board, please set it to zero.
+; Several external drive parameters: THB7128:I100000 T0 ;;;;TB6560:I40000 T0 ;;;TB6600:I100000 T0
+;
+;
+;
+;?Action after printing?
+M8489 P3; action after printing
+; 0: Turn off all motors,
+; 1: No action after printing,
+; 2: After printing is completed, return to zero, and the motor will not be powered on
+; 3: After printing is completed, it will drop to the maximum stroke of Z, and the motor will not be powered
+
+;
+;???????Save Parameter???????This parameter must not be less, otherwise the parameter cannot be saved to the device
+M8500; save configuration
+;
+More about this source text
+Source text required for additional translation information
+Send feedback
+Side panels
