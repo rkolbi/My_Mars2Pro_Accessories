@@ -54,6 +54,7 @@ Yield Strength @ 73°F: 1740psi / 12 MPa
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 **Question: Do you really shake the bottle for 5 minutes?**
+
 I've always been doing it for maybe 10 sec, and everything's fine.
 Answer: I'd say if 10 seconds works for your use case, then stick with it - When in any doubt, read the mfg instructions.
 
