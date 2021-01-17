@@ -27,6 +27,7 @@
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 **A note on Homing, Leveling, Z=0, Step 14:**
+
 -The 'Home' button brings to build plate down until the endstop is triggered. This is 'mechanical' Z0, homed position.
 -The 'Z=0' button adds, or subtracts, to this value based on where you have positioned Z after, it was homed, and pressed 'Z=0'. This is your Z offset.
 -If you're having issues with the build plate homing fine but then trying to bury itself into the LCD once a print is initiated - relevel the build plate and ensure you use Z=0.
@@ -41,6 +42,7 @@ So, long story short, when leveling and you're happy with the paper pull test - 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 **A note on equipment operating temperature:**
+
 Not only does the resin have a stated operational temperature to be maintained, but also the FEP. If the FEP is too cold, it will not have the proper elasticity and will increase the object's peel force - increasing the odds of a failed print 'stuck to the bottom'. Additionally, operating below the recommended temperature could also make the FEP more prone to damage.
 
 Tensile Strength @ 73°F: 2100-3050psi / 14.5 to 21 MPa
@@ -54,9 +56,15 @@ Yield Strength @ 73°F: 1740psi / 12 MPa
 **Question: Do you really shake the bottle for 5 minutes?**
 I've always been doing it for maybe 10 sec, and everything's fine.
 Answer: I'd say if 10 seconds works for your use case, then stick with it - When in any doubt, read the mfg instructions.
-For me, I usually shake the resin for 3 - 5 minutes, then warm with a heating pad until the proper temperature is obtained - 25C if the resin mfg doesn't specify, and then gently shake the bottle back and forth just a bit before pouring it into the resin vat. I have found that different brands, with varying resin types, with differing pigmentation levels, can need quite a bit of mixing to not so much. The resin's temp will also factor in how well it mixes, mostly due to viscosity, and subsequently, this dictates how fast the bubbles will escape the liquid due to reduced surface friction/tension.
+
+I usually shake the resin for 3 - 5 minutes, then warm with a heating pad until the proper temperature is obtained - 25C if the resin mfg doesn't specify, and then gently shake the bottle back and forth just a bit before pouring it into the resin vat. I have found that different brands, with varying resin types, with differing pigmentation levels, can need quite a bit of mixing to not so much. The resin's temp will also factor in how well it mixes, mostly due to viscosity, and subsequently, this dictates how fast the bubbles will escape the liquid due to reduced surface friction/tension.
+
 -For example, from Siraya Sculpt: "To get the best results out of Sculpt, SHAKE HARD (applies to all resins with pigments) To do it correctly to shake that bottle for 20-30s before use. Stir up the resins that is already in the vat before each print. And if you just received Sculpt, before opening it up for the first time, turn it upside down for a minute (submerged in warm water is even better) and then shake for another minute or two to make sure you get a great mix. IF you want to take it to the next level, throw a small metal ball in there and shake, the object will significantly increase the efficiency of mixing pigments and resins."
+
 -On a lesser impacting example, professional/commercial side of the house, with similar resin, is supposed to be mixed for 1 hour for a brand new bottle and 10 minutes after the first initial use – and that's using a mixer machine like the LC-3D.
+
 Granted, the equipment here is not at the same level as those machines, but the resin is related. I think in most cases, a non-pigmented resin getting a good shake for 30 seconds is enough, while a heavy pigmented one for a couple of minutes. If the resin is thicker due to temp, add some extra time to that, and since a few minutes doesn't cost me anything, I bring it out to 3 - 5 to make it easy - 3 for clear and up to 5 for heavy pigment. In my environment, I already know the temp is not where it should be, so the resin bottle is wrapped in a heating pad and brought up to temp – this usually takes 10 minutes or more. The heating process kills two birds with one stone, first and foremost warming the resin and secondly letting the air bubbles from the mixing action escape. When it is at temp, just a gentle back and forth shake for a minute to mitigate the case of any compounds settling.
+
 So, to bring my thought back full circle, I stand by the stated instructions to say 5 minutes. I don't know what resin they are grabbing, its state, or the temp. On the flip side, I know a 5-minute shake won't hurt it, but it will bring bubbles. I know ten plus minutes sitting and getting warmed will ensure the proper temp and let the bubbles escape. And I know the last gentle shake will provide any settled pigment or additives mixed without making more bubbles.
+
 Apologies for the long reply, but I wanted to advocate my thought process clearly. But again, if 10 seconds works, then stick with it - all that matters is that you're getting good prints :)
