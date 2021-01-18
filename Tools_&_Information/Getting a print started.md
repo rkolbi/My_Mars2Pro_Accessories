@@ -15,7 +15,7 @@
 9. Get a standard sheet of printer paper, cut it in half, and place it over the top LCD screen.
 10. Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.
 11. Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).
-12. The build plate will go down to the paper, slightly rise, and then down again. Check the build plate's alignment and rotate as needed to ensure it is square with the printer. Gently tighten the forward-facing hex-head bolt first, followed by the side facing.
+12. The build plate will go down to the paper, slightly rise, and then down again. Check the build plate's alignment and rotate as needed to ensure it is square with the printer. While gently pressing down on the build plate - ensuring it is flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.
 13. Gently try to pull the paper out, not all the way but just only by a few millimeters or so. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling.
 14. Select the 'Z=0' button, and select confirm. Raise the build plate by pressing the 10mm button, followed by the up button, at least seven times. Remove the paper.
 15. Grab the resin vat. Check it free and clean - both sides. And again, check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!
