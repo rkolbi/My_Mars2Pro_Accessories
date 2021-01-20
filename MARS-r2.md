@@ -32,19 +32,11 @@
 
 ·  If you have lost or misplaced the manual, you can find it [here](https://www.elegoo.com/pages/3d-printing-user-suupport). 
 
-·  It is highly recommended to handle all resins as though they are toxic unless you have specific documentation that states otherwise.
+·  Always handle resins as though they are toxic unless you have specific documentation that states otherwise. Do note that photopolymer resins exothermically react with light, especially UV, and can produce very high heat. 
 
-·  3D printing resins are photopolymers; they react with light, especially UV. The process is exothermic and produces very high heat. 
+·  Ensure you're working in a well-ventilated area. Always wear proper eye protection and a mask when exposed to any uncured resin, whether during print preparation, printing, or post-processing. Ensure you are wearing chemical-resistant gloves, butyl, nitrile, or neoprene. Avoid using latex gloves. 
 
-·  Ensure that you are wearing eye protection. You do not want to get resin into your eyes. 
-
-·  Ensure you are wearing chemical-resistant gloves, butyl, nitrile, or neoprene. Latex is not recommended unless only for short periods. 
-
-·  If you get resin on your skin or clothes, keep away from direct sunlight and immediately wash with soap and water. Do not wait! 
-
-·  Do not directly inhale or ingest resin. 
-
-·  Common sense applies. 
+·  Ensure your body is adequately protected by clothing in case of spills and splashes. In case of spillage, if resin makes contact with skin or eyes, wash thoroughly with soap and water and seek medical advice - do NOT wash with hot or warm water - this will open your pores and may allow the resin to be pushed further into your skin.
 
 
 
