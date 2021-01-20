@@ -217,15 +217,16 @@ If you take care of it, it will not need to be replaced for months. FEP film nee
 
 **How do I replace the FEP film?** 
 
-Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). It is important to note one very important omission in that video: some replacement FEP film may come sandwiched between two protective plastic layers. These have to be peeled off before the FEP film can be used. 
+Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). 
+FEP replacement video using Gatorade bottle cap [here](https://youtu.be/Yr_wtZqBfbQ). 
 
 **How do I test if my FEP film has protective plastic on it?** 
 
 It's difficult to see if there's a protective plastic film on your FEP. An easy way to test is by dripping a few drops of resin on your FEP film, then hold the film vertically. If the resin slides downward easily without sticking and leaves the FEP clear, it's good. If the resin sticks where you dripped it and moves slowly or smears, you have protective plastic that needs to be removed. 
 
-**Why do I need to use a bottle cap when replacing the FEP film?** 
+**Why do I need to use a bottle cap or foam when replacing the FEP film?** 
 
-The bottle cap, 30mm diameter x 13mm height, will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
+The bottle cap will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
 
 
 
