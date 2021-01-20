@@ -36,8 +36,6 @@
 
 ·  3D printing resins are photopolymers; they react with light, especially UV. The process is exothermic and produces very high heat. 
 
-·  If resin gets into your eyes or on your skin and is exposed to light, bad things will happen. 
-
 ·  Ensure that you are wearing eye protection. You do not want to get resin into your eyes. 
 
 ·  Ensure you are wearing chemical-resistant gloves, butyl, nitrile, or neoprene. Latex is not recommended unless only for short periods. 
@@ -318,7 +316,7 @@ That's normal; it's showing the last file you selected or printed.
 
 **How much resin should I pour into the vat?** 
 
-Pour resin up to the line where the chamfer starts in the vat, about a quarter cup from the FEP. This is about 125ml. Do not exceed the max fill line; if there is too much resin, it will rise from displacement and cause a spill. 
+To start, fill the VAT about half way, between the FEP surface and max fill line.. Do not exceed the max fill line; if there is too much resin, it will rise from displacement and cause a spill. Once you pour resin into the VAT, let it sit for a few minutes to let any air bubbles escape before printing. 
 
 **Can I add resin halfway through a print?**
 
