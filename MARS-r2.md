@@ -216,7 +216,7 @@ It's difficult to see if there's a protective plastic film on your FEP. An easy 
 
 **Why do I need to use a bottle cap or foam when replacing the FEP film?** 
 
-The bottle cap will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
+The bottle cap, or foam, will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
 
 
 
