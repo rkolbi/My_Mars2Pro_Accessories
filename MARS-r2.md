@@ -129,7 +129,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 
 
 
-**How tight to the paper should I tram/level the build plate?**
+**How tight to the paper should I level the build plate?**
 
 If you are using the recommended paper method, the paper should be tight enough to pull out with even resistance but not push back in. Remember that the build plate must grip the paper evenly. 
 
@@ -488,9 +488,9 @@ Congratulations on having a well-leveled plate. Sometimes prints adhere so well 
 
 Check the resin manufacturer's datasheet/recommendations. An easy way to find out if your print has cured enough with sunlight or a UV light set up is to find an area where you don't mind a mark and try to dent it with your fingernail. If you can, then it's not ready yet, and as soon as you can't dent it, it's ready. Do not over cure as resin may become overly brittle, and white or clear resin will turn yellow. 
 
-**Should I remove supports before or after curing?** 
+**When should I remove supports?** 
 
-It depends. While it is easier to remove before UV curing (it's softer and you can just pull or rub them off), you may want to remove them after, especially thin parts that may warp during the curing process. 
+It is generally best to first clean the entire print before removing any supports - this will reduce your and the work area's resin exposure. Following the cleaning process, remove the supports before UV curing as they are softer, and in many cases, you can easily pull or rub them off. In some cases, you may want to remove them after curing, especially when working with thin and delicate parts that may warp during the curing process if not supported.
 
 **How durable are the prints? Will they break if I drop them?** 
 
