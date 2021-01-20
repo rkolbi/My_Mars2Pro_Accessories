@@ -18,9 +18,7 @@
 
 ·  POST PROCESSING
 
-·  TROUBLESHOOTING
-
-·  MAINTENANCE
+·  MAINTENANCE & TROUBLESHOOTING
 
 ·  ACKNOWLEDGMENTS
 
@@ -502,7 +500,7 @@ The white residue appears if there's moisture or water on your prints when you U
 
 
 
-## >MAINTENANCE
+## >MAINTENANCE & TROUBLESHOOTING
 
 **What maintenance do I need to do to keep my printer running well?** 
 
