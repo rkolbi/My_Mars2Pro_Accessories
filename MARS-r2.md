@@ -8,9 +8,9 @@
 
 ·  [BUILD PLATE LEVELING](#BUILD-PLATE-LEVELING)
 
-·  [RESIN VAT & FEP SETUP](#VAT-&-FEP-SETUP)
+·  [RESIN VAT & FEP SETUP](#VAT-AND-FEP-SETUP)
 
-·  [MODEL SETUP & SETTINGS](#MODEL-SETUP-&-SETTINGS)
+·  [MODEL SETUP & SETTINGS](#MODEL-SETUP-AND-SETTINGS)
 
 ·  [STARTING A PRINT](#PRINTING)
 
@@ -18,7 +18,7 @@
 
 ·  [PRINT POST PROCESSING](#POST-PROCESSING)
 
-·  [MAINTENANCE & TROUBLESHOOTING](#MAINTENANCE-&-TROUBLESHOOTING)
+·  [MAINTENANCE & TROUBLESHOOTING](#MAINTENANCE-AND-TROUBLESHOOTING)
 
 ·  [ACKNOWLEDGMENTS](#ACKNOWLEDGMENTS)
 
@@ -173,7 +173,7 @@ Castable and other specialty resins such as Blue cast (monomer-free) generally n
 
 
 
-## >VAT & FEP SETUP
+## >VAT AND FEP SETUP
 
 When you receive your new printer, it will come with an aluminum or plastic vat frame with FEP film already installed. Check that the film is tight by lightly tapping with your finger. If it is tensioned correctly, it should sound just like a snare drum. 
 
@@ -218,7 +218,7 @@ The bottle cap, or foam, will allow some slack to the film, so that when you tig
 
 
 
-## >MODEL SETUP & SETTINGS
+## >MODEL SETUP AND SETTINGS
 
 **How do I use Chitubox slicer?**
 
@@ -500,7 +500,7 @@ The white residue appears if there's moisture or water on your prints when you U
 
 
 
-## >MAINTENANCE & TROUBLESHOOTING
+## >MAINTENANCE AND TROUBLESHOOTING
 
 **What maintenance do I need to do to keep my printer running well?** 
 
