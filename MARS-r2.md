@@ -193,7 +193,7 @@ Sometimes the screws may seem loose, but it may be tensioned correctly from the 
 
 **How tight exactly should the FEP be tensioned?** 
 
-If it sounds like a snare drum when you lightly tap with a finger, it should be good enough. But since hearing is subjective, to be precise, you should use an audio analyzer to check; factory tensioned FEP film is around 350Hz, but anything between 250Hz to 375Hz is fine. 
+If it sounds like a snare drum when you lightly tap with a finger, it should be good enough. But since hearing is subjective, to be precise, you should use an audio analyzer to check; factory tensioned FEP film is around 350Hz, but anything between 250Hz to 375Hz is fine. [This](https://youtu.be/Yr_wtZqBfbQ) video shows how to tune/tension your FEP.
 
 **Why do I have to go through all this trouble to get the correct FEP tension?** 
 
@@ -217,7 +217,7 @@ If you take care of it, it will not need to be replaced for months. FEP film nee
 
 **How do I replace the FEP film?** 
 
-Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). 
+Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). It is important to note one very important omission in that video: there is no mention of tightness! Watch the below video for that. Also, it is much easier to trim the excess FEP before placing the retaining assembly into the VAT frame. 
 FEP replacement video using Gatorade bottle cap [here](https://youtu.be/Yr_wtZqBfbQ). 
 
 **How do I test if my FEP film has protective plastic on it?** 
