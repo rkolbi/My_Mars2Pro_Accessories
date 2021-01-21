@@ -76,7 +76,7 @@ Incorrect build plate leveling is the number one reason for print failures. It i
 
 **How do I level my build plate?** 
 
-It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw). Watch the Official Elegoo reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4).
+It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw), and the reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4).
 
 **:wrench:Step by step follows:**
 
@@ -292,7 +292,7 @@ There isn't one best angle for printing everything. It really depends on your la
 
 **My first print, do I have to print the rook?** 
 
-:wrench:It is recommended that you print it, but before you print the rook file from the USB stick, there are some steps you knew to take to ensure success.
+:wrench:It is recommended that you print it, but before you print the rook file from the USB stick, there are some steps you need to take to ensure success.
 
 - [ ] Check your resin's bottom & normal exposure times, for your printer model, [here](https://docs.google.com/spreadsheets/d/1pXFnb8nZNR-jC5h0_t28NJ3jpmWeOPu6bmYNY05lysU/edit#gid=0).
 
