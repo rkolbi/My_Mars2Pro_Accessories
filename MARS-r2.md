@@ -70,8 +70,6 @@ Incorrect build plate leveling is the number one reason for print failures. It i
 
 ·  Once your build plate is leveled correctly and locked down tight, you do not have to relevel it anymore unless you make other adjustments that affect the build plate. 
 
-·  Ensure that you lock down the build plate after leveling. 
-
 ·  Do not confuse build plate leveling with adjusting the four legs of the machine.
 
 **How do I level my build plate?** 
@@ -157,7 +155,7 @@ Try this for fun: Home and then raise Z by 10mm, press Z=0, and then home again 
 
 **Do I have to relevel my build plate after every print?**
 
-No, it is absolutely not necessary. If you have correctly leveled, securely tightened, and locked down the build plate tight, it will remain in place and correctly leveled for a very long time. You only need to relevel your build plate if it has slipped, been knocked, or you made changes that affect the Z=0 position. 
+No, this should not be required. If you have correctly leveled, securely tightened, and locked down the build plate tight, it will remain in place and correctly leveled for a very long time. You only need to relevel your build plate if it has slipped, been knocked, or you made changes that affect the Z=0 position. 
 
 **Should I sand my build plate?**
 
