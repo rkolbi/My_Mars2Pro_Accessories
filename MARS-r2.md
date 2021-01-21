@@ -26,7 +26,6 @@
 ·  [ACKNOWLEDGMENTS](#ACKNOWLEDGMENTS)
 
 
-<br>
 ## >SAFETY
 
 #### Before you start printing, remember safety first and read the owners manual!
