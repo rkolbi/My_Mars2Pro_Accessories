@@ -29,6 +29,7 @@
 
 ## >SAFETY
 
+<br>
 #### Before you start printing, remember safety first and read the owners manual!
 
 ·  If you have lost or misplaced the manual, you can find it [here](https://www.elegoo.com/pages/3d-printing-user-suupport). 
