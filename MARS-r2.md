@@ -1,4 +1,4 @@
-# Elegoo Mars Printer Guide
+# :milky_way:E​legoo Mars Printer Guide
 
 ## TABLE OF CONTENTS
 
@@ -8,7 +8,7 @@
 
 ·  [POWERING ON THE PRINTER](#POWERING-ON-THE-PRINTER)
 
-·  [BUILD PLATE LEVELING](#BUILD-PLATE-LEVELING)
+·  [BUILD PLATE LEVELING](#BUILD-PLATE-AND-LEVELING)
 
 ·  [RESIN VAT & FEP SETUP](#VAT-AND-FEP-SETUP)
 
@@ -25,7 +25,8 @@
 ·  [ACKNOWLEDGMENTS](#ACKNOWLEDGMENTS)
 
 
-## >SAFETY
+
+## :point_up:SAFETY
 
 #### Before you start printing, remember safety first and read the owners manual!
 
@@ -39,7 +40,7 @@
 
 
 
-## >OPERATING ENVIRONMENT 
+## :partly_sunny:OPERATING ENVIRONMENT 
 
 ·  Your printer should be placed on a level surface, away from direct sunlight, and somewhat dust-free.
 
@@ -51,7 +52,7 @@
 
 
 
-## >POWERING ON THE PRINTER
+## :electric_plug:P​OWERING ON THE PRINTER
 
 ·  Check the power adapter, ensure it's firmly plugged into the wall outlet - you should see a blue LED (on the transformer brick) to indicate that it has mains power.
 
@@ -61,7 +62,7 @@
 
 
 
-## >BUILD PLATE LEVELING 
+## :roller_coaster:BUILD PLATE AND LEVELING 
 
 Incorrect build plate leveling is the number one reason for print failures. It is a statistical fact, most of the issues posted invariably trace back to imperfect build plate leveling as the root cause. 
 
@@ -77,7 +78,7 @@ Incorrect build plate leveling is the number one reason for print failures. It i
 
 It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw). Watch the Official Elegoo reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4).
 
-**Detailed Step by step follows:**
+**:wrench:Step by step follows:**
 
 - [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.
 
@@ -174,7 +175,7 @@ Castable and other specialty resins such as Blue cast (monomer-free) generally n
 
 
 
-## >VAT AND FEP SETUP
+## :ocean:VAT AND FEP SETUP
 
 When you receive your new printer, it will come with an aluminum or plastic vat frame with FEP film already installed. Check that the film is tight by lightly tapping with your finger. If it is tensioned correctly, it should sound just like a snare drum. 
 
@@ -219,7 +220,7 @@ The bottle cap, or foam, will allow some slack to the film, so that when you tig
 
 
 
-## >MODEL SETUP AND SETTINGS
+## :microscope:MODEL SETUP AND SETTINGS
 
 **How do I use Chitubox slicer?**
 
@@ -287,7 +288,7 @@ There isn't one best angle for printing everything. It really depends on your la
 
 
 
-## >PRINTING
+## :rocket:PRINTING
 
 **My first print, do I have to print the rook?** 
 
@@ -405,7 +406,7 @@ This is a limitation of the technology but can be largely mitigated and overcome
 
 
 
-## >CLEANING 
+## :star2:CLEANING
 
 **How do I clean my prints?** 
 
@@ -471,7 +472,7 @@ The only proper way to dispose of the wash is to reduce the solution by evaporat
 
 
 
-## >POST PROCESSING
+## :hammer:POST PROCESSING
 
 **My print stuck so well to the build plate that I can't remove it?** 
 
@@ -481,15 +482,13 @@ Congratulations on having a well-leveled plate. Sometimes prints adhere so well 
 
 ·  Use the provided sharpened steel scraper - place the build plate on your working surface with its edge on the working table (so the model is facing left and adjustable head facing right or vise-versa), position the steel scraper on the edge where the model and build plate interface, and then give a gentle downwards knock to the handle - fracturing the model off the plate.
 
-·  Look at the whambam or other manufacture's removable build plate surface. 
+**When should I remove supports?** 
+
+It is generally best to first clean the entire print before removing any supports - this will reduce your and the work area's resin exposure. Following the cleaning process, remove the supports before UV curing as they are softer, and in many cases, you can easily pull or rub them off. In some cases, you may want to remove them after curing, especially when working with thin and delicate parts that may warp during the curing process if not supported.
 
 **How long should I cure my print?**
 
 Check the resin manufacturer's datasheet/recommendations. An easy way to find out if your print has cured enough with sunlight or a UV light set up is to find an area where you don't mind a mark and try to dent it with your fingernail. If you can, then it's not ready yet, and as soon as you can't dent it, it's ready. Do not over cure as resin may become overly brittle, and white or clear resin will turn yellow. 
-
-**When should I remove supports?** 
-
-It is generally best to first clean the entire print before removing any supports - this will reduce your and the work area's resin exposure. Following the cleaning process, remove the supports before UV curing as they are softer, and in many cases, you can easily pull or rub them off. In some cases, you may want to remove them after curing, especially when working with thin and delicate parts that may warp during the curing process if not supported.
 
 **How durable are the prints? Will they break if I drop them?** 
 
@@ -501,7 +500,7 @@ The white residue appears if there's moisture or water on your prints when you U
 
 
 
-## >MAINTENANCE AND TROUBLESHOOTING
+## :nut_and_bolt:MAINTENANCE AND TROUBLESHOOTING
 
 **What maintenance do I need to do to keep my printer running well?** 
 
@@ -538,7 +537,7 @@ From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupp
 
 
 
-## >ACKNOWLEDGMENTS
+## :thumbsup:ACKNOWLEDGMENTS
 
 **Where did all this information come from?** 
 
