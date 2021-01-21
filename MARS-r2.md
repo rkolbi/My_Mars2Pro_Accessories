@@ -228,7 +228,7 @@ Lots of video tutorials exist on youtube. 3DPrintingPro has a very good set [her
 
 **What settings do I need for the test (rook) file?** 
 
-The test file that came on the included USB stick has been pre-sliced and settings configured for Elegoo generic resin. All you need to do is select the file and print. If you have a different resin, you may need to change the exposure settings. 
+The test file that came on the included USB stick has been pre-sliced and settings configured for generic resin. Please see the [Printing](#PRINTING) portion of the guide for directions on how to obtain the best results with this file. 
 
 **I bought x resin; what are the best settings for it?** 
 
