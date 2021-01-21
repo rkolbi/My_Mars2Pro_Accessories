@@ -195,11 +195,11 @@ A correctly tensioned FEP at a normal room temperature will give the best print 
 
 **Should I coat my FEP film?**
 
-Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. Coating your FEP film with a hydrophobic substance like Rain-X may cause lousy quality prints.
+Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. 
 
 **Why is my FEP film so cloudy or hazy?** 
 
-When new, the film is clear. But it is easily scratched by handling or cleaning. Use a soft tissue to soak resin when cleaning up the vat, do not aggressively wipe the film as even tissue will scratch it. These micro scratches cause the film to go cloudy. Buffing the film with a microfibre cloth will restore some clarity. The film must be kept clear to ensure sharp and detailed prints. 
+When new, the film is clear. But it is easily scratched by handling or cleaning. Use a soft tissue to soak resin when cleaning up the vat, do not aggressively wipe the film as even tissue will scratch it. These micro scratches cause the film to go cloudy. Buffing the film with a microfiber cloth will restore some clarity. The film must be kept clear to ensure sharp and detailed prints. 
 
 **When should I replace my FEP film?** 
 
@@ -526,7 +526,7 @@ The white residue appears if there's moisture or water on your prints when you U
 
 **What maintenance do I need to do to keep my printer running well?** 
 
-Keep everything clean by wiping down with a microfiber cloth slightly dampened with IPA. Wipe resin drops and spills off immediately with IPA and tissue. Keep your vat and FEP clean. Keep the LCD screen perfectly clean. Dust off and keep the printer's cover clean. And every two months or earlier, depending on usage frequency, clean and replace the grease for the lead screw. If it squeaks, do this immediately. 
+Keep everything clean by wiping down with a microfiber cloth slightly dampened with IPA. Wipe resin drops and spills off immediately with IPA and tissue. Keep your vat and FEP clean. Keep the LCD screen perfectly clean. Dust off and keep the printer's cover clean. And every two months or earlier, depending on usage frequency, clean and replace the grease for the lead screw. If it squeaks, do this immediately. Peter Grande has a good video on general maintenance, you can find it [here](https://youtu.be/2178v1iMSqo). 
 
 **What grease should I use for the lead screw (Z rod)?**
 
