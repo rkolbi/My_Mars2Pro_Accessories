@@ -292,7 +292,21 @@ There isn't one best angle for printing everything. It really depends on your la
 
 **My first print, do I have to print the rook?** 
 
-It is highly recommended that you print it. A successful test print will confirm that your printer works as it should and that you have properly leveled your build plate and your FEP tension is correct. If it did not print successfully, troubleshooting will be easier as you can rule out various other problems such as resin, settings, or slicing - additionally community assistance will be easier as it is a familiar part with easy 'reads'. 
+:wrench:It is recommended that you print it, but before you print the rook file from the USB stick, there are some steps you knew to take to ensure success.
+
+- [ ] Check your resin's bottom & normal exposure times, for your printer model, [here](https://docs.google.com/spreadsheets/d/1pXFnb8nZNR-jC5h0_t28NJ3jpmWeOPu6bmYNY05lysU/edit#gid=0).
+
+- [ ] Plug the USB stick in your computer and open the __Rook.ctb file in Chitubox slicer, you should just have to double-click on the file to open it. 
+
+- [ ] Once it opens the file, you will see two columns of numerical data in the lower portion of the screen. Check that 'Exposure Time(s):' and 'Bottom Exposure Time(s):' match the numbers that corresponded to your printer/resin in the excel spreadsheet above. 
+
+- [ ] If the numbers in Chitubox differ from the spreadsheet, double-click the number to change and type the value obtained from the spreadsheet.
+
+- [ ] Click the 'Save' button and call the file '__My-Rook.ctb'. Safely eject the USB stick from your computer.
+
+- [ ] Plug the USB stick in to your printer, select the '__My-Rook.ctb', and commence the print.
+
+A successful test print with a known-good model will confirm that your printer works as it should and that you have properly leveled your build plate and your FEP tension is correct.
 
 **I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
