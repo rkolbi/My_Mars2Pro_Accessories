@@ -541,4 +541,4 @@ From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupp
 
 **Where did all this information come from?** 
 
-Most of the information, insights, tips, and tricks were gathered from the Photonsters team documentation and Elegoo Mars reddit. Photonsters.org is a great team and has a wealth of information.  
+Most of the information, insights, tips, and tricks were gathered from the Photonsters team documentation, Elegoo product site, Elegoo Mars reddit, and various others. Photonsters.org is a great team and has a wealth of information, always worth is visit. 
