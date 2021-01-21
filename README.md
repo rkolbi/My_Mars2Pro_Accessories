@@ -3,4 +3,4 @@
 
 **:bulb:Printer manual located [here](MARS-r2.md).**
 
-**:bulb:**Downloadable PDF version [here](MARS-r2.pdf).**
+**:bulb:Downloadable PDF version [here](MARS-r2.pdf).**
