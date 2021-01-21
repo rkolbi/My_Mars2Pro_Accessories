@@ -193,7 +193,7 @@ A correctly tensioned FEP at a normal room temperature will give the best print 
 
 **Should I coat my FEP film?**
 
-Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. 
+Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. With that being said, many users report increased success rates with different coatings but caution must be taken as application and compounds vary from case to case.
 
 **Why is my FEP film so cloudy or hazy?** 
 
