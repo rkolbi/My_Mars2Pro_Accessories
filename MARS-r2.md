@@ -1,5 +1,4 @@
 # Elegoo Mars Printer Guide
-<br>
 
 ## TABLE OF CONTENTS
 
