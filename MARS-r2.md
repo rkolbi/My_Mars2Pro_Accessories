@@ -500,9 +500,15 @@ Congratulations on having a well-leveled plate. Sometimes prints adhere so well 
 
 It is generally best to first clean the entire print before removing any supports - this will reduce your and the work area's resin exposure. Following the cleaning process, remove the supports before UV curing as they are softer, and in many cases, you can easily pull or rub them off. In some cases, you may want to remove them after curing, especially when working with thin and delicate parts that may warp during the curing process if not supported.
 
+**What is post-curing?**
+
+Post-curing enables your printed parts to reach the highest possible strength and become more stable. Many post-curing methods exist using light and heat, from curing only with natural sunlight, using salon type UV fingernail curing stations, to DIY UV curing stations. Heat accelerates the process and enables even more complete bond formation, resulting in increased material properties impossible to achieve with light alone. For small prints, a low-cost UV nail salon might be an effective post-curing tool. But to maximize mechanical properties, consider purchasing an enclosure around a powerful 405 nm light.
+
 **How long should I cure my print?**
 
-Check the resin manufacturer's datasheet/recommendations. An easy way to find out if your print has cured enough with sunlight or a UV light set up is to find an area where you don't mind a mark and try to dent it with your fingernail. If you can, then it's not ready yet, and as soon as you can't dent it, it's ready. Do not over cure as resin may become overly brittle, and white or clear resin will turn yellow. 
+The proper light, heat, and time will optimize your prints' mechanical properties. Post-cure time depends on your equipment, resin choice, and part geometry. An ideal post-cure setting achieves the properties you need in the shortest amount of time. For standard resins, this amount may be as short as 10 minutes, going up 30 minutes. Where strength, rigidity, and temperature resistance are needed, engineering grade resins improve with post-cure up to 60 minutes. Always check the resin manufacturer's datasheet/recommendations as each different brand and kind of resin will differ. 
+
+An easy way to find out if your print has cured enough with sunlight or a UV light set up is to find an area where you don't mind a mark and try to dent it with your fingernail. If you can, then it's not ready yet, and as soon as you can't dent it, it's ready. Do not over cure in sunlight as resin may become overly brittle, and white or clear resin will turn yellow.
 
 **How durable are the prints? Will they break if I drop them?** 
 
