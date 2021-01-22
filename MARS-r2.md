@@ -4,6 +4,8 @@
 
 ·  [SAFETY](#SAFETY)
 
+·  [GETTING STARTED](#GETTING-STARTED)
+
 ·  [OPERATING ENVIRONMENT](#OPERATING-ENVIRONMENT)
 
 ·  [POWERING ON THE PRINTER](#POWERING-ON-THE-PRINTER)
@@ -44,13 +46,28 @@
 
 ·  Your printer should be placed in a well-ventilated room, on a level surface, that is away from direct sunlight with an ambient room temperature of at least 21'C / 70'F - 25'C / 77'F being ideal.
 
+·  Always place the printer on a stable surface, where it cannot fall or tip over.
+
 ·  Check the resin manufacturer's datasheet and temperature recommendations as they may have different requirements.
 
 ·  Not only does the resin have a stated operational temperature to be maintained, but also the FEP. If the FEP is too cold, it will not have the proper elasticity and increase the object's peel force - increasing the odds of a failed print 'stuck to the bottom.' Operating below the recommended temperature could also make the FEP more prone to damage. To ensure proper FEP elasticity is yielded, operate the equipment in an environment of at least 21C / 70'F.
 
 
 
+## :key: GETTING STARTED
+
+·  [PLACE THE PRINTER ON A STABLE, FLAT SURFACE](#OPERATING-ENVIRONMENT)
+·  [APPLY POWER TO THE PRINTER](#POWERING-ON-THE-PRINTER)
+·  [LEVEL THE BUILD PLATE](#BUILD-PLATE-AND-LEVELING)
+·  [PREPARE AND PRINTER THE TEST FILE](#PRINTING)
+·  [CLEAN THE PRINTED TEST FILE](#CLEANING)
+·  [CURE THE PRINTED TEST FILE](#POST-PROCESSING)
+
+
+
 ## :electric_plug:P​OWERING ON THE PRINTER
+
+·  Place the power cord so you cannot trip over it, step on it, or inadvertently unplug it.
 
 ·  Check the power adapter, ensure it's firmly plugged into the wall outlet - you should see a blue LED (on the transformer brick) to indicate that it has mains power.
 
@@ -80,6 +97,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 
 
 - [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.
+- [ ] Optional but recommended: Test the UV light source by selecting the 'Tool' button, 'Exposure'  button, adjust for a few seconds and select the 'Next' button to begin.  You should see a complete rectangular image on the top LCD; the front  touchscreen should display the same.
 
 
 - [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.
@@ -220,7 +238,7 @@ The bottle cap, or foam, will allow some slack to the film, so that when you tig
 
 **How do I use Chitubox slicer?**
 
-Lots of video tutorials exist on youtube. 3DPrintingPro has a very good set [here](https://www.youtube.com/watch?v=TTZpvhfaNWY&list=PLC4QzbTxrEF-fA1OC_-zE_4f6n1K-w2SS).
+Lots of video tutorials exist on YouTube. 3DPrintingPro has a very good set [here](https://www.youtube.com/watch?v=TTZpvhfaNWY&list=PLC4QzbTxrEF-fA1OC_-zE_4f6n1K-w2SS).
 
 **What settings do I need for the test (rook) file?** 
 
