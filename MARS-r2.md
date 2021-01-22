@@ -42,11 +42,9 @@
 
 ## :partly_sunny:OPERATING ENVIRONMENT 
 
-·  Your printer should be placed on a level surface, away from direct sunlight, and somewhat dust-free.
+·  Your printer should be placed in a well-ventilated room, on a level surface, that is away from direct sunlight with an ambient room temperature of at least 21'C / 70'F - 25'C / 77'F being ideal.
 
-·  An ambient room temperature of at least 21'C / 70'F is recommended - 25'C / 77'F being ideal.
-
-·  Check the resin manufacturer's datasheet/temperature recommendations.
+·  Check the resin manufacturer's datasheet and temperature recommendations as they may have different requirements.
 
 ·  Not only does the resin have a stated operational temperature to be maintained, but also the FEP. If the FEP is too cold, it will not have the proper elasticity and increase the object's peel force - increasing the odds of a failed print 'stuck to the bottom.' Operating below the recommended temperature could also make the FEP more prone to damage. To ensure proper FEP elasticity is yielded, operate the equipment in an environment of at least 21C / 70'F.
 
@@ -295,18 +293,16 @@ There isn't one best angle for printing everything. It really depends on your la
 :wrench:It is recommended that you print it, but before you print the rook file from the USB stick, there are some steps you need to take to ensure success.
 
 - [ ] Check your resin's bottom & normal exposure times, for your printer model, [here](https://docs.google.com/spreadsheets/d/1pXFnb8nZNR-jC5h0_t28NJ3jpmWeOPu6bmYNY05lysU/edit#gid=0).
-
 - [ ] Plug the USB stick in your computer and open the __Rook.ctb file in Chitubox slicer, you should just have to double-click on the file to open it. 
-
 - [ ] Once it opens the file, you will see two columns of numerical data in the lower portion of the screen. Check that 'Exposure Time(s):' and 'Bottom Exposure Time(s):' match the numbers that corresponded to your printer/resin in the excel spreadsheet above. 
-
 - [ ] If the numbers in Chitubox differ from the spreadsheet, double-click the number to change and type the value obtained from the spreadsheet.
-
 - [ ] Click the 'Save' button and call the file '__My-Rook.ctb'. Safely eject the USB stick from your computer.
-
+- [ ] Inspect the build plate surface and ensure it is free of any debris. Give it a good wipe down with IPA and a lint-free cloth. Ensure the build plate a firmly secured by snugging the black rotary knob.
+- [ ] Inspect the FEP film on the bottom of the resin vat. Make sure it is clean and clear, free of any holes, deep dents, and deep scratches. Ensure the resin vat is secured by snugging the two vat screws.
+- [ ] Identify the max file line in the resin vat. Pour your prepared resin into the vat, filling it half-way - to a level between the FEP film and the max fill line. If any air bubbles exist, wait a few minutes for them to dissipate.
 - [ ] Plug the USB stick in to your printer, select the '__My-Rook.ctb', and commence the print.
 
-A successful test print with a known-good model will confirm that your printer works as it should and that you have properly leveled your build plate and your FEP tension is correct.
+A successful test print with a known-good model will confirm that your printer works as it should and that you have properly leveled your build plate and your FEP tension is correct. 
 
 **I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
