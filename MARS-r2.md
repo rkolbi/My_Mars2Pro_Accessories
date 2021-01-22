@@ -54,7 +54,7 @@
 
 
 
-## :key: GETTING STARTED
+## :key:GETTING STARTED
 
 ·  [PLACE THE PRINTER ON A STABLE, FLAT SURFACE](#OPERATING-ENVIRONMENT)
 ·  [APPLY POWER TO THE PRINTER](#POWERING-ON-THE-PRINTER)
@@ -65,7 +65,7 @@
 
 
 
-## :electric_plug:P​OWERING ON THE PRINTER
+## :electric_plug:POWERING ON THE PRINTER
 
 ·  Place the power cord so you cannot trip over it, step on it, or inadvertently unplug it.
 
