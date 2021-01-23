@@ -279,23 +279,51 @@ Generally, most resin manufacturers advise that resin be used within one year. T
 
 This is assuming you're using the Chitubox slicer that is included on the USB stick. Other slicers may use different terminology, but they're functionally the same. If you're just starting out, it's highly recommended you use the Chitubox slicer. It's basic, won't overwhelm you with bells and whistles, and just works. 
 
-**Bottom Exposures (Bottom layers):** 
+**·  Layer Height:**
 
-This is how long the UV light will turn on to set the layer of resin that is on your build plate for the first few layers (it's extra long to give the resin the best chance to stick to your plate and form a super hard base to help keep your part from wobbling and rocking about.) For the sample green resin at 0.05mm layers, the exposure for bottom layers is 60 seconds. 
+The height of each layer to be printed, normally set at 0.05mm.
 
-**Bottom layer (Bottom layers):**
+**·  Bottom Layer Count:**
 
 Simple, this one it's about how many of those super hard base layers to lay down on the base of your print usually this is 5-8 layers.
 
-**Normal exposures (Normal exposure time) :** 
+**·  Exposure Time :** 
 
 After your base layers have finished, this is the time the UV will be on to cure all the rest of the layers of your print and will always be lower than your base/bottom layers setting. 
 
-**Exposure off (Off time):**
+**·  Bottom Exposure Time:** 
 
-Light off delay. This is the amount of time that the UV light is turned off between the end of one exposure cycle and the beginning of the next. After an exposure, the UV light turns off, the build plate lifts and peels, and then descends; ready for the next cycle and will wait at the bottom (resting at the set layer height over the FEP sheet, at the bottom of your vat) before the UV light comes on again for the next exposure cycle. 
+Same as *Exposure Time* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
-Longer offtimes leave more time for the resin to settle out and form a new layer with fresh resin. This is especially useful for more viscous resins to mitigate issues of poor definition of surfaces facing the build plate.
+**·  Light-off Delay:**
+
+This is the amount of time that the UV light is turned off between the end of one exposure cycle and the beginning of the next. After an exposure, the UV light turns off, the build plate lifts and peels, and then descends; ready for the next cycle and will wait at the bottom (resting at the set layer height over the FEP sheet, at the bottom of your vat) before the UV light comes on again for the next exposure cycle. 
+
+Longer off-times leave more time for the resin to settle out and form a new layer with fresh resin. This is especially useful for more viscous resins to mitigate issues of poor definition of surfaces facing the build plate.
+
+**·  Bottom Light-off Delay:**
+
+ Same as *Light-off Delay* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
+
+**·  Lifting Distance:**
+
+This is how far the Z-Axis will pull up upon completion of the exposure cycle.
+
+**·  Bottom Lift Distance:**
+
+Same as *Lifting Distance* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
+
+**·  Lifting Speed:**
+
+This is how quickly the Z-axis will raise upon completion of exposure cycle.
+
+**·  Bottom Lift Speed:**
+
+Same as *Lifting Speed* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
+
+**·  Retract Speed:**
+
+This is how quick the Z-axis will plunge back into the vat, after it has completed it's lift cycle. This setting applies to both normal and bottom settings.
 
 **What is suction warping, and how do I combat it? Should I add a vent hole?**
 
