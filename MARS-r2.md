@@ -327,7 +327,7 @@ There isn't one best angle for printing everything. It really depends on your la
 - [ ] Identify the max file line in the resin vat. Pour your prepared resin into the vat, filling it half-way - to a level between the FEP film and the max fill line. If any air bubbles exist, wait a few minutes for them to dissipate.
 - [ ] Plug the USB stick in to your printer, select the '__My-Rook.ctb', and commence the print.
 
-A successful test print with a known-good model will confirm that your printer works as it should and that you have properly leveled your build plate and your FEP tension is correct. 
+A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the tank after every print.
 
 **I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
