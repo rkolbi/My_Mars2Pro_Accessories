@@ -301,7 +301,7 @@ This is assuming you're using the Chitubox slicer that is included on the USB st
 
 **·  Retract Speed:** This is how quick the Z-axis will plunge back into the vat, after it has completed it's lift cycle. This setting applies to both normal and bottom settings.
 
-**What is suction warping, and how do I combat it? Should I add a vent hole?**
+**What is cupping / suction warping, and how do I combat it? Should I add a vent hole?**
 
 Vent holes are often improperly called "drain" holes; they are not for draining resin. Imagine a glass full of water upside down in a bucket of water. When you pull the glass up out of the bucket, it stays full until the lip of the glass breaks the surface of the water in the bucket. 
 
