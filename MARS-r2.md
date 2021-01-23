@@ -28,6 +28,18 @@
 
 
 
+## :question:How does this printer work?
+
+**Your Elegoo is a Masked Stereolithography Apparatus resin printer or MSLA for short.** The word stereolithography comes from the Greek word stereo, meaning solid, and (photo)lithography, a form of 'writing' with light. Stereolithography with your 3D printer does precisely that, drawing solids with light one layer at a time. Masked Stereolithography Apparatus(MSLA) utilizes an LED array as its light source and an LCD photomask to shape the light image from the LED array. The LCD photomask is digitally displayed and composed of square pixels. Then individual pixels are deactivated on the LCD to allow the LED light to pass through to form the resulting layer.
+
+The printing process starts as the build plate descends into a resin vat, leaving space equal to the layer height between the build platform, or the last completed layer, and the bottom of the vat. The LCD mask then selectively allows UV light to pass through it, shining the light upward through the vat's bottom and curing a layer of resin. 
+
+The cured layer then gets peeled from the bottom of the vat as the build platform moves up, pulling the layer off the FEP. In essence, this is a tug of war between the build plate surface and the FEP film. The build plate usually wins this challenge as it remains flat, not allowing any edges to start peeling. The FEP film however is non-stick, highly flexible, and purposely loose. When the cured layer gets pulled upwards by the build plate, the FEP film curves, letting the cured layer's edges begin to break free as the build plate rises - breaking the surface suction force and yielding a peel. Once the layer is detached and raised, fresh resin flows beneath, and the process repeats until the print is complete.
+
+To allow the tug of war to work in favor of yielding a successful print, the FEP has to remain non-stick and flexible, the resin has to stay viscous, and the build plate needs to bond to the resin. The easiest ways to ensure this is to keep the build plate and FEP clean and operate the printer at a room temperature of 20'C and above. Regarding temperature, always check the resin manufacturer's data as some require it to be a bit higher.
+
+
+
 ## :point_up:SAFETY
 
 #### Before you start printing, remember safety first and read the owners manual!
