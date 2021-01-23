@@ -311,6 +311,8 @@ There isn't one best angle for printing everything. It really depends on your la
 
 ## :rocket:PRINTING
 
+:exclamation:*Ensure you are operating your printer with an ambient room temperature of at least 21'C / 70'F, 25'C / 77'F being ideal. This is critical for success as it greatly effects the resin and FEP film properties.*
+
 **My first print, do I have to print the rook?** 
 
 :wrench:It is recommended that you print it, but before you print the rook file from the USB stick, there are some steps you need to take to ensure success.
@@ -352,6 +354,20 @@ To start, fill the VAT about half way, between the FEP surface and max fill line
 **Can I pause halfway through a print?** 
 
 Yes, you can pause at any time during your print. Resume as quickly as you can to ensure that your print will continue safely. However, it is generally not recommended as it will most likely leave a line at the layer where you paused. If you time your pause after a peel move, the chances of resuming without a line is better. 
+
+**My print is stuck to the FEP! How should I remove it?**
+
+· Unscrew the resin vat retaining screws and remove the vat.
+
+· Empty the resin vat. The tank has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel and screen to pour the resin into the bottle. 
+
+· Wipe the remaining resin into the funnel with a soft silicone squeegee and then with a soft paper cloth. The layer of hardened/stuck resin should now be discernible. 
+
+· While the vat is in a normal upright position, grasp it with both hands, with fingers on the bottom side of the FEP and palms against the sides of it. Use your fingertips (not your fingernails) to detach the solidified resin from the FEP by gently applying pressing up. Start from the edges and use a circular motion to separate it evenly. You may be able to hear the layer detaching.
+
+· You should now be able to remove the large pieces by using the plastic scraper to very gently slide across the FEP with the blade at a low shallow angle. 
+
+· Once removed, proceed with normal after print cleanup, but pay particular attention to the FEP. Inspect the surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
 
 **Lines or Layer Shifting on the printed model?**
 
@@ -491,7 +507,7 @@ It depends on environmental factors and type/brand of resin. Typically if the re
 
 **Can I put excess resin that doesn't get used in a print back into the original bottle?**
 
-Yes, but always strain out any debris first using a filter.
+Yes, but always strain out any debris using a filter! The resin vat has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel (screen placed inside funnel) to pour the resin back into the bottle. Inspect the FEP's surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
 
 **Water washable resin, how to dispose of the dirty water after washing the print? Wash it down the drain?** 
 
@@ -543,16 +559,26 @@ The white residue appears if there's moisture or water on your prints when you U
 
 **What maintenance do I need to do to keep my printer running well?** 
 
-Keep everything clean by wiping down with a microfiber cloth slightly dampened with IPA. Wipe resin drops and spills off immediately with IPA and tissue. Keep your vat and FEP clean. Keep the LCD screen perfectly clean. Dust off and keep the printer's cover clean. And every two months or earlier, depending on usage frequency, clean and replace the grease for the lead screw. If it squeaks, do this immediately. Peter Grande has a good video on general maintenance, you can find it [here](https://youtu.be/2178v1iMSqo). 
+·  Keep your printer clean! Keep everything clean by wiping down with a microfiber cloth slightly dampened with IPA. Wipe resin drops and spills off immediately with IPA and tissue.
+
+·  Keep your vat and FEP clean. Empty the resin vat after each print failure. The tank has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel and screen to pour the resin into the bottle. Inspect the FEP's surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
+
+·  Keep the LCD screen clean. Use a microfiber cloth dampened with IPA or LCD cleaning spray to clean to surface. Do not use paper towels; otherwise, you may scratch the LCD surface. 
+
+·  Dust off and keep the printer's cover clean. Clean the lid with IPA, but do not use ethanol or acetone. 
+
+·  Clean and Grease Z-Screw. About every two months or earlier, depending on usage frequency, clean and replace the grease for the lead screw. If it squeaks, do this immediately. 
+
+Peter Grande has a good video on general maintenance, you can find it [here](https://youtu.be/2178v1iMSqo). 
 
 **What grease should I use for the lead screw (Z rod)?**
 
-Use a PTFE based or white lithium viscous grease. It should by thick, creamy, toothpaste consistency type. Can use generic machine grease, cosmoline, gel grease, gear grease, etc. Just make sure the lubricant is not thin and runny. Do NOT use WD-40!
+Use a PTFE based such as Super Lube or white lithium viscous grease. It should be a thick, creamy, toothpaste consistency type. You can use a generic machine grease, cosmoline, gel grease, gear grease, or similar but make sure the lubricant is not thin and runny, and Do NOT use WD-40!
 Watch the Official Elegoo instructional video [here](https://youtu.be/OWXlZSi15cE).
 
 **How do I replace the grease on the lead screw?** 
 
-Wipe all the old dirty grey grease off with a cloth rag or kitchen towels. Then really get it clean by wiping again with solvent and use a toothbrush to get between the threads. IPA works great. Make sure solvent doesn't drip down into the stepper motor beneath. When it's clean and dry, regrease with good quality grease, apply by dabbing onto the entire length of the screw, then switch on the printer and run the slide block up and down. 
+Wipe all the old dirty grey grease off with a cloth rag or kitchen towels. Then really get it clean by wiping again with solvent and use a toothbrush to get between the threads. IPA works great. Make sure solvent doesn't drip down into the stepper motor beneath. When it's clean and dry, re-grease with good quality grease, apply by dabbing onto the entire length of the screw, then switch on the printer and run the slide block up and down. 
 
 **How do I replace the LCD screen?**
 
