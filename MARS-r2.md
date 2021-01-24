@@ -1,4 +1,4 @@
-# :milky_way:E​legoo Mars Printer Guide
+# :milky_way:Elegoo Mars Printer Guide
 
 ## TABLE OF CONTENTS
 
@@ -386,6 +386,10 @@ To start, fill the VAT about half way, between the FEP surface and max fill line
 **Can I pause halfway through a print?** 
 
 Yes, you can pause at any time during your print. Resume as quickly as you can to ensure that your print will continue safely. However, it is generally not recommended as it will most likely leave a line at the layer where you paused. If you time your pause after a peel move, the chances of resuming without a line is better. 
+
+**My print turned out OK but there resin 'skin' on the FEP?**
+
+This is typical resin over-exposing during the printing process, double check your machine/resin exposure settings. It is very common to mistake a resin exposure settings for the Mars vice Mars 2, this could be a difference from 10 seconds to 3 seconds.
 
 **My print is stuck to the FEP! How should I remove it?**
 
