@@ -429,7 +429,7 @@ This is almost always a build plate leveling issue. Make sure your leveling is 1
 
 ·  Shake your resin in the bottle well before using it. Resin already in the vat may have settled and need to be stirred. 
 
-·  Preheat or warm the resin, you can use a hairdryer on most bottles to gently heat the resin to 20~30°C while swilling. 
+·  Preheat or warm the resin, you can use a hairdryer or heating pad on most bottles to gently heat the resin to 20~30°C. 
 
 ·  Preheat the build plate, same as the resin. 
 
@@ -441,9 +441,9 @@ This is almost always a build plate leveling issue. Make sure your leveling is 1
 
 ·  The FEP film may be too tight or too loose. 
 
-·  You may be using resin formulated for SLA laser or DLP printers. Try using a known resin like the sample green. Note that some resins like maroon or yellow are very difficult to work with. 
+·  You may be using resin formulated for SLA laser or DLP printers. Check the resin manufacturer's recommendations. 
 
-·  Are you using a specialty monomer-free resin such as Blue cast? You may need a primer coat. Check manufacturer's recommendations. 
+·  Are you using a specialty monomer-free resin such as Blue cast? You may need a primer coat. Check the resin manufacturer's recommendations. 
 
 ·  If all else fails, check your plate level once again and use Z=0! 
 
