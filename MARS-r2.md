@@ -255,7 +255,7 @@ The bottle cap, or foam, will allow some slack to the film, so that when you tig
 
 **How do I use Chitubox slicer?**
 
-Lots of video tutorials exist on YouTube. 3DPrintingPro has a very good set [here](https://www.youtube.com/watch?v=TTZpvhfaNWY&list=PLC4QzbTxrEF-fA1OC_-zE_4f6n1K-w2SS).
+CHITUBOX has an excellent article repository [here](https://www.chitubox.com/en/support/indepth/technology), this should be your first stop. In addition, lots of video tutorials exist on YouTube - 3DPrintingPro has a very good set [here](https://www.youtube.com/watch?v=TTZpvhfaNWY&list=PLC4QzbTxrEF-fA1OC_-zE_4f6n1K-w2SS).
 
 **What settings do I need for the test (rook) file?** 
 
