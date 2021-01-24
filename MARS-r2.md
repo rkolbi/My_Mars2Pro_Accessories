@@ -46,7 +46,9 @@ The cured layer then gets peeled from the bottom of the vat as the build platfor
 
 Always handle resins as though they are toxic unless you have specific documentation that states otherwise. Unless otherwise stated, resins are not approved for use with food, drink, or medical application on the human body. Never ingest resin in liquid or solid form. If swallowed, immediately call a poison center or medical professional.
 
-· Ensure you're working in a well-ventilated area. Do not eat, drink, or smoke in the printing work area. Remove jewelry (rings, watches, bracelets) before handling uncured UV curable materials. Always wear proper eye protection and a mask when exposed to any uncured resin, whether during print preparation, printing, or post-processing. Ensure you are wearing chemical-resistant gloves, butyl, nitrile, or neoprene. Avoid using latex gloves.
+· Ensure you're working in a well-ventilated area. Do not eat, drink, or smoke in the printing work area. Remove jewelry (rings, watches, bracelets) before handling uncured UV curable materials. 
+
+· Always wear proper eye protection and a mask when exposed to any uncured resin, whether during print preparation, printing, or post-processing. Ensure you are wearing chemical-resistant gloves, butyl, nitrile, or neoprene. Avoid using latex gloves.
 
 · Ensure your body is adequately protected by clothing in case of spills and splashes. In case of spillage, if resin makes contact with skin or eyes, wash thoroughly with hand soap and water and seek medical advice - do NOT use solvents to wash - do NOT wash with hot or warm water - this will open your pores and may allow the resin to be pushed further into your skin.
 
