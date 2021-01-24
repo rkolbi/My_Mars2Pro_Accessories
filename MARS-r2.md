@@ -44,7 +44,7 @@ The cured layer then gets peeled from the bottom of the vat as the build platfor
 
 #### Before you start printing, remember safety first and read the owners manual!
 
-· Always handle resins as though they are toxic unless you have specific documentation that states otherwise. Unless otherwise stated, resins are not approved for use with food, drink, or medical application on the human body. Never ingest resin in liquid or solid form. If swallowed, immediately call a poison center or medical professional.
+Always handle resins as though they are toxic unless you have specific documentation that states otherwise. Unless otherwise stated, resins are not approved for use with food, drink, or medical application on the human body. Never ingest resin in liquid or solid form. If swallowed, immediately call a poison center or medical professional.
 
 · Ensure you're working in a well-ventilated area. Do not eat, drink, or smoke in the printing work area. Remove jewelry (rings, watches, bracelets) before handling uncured UV curable materials. Always wear proper eye protection and a mask when exposed to any uncured resin, whether during print preparation, printing, or post-processing. Ensure you are wearing chemical-resistant gloves, butyl, nitrile, or neoprene. Avoid using latex gloves.
 
