@@ -30,7 +30,7 @@
 
 ## :question:How does this printer work?
 
-**Your Elegoo is a Masked Stereolithography Apparatus resin printer or MSLA for short.** The word stereolithography comes from the Greek word stereo, meaning solid, and (photo)lithography, a form of 'writing' with light. Stereolithography with your 3D printer does precisely that, drawing solids with light one layer at a time. Masked Stereolithography Apparatus(MSLA) utilizes an LED array as its light source and an LCD photomask to shape the light image from the LED array. The LCD photomask is digitally displayed and composed of square pixels. Then individual pixels are deactivated on the LCD to allow the LED light to pass through to form the resulting layer.
+**Your Elegoo is a <u>M</u>asked <u>S</u>tereo<u>L</u>ithography <u>A</u>pparatus resin printer or MSLA for short.** The word stereolithography comes from the Greek word stereo, meaning solid, and (photo)lithography, a form of 'writing' with light. Stereolithography with your 3D printer does precisely that, drawing solids with light one layer at a time. Masked Stereolithography Apparatus(MSLA) utilizes an LED array as its light source and an LCD photomask to shape the light image from the LED array. The LCD photomask is digitally displayed and composed of square pixels. Then individual pixels are deactivated on the LCD to allow the LED light to pass through to form the resulting layer.
 
 The printing process starts as the build plate descends into a resin vat, leaving space equal to the layer height between the build platform, or the last completed layer, and the bottom of the vat. The LCD mask then selectively allows UV light to pass through it, shining the light upward through the vat's bottom and curing a layer of resin. 
 
