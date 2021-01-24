@@ -261,6 +261,11 @@ Lots of video tutorials exist on YouTube. 3DPrintingPro has a very good set [her
 
 The test file that came on the included USB stick has been pre-sliced and settings configured for generic resin. Please see the [Printing](#PRINTING) portion of the guide for directions on how to obtain the best results with this file. 
 
+**How should I orientate my part?**
+
+By orientating the part in different directions, there can be a significant difference in the print quality. Sudden changes of the model structure from a small cross-section to a large cross-section area will lead to severe volumetric changes of layers as the volume of 3D resin in each layer highly affects each cured layer's shrinkage. This can affect the model's integrity and will typically result in visible surface lines.
+CHITBOX has a good article on this topic [here](https://www.chitubox.com/en/article/support/howto/chitubox-free/editing/25).
+
 **I bought x resin; what are the best settings for it?** 
 
 Every resin behaves differently; there are no best settings that will work for every resin and every machine. For a quick start, you can refer to the [community resin exposure settings](https://www.elegoo.com/pages/3d-printing-user-suupport). Those settings should enable you to get a print going quickly, but you will need to test and adjust from there to find the best settings applicable for your machine. 
@@ -279,11 +284,12 @@ Generally, most resin manufacturers advise that resin be used within one year. T
 
 This is assuming you're using the Chitubox slicer that is included on the USB stick. Other slicers may use different terminology, but they're functionally the same. If you're just starting out, it's highly recommended you use the Chitubox slicer. It's basic, won't overwhelm you with bells and whistles, and just works. 
 
-**·  Layer Height:** The height of each layer to be printed, normally set at 0.05mm.
+**·  Layer Height:** As the name implies, layer height is the exact height of each cured layer. Layer thickness affects not only the speed (printing time) and the quality of each print. The number of layers required to create an object determines the printing speed and the printing time required. The thinner the layer thickness, the longer it takes to make a 3D printed object of a given height. While relatively, with a slimmer layer height, you will increase the quality of the print, leading to a smoother surface and more detail visible in the Z-direction (height) of the model.
+Generally, the printers' minimum functional layer height is 25 µm (0.025mm) layer height, and the maximum is 100 µm (0.1mm) layer height. You can adjust this setting based on your printer's actual situation, given the object and resin. If you have no idea how to choose the right one, the tried-and-true technique is to start with a layer height of 50 μm (0.05mm).
 
 **·  Bottom Layer Count:** Simple, this one it's about how many of those super hard base layers to lay down on the base of your print usually this is 5-8 layers.
 
-**·  Exposure Time:** After your base layers have finished, this is the time the UV will be on to cure all the rest of the layers of your print and will always be lower than your base/bottom layers setting. 
+**·  Exposure Time:** The print quality for each 3D resin is also affected by the light power and the curing or exposure time. Exposure Time is the amount of time that the light source will expose each layer during printing. Different Mars printers have different cure times for various resins, with the mono LCD equipped units requiring about two-thirds less time. 
 
 **·  Bottom Exposure Time:**  Same as *Exposure Time* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
@@ -295,11 +301,14 @@ This is assuming you're using the Chitubox slicer that is included on the USB st
 
 **·  Bottom Lift Distance:** Same as *Lifting Distance* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
-**·  Lifting Speed:** This is how quickly the Z-axis will raise upon completion of exposure cycle.
+**·  Lifting Speed:** Lift speed refers to the rate at which the build plate is lifted from the resin vat between layers. When lift speed is too fast, the model and supports can be broken or damaged due to the tug of war between the build plate and the FEP film. But if reduced too much, the printing time will be unnecessarily increased. When modifying this setting, you should take both print quality and print time into account. 
 
 **·  Bottom Lift Speed:** Same as *Lifting Speed* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
 **·  Retract Speed:** This is how quick the Z-axis will plunge back into the vat, after it has completed it's lift cycle. This setting applies to both normal and bottom settings.
+
+**·  Anti-aliasing:** Aliasing is the staircase effect that occurs when diagonal or curved lines or borders are drawn on raster displays consisting of square or rectangular pixels. Anti-aliasing is to smooth object edges by reducing the number of lines and vertical artifacts you see on your 3D printed model.
+CHITUBOX provides an anti-aliasing function with a 2/4/8 level. After special algorithm processing, it makes the model more smooth and effectively reduces edge aliasing.
 
 **What is cupping / suction warping, and how do I combat it? Should I add a vent hole?**
 
