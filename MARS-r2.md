@@ -568,7 +568,17 @@ Post-curing enables your printed parts to reach the highest possible strength an
 
 The proper light, heat, and time will optimize your prints' mechanical properties. Post-cure time depends on your equipment, resin choice, and part geometry. An ideal post-cure setting achieves the properties you need in the shortest amount of time. For standard resins, this amount may be as short as 10 minutes, going up 30 minutes. Where strength, rigidity, and temperature resistance are needed, engineering grade resins improve with post-cure up to 60 minutes. Always check the resin manufacturer's datasheet/recommendations as each different brand and kind of resin will differ. 
 
-An easy way to find out if your print has cured enough with sunlight or a UV light set up is to find an area where you don't mind a mark and try to dent it with your fingernail. If you can, then it's not ready yet, and as soon as you can't dent it, it's ready. Do not over cure in sunlight as resin may become overly brittle, and white or clear resin will turn yellow.
+**What will happen with over-curing?**
+
+The material will degrade due to UV irradiation. With extreme UV exposure levels, the part will degrade and cause brittleness. Placing a part outside is generally not nearly enough to cause any notable amount of degradation. But curing a part overnight in a high-intensity UV chamber might be enough to damage the material. This is not unique to resin and would occur in most organic materials.
+
+**Will curing prints underwater speed up the curing time?**
+
+Yes. Underwater heat dissipation and UV diffuse scattering effect will be better. The water does absorb UV light, but the absorption is not significant at the wavelengths used to cure UV resin. So you don’t have to add much exposure time if you cure your parts in a shallow tank of water. There are really no “cons” to curing in a water bath, other than getting your parts wet and require drying.
+
+**Is post-curing with sunlight useful?** 
+
+If you don’t have a UV chamber, you can submerge the print in a clear container filled with water, as said above. Then place the container under direct sunlight. Of course, the exposure time will be much longer than under a direct UV lamp. If the print still feels uncured or sticky, leave the print and the container in the sun for some more time.
 
 **How durable are the prints? Will they break if I drop them?** 
 
@@ -631,4 +641,5 @@ From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupp
 
 **Where did all this information come from?** 
 
-Most of the information, insights, tips, and tricks were gathered from the [Photonsters](http://photonsters.org) team documentation, [Elegoo product site](https://www.elegoo.com/), [Elegoo Mars reddit](https://www.reddit.com/r/ElegooMars/), and various others. Photonsters.org is a great team and has a wealth of information, always worth is visit. 
+Information was gathered from the [Photonsters](http://photonsters.org), [Elegoo product site](https://www.elegoo.com/), [Chitubox](https://www.chitubox.com/en/support/indepth/technology), and various others. Photonsters.org is a great team and has a wealth of information, always worth is visit. 
+
