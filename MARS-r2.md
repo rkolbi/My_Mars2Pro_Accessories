@@ -265,6 +265,7 @@ The test file that came on the included USB stick has been pre-sliced and settin
 
 By orientating the part in different directions, there can be a significant difference in the print quality. Sudden changes of the model structure from a small cross-section to a large cross-section area will lead to severe volumetric changes of layers as the volume of 3D resin in each layer highly affects each cured layer's shrinkage. This can affect the model's integrity and will typically result in visible surface lines.
 CHITBOX has a good article on this topic [here](https://www.chitubox.com/en/article/support/howto/chitubox-free/editing/25). 3DPrintingPro's related video is [here](https://www.youtube.com/watch?v=8xolVj0izVo&t=19s). 
+Lastly, vary the placement of your part on the build plate. If you consistently place your objects in the build plate's center, your FEP will prematurely wear out in the center yet be absolutely fine in the surrounding, unused, wasted areas.
 
 **I bought x resin; what are the best settings for it?** 
 
