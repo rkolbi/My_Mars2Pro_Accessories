@@ -486,7 +486,9 @@ This is a limitation of the technology but can be largely mitigated and overcome
 
 The recommended method is the two tub system. Fill both containers with 91% Isopropyl Alcohol (IPA) or other solvents such as 95% Ethanol. Although not necessary, heating the first tub to around 45°C helps dissolve the resin faster. 
 
-Drop the print into the first tub and swirl for several seconds. Use a soft brush on hard to reach parts, crevices, etc. Then dunk the part in the second tub of solvent and rinse clean. Do not leave your prints soaking too long in the tubs. Remove then dry thoroughly (blow-drying with compressed air works best) before UV curing. 
+Drop the print into the first tub and swirl for several seconds. Use a soft brush on hard to reach parts, crevices, etc. Then dunk the part in the second tub of solvent and rinse clean. Do not leave your prints soaking too long in the tubs - only enough time to remove the excess resin. 
+
+Lastly, remove the part and dry thoroughly before UV curing; pat-drying with a lint-free cloth followed by blow-drying with compressed air or a hairdryer works well. Whichever way you choose - ensure the part is dried thoroughly before UV curing; failure to do so can result in loss of definition, white powdery remains on the part, and flaking/scaling on surfaces. 
 
 **What solvents should I use to clean my prints?** 
 
