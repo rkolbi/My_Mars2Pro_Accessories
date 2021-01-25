@@ -56,15 +56,13 @@ Always handle resins as though they are toxic unless you have specific documenta
 
 · Do note that photopolymer resins exothermically react with light, especially UV, and can produce very high heat.
 
-· Avoid placing the printer over carpeted areas or use a barrier to avoid the possibility of carpet damage.
-
 
 
 ## :partly_sunny:OPERATING ENVIRONMENT 
 
 ·  Your printer should be placed in a well-ventilated room, on a level surface, that is away from direct sunlight with an ambient room temperature of at least 21'C / 70'F - 25'C / 77'F being ideal.
 
-·  Always place the printer on a stable surface, where it cannot fall or tip over.
+·  Always place the printer on a stable surface, where it cannot fall or tip over. Avoid placing the printer over carpeted areas or use a barrier to avoid the possibility of carpet damage.
 
 ·  Check the resin manufacturer's datasheet and temperature recommendations as they may have different requirements.
 
@@ -595,11 +593,11 @@ If you don’t have a UV chamber, you can submerge the print in a clear containe
 
 **How durable are the prints? Will they break if I drop them?** 
 
-It depends on the resin used. Unlike PLA or ABS, regular hobby-grade resin prints are quite brittle and can easily break when dropped. There are specially formulated resins for prototyping or even functional usage, which have different properties such as flexibility, hardness, and UV resistance. Once you have familiarized yourself with your printer using the sample green resin, you might want to experiment further with different resins. 
+It depends on the resin used. Unlike PLA or ABS, regular hobby-grade resin prints are quite brittle and can easily break when dropped. There are specially formulated resins for prototyping or even functional usage, which have different properties such as flexibility, hardness, and UV resistance. 
 
 **Why do I get white chalky residue on my prints after curing?** 
 
-The white residue appears if there's moisture or water on your prints when you UV cure. One way to avoid this is not to wash your prints in water after cleaning in solvents. Always make sure your prints are completely dry before final UV curing. 
+The white residue appears if there's moisture, water, or uncured resin on your prints when UV cured. Always clean you prints well and make sure they are completely dry before the UV curing. 
 
 
 
