@@ -653,4 +653,3 @@ From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupp
 **Where did all this information come from?** 
 
 Information was gathered from the [Photonsters](http://photonsters.org), [Elegoo product site](https://www.elegoo.com/), [Chitubox](https://www.chitubox.com/en/support/indepth/technology), and various others. Photonsters.org is a great team and has a wealth of information, always worth is visit. 
-
