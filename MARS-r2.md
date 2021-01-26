@@ -403,6 +403,30 @@ This is typical resin over-exposing during the printing process, double check yo
 
 · Once removed, proceed with normal after print cleanup, but pay particular attention to the FEP. Inspect the surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
 
+**My printed parts have shrunk; how do I make them true to scale?**
+
+Here is a process to determine a correction factor to use in your slicer.
+
+- [ ] Log room temp.
+- [ ] Do resin calibration prints, get it nailed. Write the temp and exposure seconds on the bottle.
+- [ ] Make a cube, or download if lazy. 20mm cubes are common, but the correction factor will be more accurate when you make it larger. If you typically print a standard sized object in the X & Y planes, then use a calibration cube close to that size as the resin shrinkage may not be a true linear correction.
+- [ ] Slice the .stl file as usual, at 100% scale.
+- [ ] Print, wash and cure the object.
+- [ ] Calculate the scaling factor:
+  Use the following formulas to determine the required scaling factor:
+  X Scaling Factor = (XCAD - XPART)/ XCAD * 100% (answer will be as a percentage)
+  EXAMPLE:
+  X measurement of CAD model = 20mm
+  X measurement of printed part = 18.5mm
+  X Scaling Factor = (20.0 – 18.5)/20.0 *100 = 7.5%
+  Slicer X scaling factor should be 100% + 7.5% = 107.5%
+  
+- [ ] Go into your slicer, change X & Y scaling to the calculated correction factor and then slice the .stl file.
+- [ ] Print, wash and cure the object.
+- [ ] Measure the corrected print. If an error still exists, go back to the 'Calculate the scaling factor' step, but you will then subtract or add to the previously obtained scaling factor and then repeat the verification process.
+- [ ] The last step, write the correction factor on the bottle.
+
+
 **Lines or Layer Shifting on the printed model?**
 
 See Elegoo's support guide [here](https://www.elegoo.com/blogs/3d-printer-user-guide/lines-or-layer-shifting-on-the-printed-model).
