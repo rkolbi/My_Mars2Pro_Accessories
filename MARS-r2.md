@@ -415,11 +415,11 @@ Here is a process to determine a correction factor to use in your slicer.
 - [ ] Calculate the scaling factor:
   Use the following formulas to determine the required scaling factor:
   X Scaling Factor = (XCAD - XPART)/ XCAD * 100% (answer will be as a percentage)
-  EXAMPLE:
-  X measurement of CAD model = 20mm
-  X measurement of printed part = 18.5mm
-  X Scaling Factor = (20.0 – 18.5)/20.0 *100 = 7.5%
-  Slicer X scaling factor should be 100% + 7.5% = 107.5%
+  EXAMPLE:  
+  X measurement of CAD model = 20mm  
+  X measurement of printed part = 18.5mm  
+  X Scaling Factor = (20.0 – 18.5)/20.0 *100 = 7.5%  
+  Slicer X scaling factor should be 100% + 7.5% = 107.5%  
     
 - [ ] Go into your slicer, change X & Y scaling to the calculated correction factor and then slice the .stl file.
 - [ ] Print, wash and cure the object.
