@@ -420,7 +420,7 @@ Here is a process to determine a correction factor to use in your slicer.
   X measurement of printed part = 18.5mm
   X Scaling Factor = (20.0 – 18.5)/20.0 *100 = 7.5%
   Slicer X scaling factor should be 100% + 7.5% = 107.5%
-  
+    
 - [ ] Go into your slicer, change X & Y scaling to the calculated correction factor and then slice the .stl file.
 - [ ] Print, wash and cure the object.
 - [ ] Measure the corrected print. If an error still exists, go back to the 'Calculate the scaling factor' step, but you will then subtract or add to the previously obtained scaling factor and then repeat the verification process.
