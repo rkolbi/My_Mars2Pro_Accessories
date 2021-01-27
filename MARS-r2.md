@@ -145,7 +145,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 - [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.
 
 
-- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling.
+- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. !If one side was easier then the other, loosen the screws, press home, go up two steps.
 
 
 - [ ] Select the 'Z=0' button, and select confirm.
