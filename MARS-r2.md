@@ -670,7 +670,7 @@ From Elegoo's website [here](https://www.elegoo.com/collections/parts-accessorie
 From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupport).
 
 
-## :thumbsup:CONSUMABLE ITEMS
+## :heavy_check_mark:CONSUMABLE ITEMS
 
 There are many consumables available for resin printing, and this is just a brief list to give you some ideas. In addition to this consumables list, you will need resin. There are several kinds of resins; standard, high-definition, flexible, castable, high-temperature, and more. Each resin presents its unique strengths and weaknesses, but the standard type is usually best to start off with while getting comfortable with the resin printing process. With that, when selecting a resin, make sure that it is compatible with your machine - which is an MSLA LED/LCD unit with a 405nm light source. Please pay attention to the resin manufacturer's recommended operating temperature to ensure that it will be usable in your environment.   
 
