@@ -722,4 +722,5 @@ Hex Driver Set
 
 **Where did all this information come from?** 
 
-Information was gathered from the [Photonsters](http://photonsters.org), [Elegoo product site](https://www.elegoo.com/), [Chitubox](https://www.chitubox.com/en/support/indepth/technology), and various others. Photonsters.org is a great team and has a wealth of information, always worth is visit. 
+Information was gathered from the [Photonsters](http://photonsters.org), [Elegoo product site](https://www.elegoo.com/), [Chitubox](https://www.chitubox.com/en/support/indepth/technology), [ElegooMars Reddit Sub](https://www.reddit.com/r/ElegooMars/), and various others.  
+Photonsters.org is a wealth of information, always worth is visit, even if you don't have a Photon... 
