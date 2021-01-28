@@ -701,7 +701,7 @@ or Cafe Serving Tray
 Super Lube PTFE Grease  
 Exacto Knives  
 Pickles Bucket w/ Basket  
- 
+
 **Tier 3 - Helpful Items. These are items that you don't need per se, but they will be helpful.**  
 Clean & Wash Station  
 or Ultrasonic Cleaner  
