@@ -162,7 +162,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 - [ ] Grab the resin vat. Check it free and clean - both sides. And again, check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!
 
 
-- [ ] Gently slide the resin vat into position, taking care to glide it in with a slight upward force against the securing towers and not the LCD screen (the vat film and LCD screen scratch quickly). Ensure the vat is in place before screwing in the two-tower side bolts by feeling a small detent position where it sits securely without wobble. The max resin fill indication should be visible from the front, and the resin pour-out groove should be furthest from you on the tank's left.
+- [ ] Gently slide the resin vat into position, taking care to glide it in with a slight upward force against the securing towers and not the LCD screen (the vat film and LCD screen scratch quickly). Ensure the vat is in place before screwing in the two-tower side bolts by feeling a small detent position where it sits securely without wobble. The max resin fill indication should be visible from the front, and the resin pour-out groove should be furthest from you on the left.
 
 
 
@@ -359,7 +359,7 @@ There isn't one best angle for printing everything. It really depends on your la
 - [ ] Identify the max file line in the resin vat. Pour your prepared resin into the vat, filling it half-way - to a level between the FEP film and the max fill line. If any air bubbles exist, wait a few minutes for them to dissipate.
 - [ ] Plug the USB stick in to your printer, select the '__My-Rook.ctb', and commence the print.
 
-A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the tank after every print.
+A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the vat after every print.
 
 **I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
@@ -395,7 +395,7 @@ This is typical resin over-exposing during the printing process, double check yo
 
 · Unscrew the resin vat retaining screws and remove the vat.
 
-· Empty the resin vat. The tank has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel and screen to pour the resin into the bottle. 
+· Empty the resin vat. The vat has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel and screen to pour the resin into the bottle. 
 
 · Wipe the remaining resin into the funnel with a soft silicone squeegee and then with a soft paper cloth. The layer of hardened/stuck resin should now be discernible. 
 
@@ -632,7 +632,7 @@ The white residue appears if there's moisture, water, or uncured resin on your p
 
 ·  Keep your printer clean! Keep everything clean by wiping down with a microfiber cloth slightly dampened with IPA. Wipe resin drops and spills off immediately with IPA and tissue.
 
-·  Keep your vat and FEP clean. Empty the resin vat after each print failure. The tank has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel and screen to pour the resin into the bottle. Inspect the FEP's surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
+·  Keep your vat and FEP clean. Empty the resin vat after each print failure. The vat has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel and screen to pour the resin into the bottle. Inspect the FEP's surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
 
 ·  Keep the LCD screen clean. Use a microfiber cloth dampened with IPA or LCD cleaning spray to clean to surface. Do not use paper towels; otherwise, you may scratch the LCD surface. 
 
