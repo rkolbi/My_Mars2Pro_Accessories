@@ -670,6 +670,51 @@ From Elegoo's website [here](https://www.elegoo.com/collections/parts-accessorie
 From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupport).
 
 
+## :thumbsup:CONSUMABLE ITEMS
+
+There are many consumables available for resin printing, and this is just a brief list to give you some ideas. In addition to this consumables list, you will need resin. There are several kinds of resins; standard, high-definition, flexible, castable, high-temperature, and more. Each resin presents its unique strengths and weaknesses, but the standard type is usually best to start off with while getting comfortable with the resin printing process. With that, when selecting a resin, make sure that it is compatible with your machine - which is an MSLA LED/LCD unit with a 405nm light source. Please pay attention to the resin manufacturer's recommended operating temperature to ensure that it will be usable in your environment.   
+
+Tier 1 - Critical Items. These are the typical use items that you should have on hand.
+*Metal Scraper
+*Plastic Scraper
+Plastic Razor Blades
+Nitrile Gloves
+Safety Glasses
+Mask / Respirator 
+Paint Filters
+Small Funnel for Paint Filters
+Small Soft Silicone Squeegee
+Paper Towels
+Microfiber Cloth Pack
+Isopropyl Alcohol
+Small Paint Brush (or toothbrush)
+Windex Foaming Spray
+
+Tier 2 - Recommended Items. Items that you will eventually need or will make the machine's operation safer & more manageable.
+Replacement FEP Film
+Craft Apron
+Quality USB Stick
+Silicone or Boot Mud Mat
+or Cafe Serving Tray
+Super Lube PTFE Grease
+Exacto Knives
+Pickles Bucket w/ Basket
+ 
+Tier 3 - Helpful Items. These are items that you don't need per se, but they will be helpful.
+Clean & Wash Station
+or Ultrasonic Cleaner
+Replacement LCD Screen
+Printer Enclosure
+Small/Micro file set
+UV Flashlight
+Hex Driver Set
+^Resin VAT Cover
+^Top Cover Handle
+^Dual Angled Drip Attachment
+
+*Included with the printer.
+^Can be printed or purchased.
+
 
 ## :thumbsup:ACKNOWLEDGMENTS
 
