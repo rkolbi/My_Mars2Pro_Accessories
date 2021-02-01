@@ -1,4 +1,4 @@
-**:roller_coaster:Ways to Level the Build PLate**  
+## :roller_coaster:BUILD PLATE AND LEVELING 
 
 **Remember** that as you tighten the front and side securing screws, it can move the plate by a tiny fraction - when tightening the bolts, always keep a hand gently pressing the build plate down and level.  
 **I set Z=0, but when I press Home, the position is different?**  
