@@ -114,56 +114,50 @@ Incorrect build plate leveling is the number one reason for print failures. It i
 
 It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw), and the reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4).
 
-**:wrench:Step by step follows:**
-
-- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.
-
-
-- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.
-- [ ] Optional but recommended: Test the UV light source by selecting the 'Tool' button, 'Exposure'  button, adjust for a few seconds and select the 'Next' button to begin.  You should see a complete rectangular image on the top LCD; the front  touchscreen should display the same.
-
-
-- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.
-
-
-- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.
-
-
-- [ ] Remove the resin vat and place it on its side, in an area where you won't knock it. Check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!
-
-
-- [ ] Get a standard sheet of printer paper, cut it in half, and place it over the top LCD screen.
-
-
-- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.
-
-
-- [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).
-
-
-- [ ] The build plate will go down to the paper, slightly rise, and then down again. Check the build plate's alignment and rotate as needed to ensure it is square with the printer.
-
-
-- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.
-
-
-- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. !If one side was easier then the other, loosen the screws, press home, go up two steps.
-
-
-- [ ] Select the 'Z=0' button, and select confirm.
-
-
-- [ ] After setting Z=0, verify that it is set correctly by starting a dry-run print, leaving the piece of paper on the screen, and checking that the build plate starts the first layer at the correct Z=0 position have set. !Remember that Z=0 is not the same as Home.
-
-
-- [ ] Raise the build plate by pressing the 10mm button, followed by the up button, at least seven times. Remove the paper.
-
-
-- [ ] Grab the resin vat. Check it free and clean - both sides. And again, check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!
-
-
+**:wrench:Preferred Method - Step by step follows:**  
+- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
+- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
+- [ ] Optional but recommended: Test the UV light source by selecting the 'Tool' button, 'Exposure'  button, adjust for a few seconds, and select the 'Next' button to begin.  You should see a complete rectangular image on the top LCD; the front touchscreen should display the same.  
+- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
+- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
+- [ ] Remove the resin vat and place it on its side, in an area where you won't knock it. Check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
+- [ ] Get a standard sheet of printer paper, cut it in half, and place it over the top LCD screen.  
+- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
+- [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
+- [ ] The build plate will go down to the paper, slightly rise, and then down again. Check the build plate's alignment and rotate as needed to ensure it is square with the printer.  
+- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
+- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. :warning:If one side was easier to pull the paper then the other, you will have to readjust by loosen the securing screws and go up three steps. If this is a continuing problem, see the notes following the leveling section.:warning: 
+- [ ] Select the 'Z=0' button, and select confirm.  
+- [ ] After setting Z=0, verify that it is set correctly by starting a dry-run print, leaving the piece of paper on the screen, and checking that the build plate starts the first layer at the correct Z=0 position have set. !Remember that Z=0 is not the same as Home.  
+- [ ] Raise the build plate by pressing the 10mm button, followed by the up button, at least seven times. Remove the paper.  
+- [ ] Grab the resin vat. Check it free and clean - both sides. And again, check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
 - [ ] Gently slide the resin vat into position, taking care to glide it in with a slight upward force against the securing towers and not the LCD screen (the vat film and LCD screen scratch quickly). Ensure the vat is in place before screwing in the two-tower side bolts by feeling a small detent position where it sits securely without wobble. The max resin fill indication should be visible from the front, and the resin pour-out groove should be furthest from you on the left.
 
+**:wrench:Alternate Method 1 / Clean & Empty VAT in place - Step by step follows:**  
+
+- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
+- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
+- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
+- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
+- [ ] Check the FEP free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
+- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
+- [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
+- [ ] The build plate will go down to the FEP, slightly rise, and then down again. Check the build plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
+- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
+- [ ] Select the 'Z=0' button, and select confirm.  
+
+**:wrench:Alternate Method 2 / Resin Filled VAT in place - Step by step follows:**  
+
+- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
+- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
+- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
+- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
+- [ ] Ensure there are no solidified/hardened pieces of resin present in the VAT. Ensure the FEP surface is smooth by gently raking a soft silicone spatula across all of its surface area. :warning: If roughness exists; stop the leveling process, filter the VAT's contents back into the resin bottle, clean the VAT, and then restart leveling :warning: Damage to the FEP and LCD screen is possible when debris exists between the FEP and build plate.   
+- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
+- [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
+- [ ] The build plate will go down to the FEP, slightly rise, and then down again. Check the build plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
+- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
+- [ ] Select the 'Z=0' button, and select confirm.
 
 
 **How tight to the paper should I level the build plate?**
@@ -190,7 +184,7 @@ As said, improper leveling attributes to a lot of frustration, mostly because th
 
 Flash forward several prints later, and you level the machine again. You place your piece of paper on the LCD, loosen the screws, and press home. This time you tighten the screws and then remove the paper with no significant tension/friction and think that you don't have to press 'Z=0' because you didn't move Z to take out the paper... WRONG - This is what gives people issues - IF you don't press Z=0, the printer will still have an offset of 0.1mm from the previous leveling, and you may run into problems due to incorrect leveling - because it's 0.1mm off. Remember, homing goes to mechanical zero when the endstop is triggered and doesn't care about the offset!
 
-Try this for fun: Home and then raise Z by 10mm, press Z=0, and then home again to see where it stops - it will stop when the endstop is triggered, and it will seem as if the Z=0 did nothing. Then, with vat out and no resin, start a print - it will home and then begin to print 10mm above the LCD. So, long story short, when leveling and you're happy with the paper pull test - whether you bumped Z height or not, press 'Z=0'.
+*Try this for fun: Home and then raise Z by 10mm, press Z=0, and then home again to see where it stops - it will stop when the endstop is triggered, and it will seem as if the Z=0 did nothing. Then, with vat out and no resin, start a print - it will home and then begin to print 10mm above the LCD. So, long story short, when leveling and you're happy with the paper pull test - whether you bumped Z height or not, press 'Z=0'.*
 
 **Do I have to relevel my build plate after every print?**
 
@@ -405,13 +399,17 @@ This is typical resin over-exposing during the printing process, double check yo
 
 · Once removed, proceed with normal after print cleanup, but pay particular attention to the FEP. Inspect the surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
 
-**My printed parts have shrunk; how do I make them true to scale?**
+**My prints are not dimensionally accurate!?!?**
+
+First, ensure that your exposure settings are optimal for the resin used. Underexposure causes thinner parts, while overexposure will swell. Many of the basic resins swell when printed. There could also be slight shrinkage. It all depends on your settings and the brand of resin and formulations that manufacturers use. It usually isn't noticeable on organic prints. 
+
+**How can I make them true to scale?**
 
 Here is a process to determine a correction factor to use in your slicer.
 
 - [ ] Log room temp.
 - [ ] Do resin calibration prints, get it nailed. Write the temp and exposure seconds on the bottle.
-- [ ] Make a cube, or download if lazy. 20mm cubes are common, but the correction factor will be more accurate when you make it larger. If you typically print a standard sized object in the X & Y planes, then use a calibration cube close to that size as the resin shrinkage may not be a true linear correction.
+- [ ] Make a cube, or download if lazy. 20mm cubes are common, but the correction factor will be more accurate when you make it larger. If you typically print a standard sized object in the X & Y planes, then use a block outline of the shape that you are going to print as the resin shrinkage may not be a true linear correction.
 - [ ] Slice the .stl file as usual, at 100% scale.
 - [ ] Print, wash and cure the object.
 - [ ] Calculate the scaling factor:  
@@ -449,10 +447,6 @@ It's completely normal. It's a good sign that your print is sticking to the buil
 ·  One easy way to tell is by listening for the sound that's made as the layer peels off the FEP. You can hear it clearly, especially for the first few bottom layers. Don't worry if you can't hear it anymore later; it varies depending on the size of the layer being printed. 
 
 ·  You can also use the pause to check on your print, but note that you may get a line at the layer where you paused. 
-
-**My prints are not dimensionally accurate, sometimes slightly oversized by as much as 0.3mm?**
-
-First, ensure that your exposure settings are optimal for the resin used. Underexposure causes thinner parts, while overexposure will swell. Many of the basic resins swell when printed. There could also be slight shrinkage. It all depends on your settings and the brand of resin and formulations that manufacturers use. It usually isn't noticeable on organic prints. 
 
 **My prints just won't stick?** 
 
