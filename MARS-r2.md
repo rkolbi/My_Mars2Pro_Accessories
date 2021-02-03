@@ -194,7 +194,7 @@ No, this should not be required. If you have correctly leveled, securely tighten
 
 Sanding is the last resort you should attempt, and only when you have verified that the build plate surface is not flat.
 
-** I'm sure my build plate is level, but I still can't get a print!** 
+**I'm sure my build plate is level, but I still can't get a print!** 
 
 Did you just switch resins? Did you use an unsuitable resin formulated for SLA Laser or DLP printers? Are you using specialty castable resins? Did you mix the resin properly before use? Is the resin expired? Is it too cold? Many factors may affect print adhesion. Keep testing to find the root causes for your plate adhesion issues. 
 
@@ -310,7 +310,7 @@ There isn't one best angle for printing everything. It really depends on your la
 
 A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the vat after every print.
 
-** I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
+**I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
 That's normal; it's showing the last file you selected or printed. 
 
