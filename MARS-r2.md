@@ -32,11 +32,11 @@
 
 ## :question:How does this printer work?
 
-**Your Elegoo is a <u>M</u>asked <u>S</u>tereo<u>L</u>ithography <u>A</u>pparatus resin printer or MSLA for short.** The word stereolithography comes from the Greek word stereo, meaning solid, and (photo)lithography, a form of 'writing' with light. Stereolithography with your 3D printer does precisely that, drawing solids with light one layer at a time. Masked Stereolithography Apparatus(MSLA) utilizes a 405nm wavelength LED array as its light source and an LCD photomask to shape the light image from the LED array. The LCD photomask is digitally displayed and composed of square pixels. Then individual pixels are deactivated on the LCD to allow the LED light to pass through to form the resulting layer.
+**Your Elegoo is a <u>M</u>asked <u>S</u>tereo<u>L</u>ithography <u>A</u>pparatus resin printer or MSLA for short.** The word stereolithography comes from the Greek word stereo, meaning solid, and (photo)lithography, a form of 'writing' with light. Stereolithography with your 3D printer does precisely that, drawing solids with light one layer at a time. Masked Stereolithography Apparatus(MSLA) utilizes a 405nm wavelength LED array as its light source and an LCD photomask to shape the LED array's light image. The LCD photomask is digitally displayed and composed of square pixels. Then individual pixels are deactivated on the LCD to allow the LED light to pass through to form the resulting layer.
 
 The printing process starts as the build plate descends into a resin vat, leaving space equal to the layer height between the build platform, or the last completed layer, and the bottom of the vat. The LCD mask then selectively allows UV light to pass through it, shining the light upward through the vat's bottom and curing a layer of resin. 
 
-The cured layer then gets peeled from the bottom of the vat as the build platform moves up, pulling the layer off the FEP. In essence, this is a tug of war between the build plate surface and the FEP film. The build plate usually wins this challenge as it remains flat, not allowing any edges to start peeling. The FEP film however is non-stick, highly flexible, and purposely loose. When the cured layer gets pulled upwards by the build plate, the FEP film curves, letting the cured layer's edges begin to break free as the build plate rises - breaking the surface suction force and yielding a peel. Once the layer is detached and raised, fresh resin flows beneath, and the process repeats until the print is complete.
+The cured layer then gets peeled from the bottom of the vat as the build platform moves up, pulling the layer off the FEP. In essence, this is a tug of war between the build plate surface and the FEP film. The build plate usually wins this challenge as it remains flat, not allowing any edges to start peeling. The FEP film however is non-stick, highly flexible, and purposely loose. When the cured layer gets pulled upwards by the build plate, the FEP film curves, letting the cured layer's edges begin to break free as the build plate rises - breaking the surface suction force and yielding a peel. Once the layer is detached and raised, the fresh resin flows beneath, and the process repeats until the print is complete.
 
 :bulb:To allow the tug of war to work in favor of yielding a successful print, the FEP has to remain non-stick and flexible, the resin has to stay viscous, and the build plate needs to bond to the resin. Assuming the item to be printed has been orientated and sliced correctly, the easiest way to ensure success is to keep the build plate and FEP clean, operate the printer at a room temperature of 21'C and above, and have a leveled build plate. Regarding temperature, always check the resin manufacturer's data as some require it to be a bit higher.
 
@@ -44,7 +44,7 @@ The cured layer then gets peeled from the bottom of the vat as the build platfor
 
 ## :point_up:SAFETY
 
-#### Before you start printing, remember safety first and read the owners manual!
+#### Before you start printing, remember safety first and read the owner's manual!
 
 Always handle resins as though they are toxic unless you have specific documentation that states otherwise. Unless otherwise stated, resins are not approved for use with food, drink, or medical application on the human body. Never ingest resin in liquid or solid form. If swallowed, immediately call a poison center or medical professional.
 
@@ -102,7 +102,7 @@ Always handle resins as though they are toxic unless you have specific documenta
 
 ## :roller_coaster:BUILD PLATE AND LEVELING 
 
-Incorrect build plate leveling is the number one reason for print failures. It is a statistical fact, most of the issues posted invariably trace back to imperfect build plate leveling as the root cause. 
+Incorrect build plate leveling is one of the top reasons for print failures. Many posted issues invariably trace back to imperfect build plate leveling as the root cause. 
 
 **Make sure you take the time to level your build plate correctly.** Do not rush this step in your hurry to start printing.
 
@@ -117,7 +117,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 **:wrench:Preferred Method - Step by step follows:**  
 - [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
 - [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
-- [ ] Optional but recommended: Test the UV light source by selecting the 'Tool' button, 'Exposure'  button, adjust for a few seconds, and select the 'Next' button to begin.  You should see a complete rectangular image on the top LCD; the front touchscreen should display the same.  
+- [ ] Optional but recommended: Test the UV light source by selecting the 'Tool' button, 'Exposure' button, adjust for a few seconds and select the 'Next' button to begin.  You should see a complete rectangular image on the top LCD; the front touchscreen should display the same.  
 - [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
 - [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
 - [ ] Remove the resin vat and place it on its side, in an area where you won't knock it. Check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
@@ -126,7 +126,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 - [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
 - [ ] The build plate will go down to the paper, slightly rise, and then down again. Check the build plate's alignment and rotate as needed to ensure it is square with the printer.  
 - [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
-- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. :warning:If one side was easier to pull the paper then the other, you will have to readjust by loosen the securing screws and go up three steps. If this is a continuing problem, see the notes following the leveling section.:warning: 
+- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. :warning:If one side was easier to pull the paper than the other, you will have to readjust by loosening the securing screws and go up three steps. If this is a continuing problem, see the notes following the leveling section.:warning: 
 - [ ] Select the 'Z=0' button, and select confirm.  
 - [ ] After setting Z=0, verify that it is set correctly by starting a dry-run print, leaving the piece of paper on the screen, and checking that the build plate starts the first layer at the correct Z=0 position have set. !Remember that Z=0 is not the same as Home.  
 - [ ] Raise the build plate by pressing the 10mm button, followed by the up button, at least seven times. Remove the paper.  
@@ -152,7 +152,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 - [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
 - [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
 - [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
-- [ ] Ensure there are no solidified/hardened pieces of resin present in the VAT. Ensure the FEP surface is smooth by gently raking a soft silicone spatula across all of its surface area. :warning: If roughness exists; stop the leveling process, filter the VAT's contents back into the resin bottle, clean the VAT, and then restart leveling :warning: Damage to the FEP and LCD screen is possible when debris exists between the FEP and build plate.   
+- [ ] Ensure there are no solidified/hardened pieces of resin present in the VAT. Ensure the FEP surface is smooth by gently raking a soft silicone spatula across all of its surface areas. :warning: If roughness exists, stop the leveling process, filter the VAT's contents back into the resin bottle, clean the VAT, and then restart leveling :warning: Damage to the FEP and LCD screen is possible when debris exists between the FEP and build plate.   
 - [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
 - [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
 - [ ] The build plate will go down to the FEP, slightly rise, and then down again. Check the build plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
@@ -162,7 +162,7 @@ It is highly recommended that you use the official method, aka paper method, if 
 
 **How tight to the paper should I level the build plate?**
 
-If you are using the recommended paper method, the paper should be tight enough to pull out with even resistance but not push back in. Remember that the build plate must grip the paper evenly. 
+When using the recommended paper method, the paper should be tight enough to pull out with even resistance but not push back in. Remember that the build plate must grip the paper evenly. 
 
 **Remember** that as you tighten the front and side securing screws, it can move the plate by a tiny fraction - when tightening the bolts, always keep a hand gently pressing the build plate down and level. When done, if you will find that you cannot pull the paper without tearing, you should raise / backoff the build plate level by 0.1mm (100um) until the plate is gripping the paper with even resistance and that you can pull but not push it back. This usually requires just one raising of 0.1mm. Lastly, whether you had to raise the plate or not, set Z=0.
 
@@ -180,7 +180,7 @@ Using your fingers, push the opposite side of the plate when tightening the set 
 
 When a new Z=0 is specified, pressing Home will NOT move the platform to the position you set; it will be the start position when a print is initiated. You can check it by removing the vat and starting a print.
 
-As said, improper leveling attributes to a lot of frustration, mostly because the manufacture of these printers poorly document the mechanics of it. In this example, let's say you are leveling the printer, loosened the screws, and press home. You tug on the paper, it feels tight, so you raise by .1mm, then hit 'Z=0' because you raised Z. With this, once you home again, the build plate will still stop at mechanical zero because of homing stops at the endstop trigger. If you looked at the electrical position of Z, it would read Z:-0.1. Now we know that when we initiate a print, it will home and then go to Z offset (raise .1mm), and then start printing.
+As said, improper leveling contributes to a lot of frustration, mostly because of its mechanics' poor documentation. In this example, let's say you are leveling the printer, loosened the screws, and press home. You tug on the paper, it feels tight, so you raise by .1mm, then hit 'Z=0' because you raised Z. With this, once you home again, the build plate will still stop at mechanical zero because of homing stops at the endstop trigger. If you looked at the electrical position of Z, it would read Z:-0.1. Now we know that when we initiate a print, it will home and then go to Z offset (raise .1mm), and then start printing.
 
 Flash forward several prints later, and you level the machine again. You place your piece of paper on the LCD, loosen the screws, and press home. This time you tighten the screws and then remove the paper with no significant tension/friction and think that you don't have to press 'Z=0' because you didn't move Z to take out the paper... WRONG - This is what gives people issues - IF you don't press Z=0, the printer will still have an offset of 0.1mm from the previous leveling, and you may run into problems due to incorrect leveling - because it's 0.1mm off. Remember, homing goes to mechanical zero when the endstop is triggered and doesn't care about the offset!
 
@@ -192,9 +192,9 @@ No, this should not be required. If you have correctly leveled, securely tighten
 
 **Should I sand my build plate?**
 
-Sanding is the very last resort that you should attempt, and only when you have verified that the build plate surface is not flat.
+Sanding is the last resort you should attempt, and only when you have verified that the build plate surface is not flat.
 
-**I'm sure my build plate is level, but I still can't get a print!** 
+** I'm sure my build plate is level, but I still can't get a print!** 
 
 Did you just switch resins? Did you use an unsuitable resin formulated for SLA Laser or DLP printers? Are you using specialty castable resins? Did you mix the resin properly before use? Is the resin expired? Is it too cold? Many factors may affect print adhesion. Keep testing to find the root causes for your plate adhesion issues. 
 
@@ -210,7 +210,7 @@ Castable and other specialty resins such as Blue cast (monomer-free) generally n
 
 **How do I use Chitubox slicer?**
 
-CHITUBOX has an excellent article repository [here](https://www.chitubox.com/en/support/indepth/technology), this should be your first stop. In addition, lots of video tutorials exist on YouTube - 3DPrintingPro has a very good set [here](https://www.youtube.com/watch?v=TTZpvhfaNWY&list=PLC4QzbTxrEF-fA1OC_-zE_4f6n1K-w2SS).
+CHITUBOX has an excellent article repository [here](https://www.chitubox.com/en/support/indepth/technology), this should be your first stop. In addition, lots of video tutorials exist on YouTube - 3DPrintingPro has an excellent set [here](https://www.youtube.com/watch?v=TTZpvhfaNWY&list=PLC4QzbTxrEF-fA1OC_-zE_4f6n1K-w2SS).
 
 **What settings do I need for the test (rook) file?** 
 
@@ -226,11 +226,11 @@ Lastly, vary the placement of your part on the build plate. If you consistently 
 
 Every resin behaves differently; there are no best settings that will work for every resin and every machine. For a quick start, you can refer to the [community resin exposure settings](https://www.elegoo.com/pages/3d-printing-user-suupport). Those settings should enable you to get a print going quickly, but you will need to test and adjust from there to find the best settings applicable for your machine. 
 
-Casting resins can have a difficult time bonding to the build plate, and subsequently ruining your print. There are multiple ways to increase adhesion during printing. You may apply a thin layer of primer (can be the very resin you are using) on the plate to improve adhesion. Apply to build plate and keep under UV light for 10 to 15 minutes. Another way would be to change the profile settings, increase the number of bottom layers, and simultaneously increase the bottom curing time, increasing adhesion. If build plate bonding persists, you can apply resin on the build plate surface and leave for 3 mins before printing. Your last resort would be to rough up the build plate by scrubbing it with a clean 'cooking pan' abrasive pad, using a circular motion, covering the entire plate while it is flat on the working surface. A good video applying primer [here](https://www.youtube.com/watch?v=eDl3vzZy0qQ).
+Casting resins can have a difficult time bonding to the build plate, and subsequently ruining your print. There are multiple ways to increase adhesion during printing. You may apply a thin layer of primer (can be the very resin you are using) on the plate to improve adhesion. Apply to the build plate and keep under UV light for 10 to 15 minutes. Another way would be to change the profile settings, increase the number of bottom layers, and simultaneously increase the bottom curing time, increasing adhesion. If build plate bonding persists, you can apply resin on the build plate surface and leave for 3 mins before printing. Your last resort would be to rough up the build plate by scrubbing it with a clean 'cooking pan' abrasive pad, using a circular motion, covering the entire plate while it is flat on the working surface. A good video applying primer [here](https://www.youtube.com/watch?v=eDl3vzZy0qQ).
 
 **How do I find the optimal settings for my resin and machine?** 
 
-It's usually best to start with the community resin exposure settings, and then dial them in with a few test prints. These test prints will allow you to obtain the optimum settings for your resin, in your environment, matched to your machine. A good instructional video can be found [here](https://www.youtube.com/watch?v=r9GwPEJ8Lq8).
+It's usually best to start with the community resin exposure settings and then dial them in with a few test prints. These test prints will allow you to obtain the optimum settings for your resin, in your environment, matched to your machine. A good instructional video can be found [here](https://www.youtube.com/watch?v=r9GwPEJ8Lq8).
 
 **My resin is expired, can I still use it?** 
 
@@ -238,7 +238,7 @@ Generally, most resin manufacturers advise that resin be used within one year. T
 
 **What do the print settings mean?**
 
-This is assuming you're using the Chitubox slicer that is included on the USB stick. Other slicers may use different terminology, but they're functionally the same. If you're just starting out, it's highly recommended you use the Chitubox slicer. It's basic, won't overwhelm you with bells and whistles, and just works. 
+This is assuming you're using the Chitubox slicer that is included on the USB stick. Other slicers may use different terminology, but they're functionally the same. If you're just starting, it's highly recommended you use the Chitubox slicer. It's basic, won't overwhelm you with bells and whistles, and just works. 
 
 **·  Layer Height:** As the name implies, layer height is the exact height of each cured layer. Layer thickness affects not only the speed (printing time) and the quality of each print. The number of layers required to create an object determines the printing speed and the printing time required. The thinner the layer thickness, the longer it takes to make a 3D printed object of a given height. While relatively, with a slimmer layer height, you will increase the quality of the print, leading to a smoother surface and more detail visible in the Z-direction (height) of the model.
 Generally, the printers' minimum functional layer height is 25 µm (0.025mm) layer height, and the maximum is 100 µm (0.1mm) layer height. You can adjust this setting based on your printer's actual situation, given the object and resin. If you have no idea how to choose the right one, the tried-and-true technique is to start with a layer height of 50 μm (0.05mm).
@@ -249,7 +249,7 @@ Generally, the printers' minimum functional layer height is 25 µm (0.025mm) lay
 
 **·  Bottom Exposure Time:**  Same as *Exposure Time* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
-**·  Light-off Delay:** This is the amount of time that the UV light is turned off between the end of one exposure cycle and the beginning of the next. After an exposure, the UV light turns off, the build plate lifts and peels, and then descends; ready for the next cycle and will wait at the bottom (resting at the set layer height over the FEP sheet, at the bottom of your vat) before the UV light comes on again for the next exposure cycle. Longer off-times leave more time for the resin to settle out and form a new layer with fresh resin. This is especially useful for more viscous resins to mitigate issues of poor definition of surfaces facing the build plate.
+**·  Light-off Delay:** This is the amount of time that the UV light is turned off between the end of one exposure cycle and the beginning of the next. After exposure, the UV light turns off, the build plate lifts and peels, and then descends; ready for the next cycle and will wait at the bottom (resting at the set layer height over the FEP sheet, at the bottom of your vat) before the UV light comes on again for the next exposure cycle. Longer off-times leave more time for the resin to settle out and form a new layer with fresh resin. This is especially useful for more viscous resins to mitigate issues of poor definition of surfaces facing the build plate.
 
 **·  Bottom Light-off Delay:** Same as *Light-off Delay* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
@@ -270,15 +270,15 @@ CHITUBOX provides an anti-aliasing function with a 2/4/8 level. After special al
 
 Vent holes are often improperly called "drain" holes; they are not for draining resin. Imagine a glass full of water upside down in a bucket of water. When you pull the glass up out of the bucket, it stays full until the lip of the glass breaks the surface of the water in the bucket. 
 
-In the vat, the lowest point of the print, the new layer does not (generally) rise above the level of the liquid resin in the vat. Therefore, the liquid resin inside the "bowl" or "cup" cannot evacuate unless you add a vent hole. This is a significant cause of failures. You have to reduce the work that the stepper motor has to do to lift the platform.
+In the vat, the lowest point of the print, the new layer does not generally rise above the vat's liquid resin level. Therefore, the liquid resin inside the "bowl" or "cup" cannot evacuate unless you add a vent hole. This is a significant cause of failures. You have to reduce the work that the stepper motor has to do to lift the platform.
 
-Initially, In the printer vat, the inside volume of resin will be pulled up. Eventually, depending on the volume of the inside space and the volume of resin in the vat, the new layer will rise above the fluid level because the surface of the fluid will be moving down at ever-increasing rates with each layer. That is, the level of the fluid inside the space and in the vat are actually moving in opposite directions. When that happens, all of the fluid inside will be released, but now you have a trapped volume of air, so you will alternate between struggling with lifting up and struggling with pushing down. 
+Initially, in the printer's vat, the inside volume of resin will be pulled up. Eventually, depending on the volume of the inside space and the volume of resin in the vat, the new layer will rise above the fluid level because the surface of the fluid will be moving down at ever-increasing rates with each layer. That is, the level of the fluid inside the space and in the vat are actually moving in opposite directions. When that happens, all of the fluid inside will be released, but now you have a trapped volume of air, so you will alternate between struggling with lifting up and struggling with pushing down. 
 
-Without vent holes, it's really a recipe for bad prints. The result is that you can get multiple failures at various heights, depending on where these extremes occur. Formlabs has a good article on [model orientation,venting and suction cups.](https://support.formlabs.com/hc/en-us/articles/115000018124-Model-Orientation)
+Without vent holes, it's a recipe for bad prints. The result is that you can get multiple failures at various heights, depending on where these extremes occur. Formlabs has a good article on [model orientation, venting, and suction cups.](https://support.formlabs.com/hc/en-us/articles/115000018124-Model-Orientation)
 
 **How do I hollow my model?**
 
-It depends on the software. Two popular free programs that make it easy to hollow your models are Chitubox and Meshmixer. Give a look [here.](https://www.youtube.com/watch?v=wAW-rqrr8nc)
+It depends on the software. Two popular free programs that make it easy to hollow your models are Chitubox and Meshmixer. Look [here.](https://www.youtube.com/watch?v=wAW-rqrr8nc)
 
 **Can I just use auto supports for all my models?** 
 
@@ -292,7 +292,7 @@ There isn't one best angle for printing everything. It really depends on your la
 
 ## :rocket:PRINTING
 
-:exclamation:*Ensure you are operating your printer with an ambient room temperature of at least 21'C / 70'F, 25'C / 77'F being ideal. This is critical for success as it greatly effects the resin and FEP film properties.*
+:exclamation:*Ensure you are operating your printer with an ambient room temperature of at least 21'C / 70'F, 25'C / 77'F being ideal. This is critical for success as it greatly affects the resin and FEP film properties.*
 
 **My first print, do I have to print the rook?** 
 
@@ -300,17 +300,17 @@ There isn't one best angle for printing everything. It really depends on your la
 
 - [ ] Check your resin's bottom & normal exposure times, for your printer model, [here](https://docs.google.com/spreadsheets/d/1pXFnb8nZNR-jC5h0_t28NJ3jpmWeOPu6bmYNY05lysU/edit#gid=0).
 - [ ] Plug the USB stick in your computer and open the __Rook.ctb file in Chitubox slicer, you should just have to double-click on the file to open it. 
-- [ ] Once it opens the file, you will see two columns of numerical data in the lower portion of the screen. Check that 'Exposure Time(s):' and 'Bottom Exposure Time(s):' match the numbers that corresponded to your printer/resin in the excel spreadsheet above. 
+- [ ] Once it opens the file, you will see two columns of numerical data in the lower portion of the screen. Check that 'Exposure Time(s):' and 'Bottom Exposure Time(s):' match the numbers corresponding to your printer/resin in the excel spreadsheet above. 
 - [ ] If the numbers in Chitubox differ from the spreadsheet, double-click the number to change and type the value obtained from the spreadsheet.
 - [ ] Click the 'Save' button and call the file '__My-Rook.ctb'. Safely eject the USB stick from your computer.
 - [ ] Inspect the build plate surface and ensure it is free of any debris. Give it a good wipe down with IPA and a lint-free cloth. Ensure the build plate a firmly secured by snugging the black rotary knob.
 - [ ] Inspect the FEP film on the bottom of the resin vat. Make sure it is clean and clear, free of any holes, deep dents, and deep scratches. Ensure the resin vat is secured by snugging the two vat screws.
-- [ ] Identify the max file line in the resin vat. Pour your prepared resin into the vat, filling it half-way - to a level between the FEP film and the max fill line. If any air bubbles exist, wait a few minutes for them to dissipate.
+- [ ] Identify the max file line in the resin vat. Pour your prepared resin into the vat, filling it halfway - to a level between the FEP film and the max fill line. If any air bubbles exist, wait a few minutes for them to dissipate.
 - [ ] Plug the USB stick in to your printer, select the '__My-Rook.ctb', and commence the print.
 
 A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the vat after every print.
 
-**I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
+** I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
 That's normal; it's showing the last file you selected or printed. 
 
@@ -324,7 +324,7 @@ That's normal; it's showing the last file you selected or printed.
 
 **How much resin should I pour into the vat?** 
 
-To start, fill the VAT about half way, between the FEP surface and max fill line.. Do not exceed the max fill line; if there is too much resin, it will rise from displacement and cause a spill. Once you pour resin into the VAT, let it sit for a few minutes to let any air bubbles escape before printing. 
+To start, fill the VAT about halfway between the FEP surface and max fill line. Do not exceed the max fill line; if there is too much resin, it will rise from displacement and cause a spill. Once you pour resin into the VAT, let it sit for a few minutes to allow any air bubbles to escape before printing. 
 
 **Can I add resin halfway through a print?**
 
@@ -338,7 +338,7 @@ Yes, you can pause at any time during your print. Resume as quickly as you can t
 
 **My print turned out OK but there resin 'skin' on the FEP?**
 
-This is typical resin over-exposing during the printing process, double check your machine/resin exposure settings. It is very common to mistake a resin exposure settings for the Mars vice Mars 2, this could be a difference from 10 seconds to 3 seconds.
+This is typical resin over-exposing during the printing process. Double-check your machine/resin exposure settings. It is very common to mistake resin exposure settings for the Mars vice Mars 2; this could differ from 10 seconds to 3 seconds.
 
 **My print is stuck to the FEP! How should I remove it?**
 
@@ -364,7 +364,7 @@ Here is a process to determine a correction factor to use in your slicer.
 
 - [ ] Log room temp.
 - [ ] Do resin calibration prints, get it nailed. Write the temp and exposure seconds on the bottle.
-- [ ] Make a cube, or download if lazy. 20mm cubes are common, but the correction factor will be more accurate when you make it larger. If you typically print a standard sized object in the X & Y planes, then use a block outline of the shape that you are going to print as the resin shrinkage may not be a true linear correction.
+- [ ] Make a cube or download one if lazy. 20mm cubes are typical, but the correction factor will be more accurate when you make it larger. If you typically print a standard sized object in the X & Y planes, then use a block outline of the shape you will print as the resin shrinkage may not be a true linear correction.
 - [ ] Slice the .stl file as usual, at 100% scale.
 - [ ] Print, wash and cure the object.
 - [ ] Calculate the scaling factor:  
@@ -399,7 +399,7 @@ It's completely normal. It's a good sign that your print is sticking to the buil
 
 **How do I know that my print is sticking to the build plate?** 
 
-·  One easy way to tell is by listening for the sound that's made as the layer peels off the FEP. You can hear it clearly, especially for the first few bottom layers. Don't worry if you can't hear it anymore later; it varies depending on the size of the layer being printed. 
+·  One easy way to tell is by listening for the sound that's made as the layer peels off the FEP. You can hear it clearly, especially for the first few bottom layers. Don't worry if you can't hear it anymore later; it varies depending on the layer's size being printed. 
 
 ·  You can also use the pause to check on your print, but note that you may get a line at the layer where you paused. 
 
@@ -417,9 +417,9 @@ This is almost always a build plate leveling issue. Make sure your leveling is 1
 
 ·  The build plate may have shifted. Try and level it again; make sure to tighten well. 
 
-·  There may be cured resin in your vat. Drain and clean. 
+·  There may be cured resin in your vat, in which case you should drain and clean. 
 
-·  Did you remember to set Z=0?
+·  Did you remember to set, or reset, Z=0?
 
 ·  The FEP film may be too tight or too loose. 
 
@@ -495,11 +495,11 @@ Once you have drained the vat of resin, spray down with IPA and gently wipe it o
 
 **What else can I use to clean my prints and tools from uncured resin?**
 
-·  Manufacturers universally advise the use of a solvent like 91% IPA (Isopropyl Alcohol) or 95% Ethanol. Proprietary cleaning solutions or other solvents may also be used, such as Mineral spirits (aka White spirits, Turpentine), etc. 
+·  Manufacturers universally advise using a solvent like 91% IPA (Isopropyl Alcohol) or 95% Ethanol. Proprietary cleaning solutions or other solvents may also be used, such as Mineral spirits (aka White spirits, Turpentine), etc. 
 
-·  If you have bought a water washable resin, you can simply use water and some mild soap. 
+·  If you have bought a water-washable resin, you can simply use water and some mild soap. 
 
-·  A small brush is very helpful to get into and clean the fine grooves or details in your prints.
+·  A small brush helps get into and clean the fine grooves or details in your prints.
 
 ·  Alcohol and other flammable solvents should not be used directly with ultrasonic cleaners because of the fire hazard.
 
@@ -507,26 +507,21 @@ Once you have drained the vat of resin, spray down with IPA and gently wipe it o
 
 It depends on environmental factors and type/brand of resin. Typically if the resin is kept out of light and spared any moisture/dirt, it may sit in the vat for a few weeks. Clear resins tend to sit better; opaque resins will need more stirring before use to mix the pigments back. When in doubt, check the resin manufacturer's datasheet/recommendations. 
 
-·  Check for loose cured resin or stuck resin, you will need to clean that out. 
+·  Check for loose cured resin or stuck resin; you will need to clean that out. 
 
-·  Cover the vat, you can cut a piece of cardboard that fits over the vat, or print one out on an FDM printer.
+·  Cover the vat. You can cut a piece of cardboard that fits over the vat or print one out on an FDM printer.
 
-·  Before printing, carefully stir the resin for 1 - 2 minutes with the a soft silicone spatula, be careful not to scratch the FEP screen.
+·  Before printing, carefully stir the resin for 1 - 2 minutes with a soft silicone spatula, be careful not to scratch the FEP screen.
 
-·  Do not leave the build plate hanging with uncured resin, take it out and clean with IPA, leave it out until you are ready to print, this will lessen the weight on the single lead screw thus prevent deformation and potential Z wobble. 
+·  Do not leave the build plate hanging with uncured resin. Take it out and clean with IPA - leave it out until you are ready to print. This will lessen the weight on the single lead screw prevent deformation and potential Z wobble. 
 
-**Can I put excess resin that doesn't get used in a print back into the original bottle?**
+**Can I put excess resin that didn't get used during a print back into the original bottle?**
 
-Yes, but always strain out any debris using a filter! The resin vat has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel (screen placed inside funnel) to pour the resin back into the bottle. Inspect the FEP's surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
+Yes, but always strain out any debris using a filter! The resin vat has one corner recessed to aid in pouring. Use the recessed corner in combination with a funnel (screen placed inside the funnel) to pour the resin back into the bottle. Inspect the FEP's surface for any scratches, dents, or holes. If the FEP is damaged, replace it immediately.
 
 **Water washable resin, how to dispose of the dirty water after washing the print? Wash it down the drain?** 
 
 **Do not pour it down the drain!** Water washable resin works because it uses water-soluble monomers. Water isn't an acrylate. Water can not cure. When you dilute resin into anything that's not capable of curing, it won't be inert again. 
-
-Even after you expose the mixture to UV, the photoinitiators in the diluted resin water will still cleave and generate free radicals. If some acrylate molecules are nearby, there will be a tiny bit of chain growth taking place. The spent photoinitiators, pigments, and the portion of the resin that actually cures will settle out, but the rest will still remain diluted in the water. 
-
-*What this means is that resin cannot cure to completion in solution (water). It cannot cure due to a change in concentration of reactants, and there will be contaminates in the wash that are not safe down the drain.*
-
 The only proper way to dispose of the wash is to reduce the solution by evaporation, and then collect and UV cure the resin residuals and dispose of them properly. 
 
 
@@ -555,11 +550,11 @@ The material will degrade due to UV irradiation. With extreme UV exposure levels
 
 **Will curing prints underwater speed up the curing time?**
 
-Yes. Underwater heat dissipation and UV diffuse scattering effect will be better. The water does absorb UV light, but the absorption is not significant at the wavelengths used to cure UV resin. So you don’t have to add much exposure time if you cure your parts in a shallow tank of water. There are really no “cons” to curing in a water bath, other than getting your parts wet and require drying.
+Yes. Underwater heat dissipation and UV diffuse scattering effect will be better. The water does absorb UV light, but the absorption is not significant at the wavelengths used to cure UV resin. So you don't have to add much exposure time if you cure your parts in a shallow tank of water. There are really no "cons" to curing in a water bath, other than getting your parts wet and require drying.
 
 **Is post-curing with sunlight useful?** 
 
-If you don’t have a UV chamber, you can submerge the print in a clear container filled with water, as said above. Then place the container under direct sunlight. Of course, the exposure time will be much longer than under a direct UV lamp. If the print still feels uncured or sticky, leave the print and the container in the sun for some more time.
+If you don't have a UV chamber, you can submerge the print in a clear container filled with water, as said above. Then place the container under direct sunlight. Of course, the exposure time will be much longer than under a direct UV lamp. If the print still feels uncured or sticky, leave the print and the container in the sun for some more time.
 
 **How durable are the prints? Will they break if I drop them?** 
 
@@ -567,7 +562,7 @@ It depends on the resin used. Unlike PLA or ABS, regular hobby-grade resin print
 
 **Why do I get white chalky residue on my prints after curing?** 
 
-The white residue appears if there's moisture, water, or uncured resin on your prints when UV cured. Always clean you prints well and make sure they are completely dry before the UV curing. 
+The white residue appears if there's moisture, water, or uncured resin on your prints when UV cured. Always clean your prints well and make sure they are completely dry before the UV curing. 
 
 
 
@@ -575,7 +570,7 @@ The white residue appears if there's moisture, water, or uncured resin on your p
 
 When you receive your new printer, it will come with an aluminum or plastic vat frame with FEP film already installed. Check that the film is tight by lightly tapping with your finger. If it is tensioned correctly, it should sound just like a snare drum. 
 
-Sometimes the screws may seem loose, but it may be tensioned correctly from the factory. Do not simply tighten the screws, or you may then over tension the FEP. 
+Sometimes the screws may seem loose, but they may be tensioned correctly from the factory. Do not merely tighten the screws, as you may over tension the FEP. 
 
 **How tight exactly should the FEP be tensioned?** 
 
@@ -585,13 +580,13 @@ If it sounds like a snare drum when you lightly tap with a finger, it should be 
 
 When your print peels from the FEP film, there are a lot of suction forces involved. Unlike more expensive machines, it does not have a tilt peel mechanism; therefore, it relies on the FEP film's flexibility to provide a clean and successful peel. 
 
-*If the film is too tightly tensioned, your prints won't peel off properly and may stick to the build plate, too loosely tensioned and it'll have layer lines or other unwanted artifacts.*
+*If the film is too tightly tensioned, your prints won't peel off properly and may stick to the build plate, too loosely tensioned, and it'll have layer lines or other unwanted artifacts.*
 
 A correctly tensioned FEP at a normal room temperature will give the best print results and avoid print failures or delamination problems. 
 
 **Should I coat my FEP film?**
 
-Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. With that being said, many users report increased success rates with different coatings but caution must be taken as application and compounds vary from case to case.
+Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. With that being said, many users report increased success rates with different coatings but caution must be taken as applications and compounds vary from case to case.
 
 **Why is my FEP film so cloudy or hazy?** 
 
@@ -599,11 +594,11 @@ When new, the film is clear. But it is easily scratched by handling or cleaning.
 
 **When should I replace my FEP film?** 
 
-If you take care of it, it will not need to be replaced for months. FEP film needs to be replaced only when it becomes too scratched up or cloudy from use. If it is not replaced, your print quality will deteriorate. Replace it immediately if it is punctured or torn. If you notice cured resin on your LCD glass, it means the film may have a micro tear.
+If you take care of it, it will not need to be replaced for months. You should only need to replace the FEP film when it becomes scratched up or cloudy. If it is not correctly maintained, your print quality will deteriorate. Replace it immediately if it is punctured or torn. If you notice cured resin on your LCD glass, it means the film may have a micro tear.
 
 **How do I replace the FEP film?** 
 
-Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). It is important to note one very important omission in that video: there is no mention of tightness! Watch the below video for that. Also, it is much easier to trim the excess FEP before placing the retaining assembly into the VAT frame. 
+Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). It is important to note one significant neglect in that video: there is no mention of tightness! Watch the below video for that. It is also much easier to trim the excess FEP before placing the retaining assembly into the VAT frame. 
 FEP replacement video using Gatorade bottle cap [here](https://youtu.be/Yr_wtZqBfbQ). 
 
 **How do I test if my FEP film has protective plastic on it?** 
@@ -612,7 +607,7 @@ It's difficult to see if there's a protective plastic film on your FEP. An easy 
 
 **Why do I need to use a bottle cap or foam when replacing the FEP film?** 
 
-The bottle cap, or foam, will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
+The bottle cap, or foam, will allow some slack to the film so that when you tighten the frame down, you will get approximate tension. If you don't do that, you may over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
 
 
 
@@ -628,9 +623,9 @@ The bottle cap, or foam, will allow some slack to the film, so that when you tig
 
 ·  Dust off and keep the printer's cover clean. Clean the lid with IPA, but do not use ethanol or acetone. 
 
-·  Clean and Grease Z-Screw. About every two months or earlier, depending on usage frequency, clean and replace the grease for the lead screw. If it squeaks, do this immediately. 
+·  Clean and Grease Z-Screw. Depending on usage frequency, every two months or earlier, clean and replace the grease on the lead screw. If it squeaks, do this immediately. 
 
-Peter Grande has a good video on general maintenance, you can find it [here](https://youtu.be/2178v1iMSqo). 
+Peter Grande has a good video on general maintenance; you can find it [here](https://youtu.be/2178v1iMSqo). 
 
 **What grease should I use for the lead screw (Z rod)?**
 
@@ -665,7 +660,7 @@ From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupp
 
 ## :heavy_check_mark:CONSUMABLE ITEMS
 
-There are many consumables available for resin printing, and this is just a brief list to give you some ideas. In addition to this consumables list, you will need resin. There are several kinds of resins; standard, high-definition, flexible, castable, high-temperature, and more. Each resin presents its unique strengths and weaknesses, but the standard type is usually best to start off with while getting comfortable with the resin printing process. With that, when selecting a resin, make sure that it is compatible with your machine - which is an MSLA LED/LCD unit with a 405nm light source. Please pay attention to the resin manufacturer's recommended operating temperature to ensure that it will be usable in your environment.   
+There are many consumables available for resin printing, and this is just a brief list to give you some ideas. In addition to this consumables list, you will need resin. There are several kinds of resins; standard, high-definition, flexible, castable, high-temperature, and more. Each resin presents its unique strengths and weaknesses, but the standard type is usually best to start while getting comfortable with the resin printing process. With that, when selecting a resin, make sure that it is compatible with your machine - which is an MSLA LED/LCD unit with a 405nm light source. Please pay attention to the resin manufacturer's recommended operating temperature to ensure that it will be usable in your environment.   
 
 **Tier 1 - Critical Items. These are the typical use items that you should have on hand.**  
 *Metal Scraper  
