@@ -12,8 +12,6 @@
 
 ·  [BUILD PLATE LEVELING](#roller_coasterBUILD-PLATE-AND-LEVELING)
 
-·  [RESIN VAT & FEP SETUP](#oceanVAT-AND-FEP-SETUP)
-
 ·  [MODEL SETUP & SETTINGS](#microscopeMODEL-SETUP-AND-SETTINGS)
 
 ·  [STARTING A PRINT](#rocketPRINTING)
@@ -22,7 +20,9 @@
 
 ·  [POST PROCESSING THE PRINT](#hammerPOST-PROCESSING)
 
-·  [PRINTER MAINTENANCE](#nut_and_boltMAINTENANCE-AND-TROUBLESHOOTING)
+·  [FEP MAINTENANCE](#oceanFEP-MAINTENANCE)
+
+·  [PRINTER MAINTENANCE](#nut_and_boltPRINTER-MAINTENANCE)
 
 ·  [CONSUMABLE ITEMS](#heavy_check_markCONSUMABLE-ITEMS)
 
@@ -203,51 +203,6 @@ For the vast majority of standard modeling resins, ensuring a leveled build plat
 Some resins such as Anycubic Maroon or Monocure Rapid are known to be notoriously tricky to obtain adhesion. This is due to their formulation. Try other resins, or increase bottom exposures by 10-second increments and keep testing. 
 
 Castable and other specialty resins such as Blue cast (monomer-free) generally need longer bottom exposures and the help of a primer coat. Primers are just UV glue and can be found online cheaply. You can also try LOCA (Liquid Optically Clear Adhesive), 
-
-
-
-## :ocean:VAT AND FEP SETUP
-
-When you receive your new printer, it will come with an aluminum or plastic vat frame with FEP film already installed. Check that the film is tight by lightly tapping with your finger. If it is tensioned correctly, it should sound just like a snare drum. 
-
-Sometimes the screws may seem loose, but it may be tensioned correctly from the factory. Do not simply tighten the screws, or you may then over tension the FEP. 
-
-**How tight exactly should the FEP be tensioned?** 
-
-If it sounds like a snare drum when you lightly tap with a finger, it should be good enough. But since hearing is subjective, to be precise, you should use an audio analyzer to check; factory tensioned FEP film is around 350Hz, but anything between 250Hz to 375Hz is fine. [This](https://youtu.be/Yr_wtZqBfbQ) video shows how to tune/tension your FEP.
-
-**Why do I have to go through all this trouble to get the correct FEP tension?** 
-
-When your print peels from the FEP film, there are a lot of suction forces involved. Unlike more expensive machines, it does not have a tilt peel mechanism; therefore, it relies on the FEP film's flexibility to provide a clean and successful peel. 
-
-*If the film is too tightly tensioned, your prints won't peel off properly and may stick to the build plate, too loosely tensioned and it'll have layer lines or other unwanted artifacts.*
-
-A correctly tensioned FEP at a normal room temperature will give the best print results and avoid print failures or delamination problems. 
-
-**Should I coat my FEP film?**
-
-Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. With that being said, many users report increased success rates with different coatings but caution must be taken as application and compounds vary from case to case.
-
-**Why is my FEP film so cloudy or hazy?** 
-
-When new, the film is clear. But it is easily scratched by handling or cleaning. Use a soft tissue to soak resin when cleaning up the vat, do not aggressively wipe the film as even tissue will scratch it. These micro scratches cause the film to go cloudy. Buffing the film with a microfiber cloth will restore some clarity. The film must be kept clear to ensure sharp and detailed prints. 
-
-**When should I replace my FEP film?** 
-
-If you take care of it, it will not need to be replaced for months. FEP film needs to be replaced only when it becomes too scratched up or cloudy from use. If it is not replaced, your print quality will deteriorate. Replace it immediately if it is punctured or torn. If you notice cured resin on your LCD glass, it means the film may have a micro tear.
-
-**How do I replace the FEP film?** 
-
-Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). It is important to note one very important omission in that video: there is no mention of tightness! Watch the below video for that. Also, it is much easier to trim the excess FEP before placing the retaining assembly into the VAT frame. 
-FEP replacement video using Gatorade bottle cap [here](https://youtu.be/Yr_wtZqBfbQ). 
-
-**How do I test if my FEP film has protective plastic on it?** 
-
-It's difficult to see if there's a protective plastic film on your FEP. An easy way to test is by dripping a few drops of resin on your FEP film, then hold the film vertically. If the resin slides downward easily without sticking and leaves the FEP clear, it's good. If the resin sticks where you dripped it and moves slowly or smears, you have protective plastic that needs to be removed. 
-
-**Why do I need to use a bottle cap or foam when replacing the FEP film?** 
-
-The bottle cap, or foam, will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
 
 
 
@@ -620,7 +575,52 @@ The white residue appears if there's moisture, water, or uncured resin on your p
 
 
 
-## :nut_and_bolt:MAINTENANCE AND TROUBLESHOOTING
+## :ocean:FEP MAINTENANCE
+
+When you receive your new printer, it will come with an aluminum or plastic vat frame with FEP film already installed. Check that the film is tight by lightly tapping with your finger. If it is tensioned correctly, it should sound just like a snare drum. 
+
+Sometimes the screws may seem loose, but it may be tensioned correctly from the factory. Do not simply tighten the screws, or you may then over tension the FEP. 
+
+**How tight exactly should the FEP be tensioned?** 
+
+If it sounds like a snare drum when you lightly tap with a finger, it should be good enough. But since hearing is subjective, to be precise, you should use an audio analyzer to check; factory tensioned FEP film is around 350Hz, but anything between 250Hz to 375Hz is fine. [This](https://youtu.be/Yr_wtZqBfbQ) video shows how to tune/tension your FEP.
+
+**Why do I have to go through all this trouble to get the correct FEP tension?** 
+
+When your print peels from the FEP film, there are a lot of suction forces involved. Unlike more expensive machines, it does not have a tilt peel mechanism; therefore, it relies on the FEP film's flexibility to provide a clean and successful peel. 
+
+*If the film is too tightly tensioned, your prints won't peel off properly and may stick to the build plate, too loosely tensioned and it'll have layer lines or other unwanted artifacts.*
+
+A correctly tensioned FEP at a normal room temperature will give the best print results and avoid print failures or delamination problems. 
+
+**Should I coat my FEP film?**
+
+Not needed in most cases, FEP (fluorinated ethylene propylene, invented by DuPont, sold under the brand name Teflon FEP) is already one of the most slippery materials known to science. With that being said, many users report increased success rates with different coatings but caution must be taken as application and compounds vary from case to case.
+
+**Why is my FEP film so cloudy or hazy?** 
+
+When new, the film is clear. But it is easily scratched by handling or cleaning. Use a soft tissue to soak resin when cleaning up the vat, do not aggressively wipe the film as even tissue will scratch it. These micro scratches cause the film to go cloudy. Buffing the film with a microfiber cloth will restore some clarity. The film must be kept clear to ensure sharp and detailed prints. 
+
+**When should I replace my FEP film?** 
+
+If you take care of it, it will not need to be replaced for months. FEP film needs to be replaced only when it becomes too scratched up or cloudy from use. If it is not replaced, your print quality will deteriorate. Replace it immediately if it is punctured or torn. If you notice cured resin on your LCD glass, it means the film may have a micro tear.
+
+**How do I replace the FEP film?** 
+
+Watch the video by Elegoo detailed step by step [here](https://youtu.be/tsokPTRLXss). It is important to note one very important omission in that video: there is no mention of tightness! Watch the below video for that. Also, it is much easier to trim the excess FEP before placing the retaining assembly into the VAT frame. 
+FEP replacement video using Gatorade bottle cap [here](https://youtu.be/Yr_wtZqBfbQ). 
+
+**How do I test if my FEP film has protective plastic on it?** 
+
+It's difficult to see if there's a protective plastic film on your FEP. An easy way to test is by dripping a few drops of resin on your FEP film, then hold the film vertically. If the resin slides downward easily without sticking and leaves the FEP clear, it's good. If the resin sticks where you dripped it and moves slowly or smears, you have protective plastic that needs to be removed. 
+
+**Why do I need to use a bottle cap or foam when replacing the FEP film?** 
+
+The bottle cap, or foam, will allow some slack to the film, so that when you tighten the frame down you will get approximate tension. If you don't do that, you will over tension the film and it may tear. If it didn't tear, later on you'll be wondering why all your prints fail. 
+
+
+
+## :nut_and_bolt:PRINTER MAINTENANCE
 
 **What maintenance do I need to do to keep my printer running well?** 
 
@@ -664,6 +664,7 @@ From Elegoo's website [here](https://www.elegoo.com/collections/parts-accessorie
 **Where can I find firmware updates, original manual, original USB drive files, and resin settings?**
 
 From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupport).
+
 
 
 ## :heavy_check_mark:CONSUMABLE ITEMS
@@ -710,6 +711,7 @@ Hex Driver Set
 
 *Included with the printer.  
 ^Can be printed or purchased.  
+
 
 
 ## :thumbsup:ACKNOWLEDGMENTS
