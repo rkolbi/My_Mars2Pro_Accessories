@@ -104,8 +104,10 @@ Always handle resins as though they are toxic unless you have specific documenta
 
 Incorrect build plate leveling is one of the top reasons for print failures. Many posted issues invariably trace back to imperfect build plate leveling as the root cause.  
 
-**Make sure you take the time to level your build plate correctly.** Do not rush this step in your hurry to start printing.  
-·  Once your build plate is leveled correctly and locked down tight, you do not have to relevel it anymore unless you make other adjustments that affect the build plate.  
+**Make sure you take the time to level your build plate correctly.** Do not rush this step in your hurry to start printing. 
+
+·  Once your build plate is leveled correctly and locked down tight, you do not have to relevel it anymore unless you make other adjustments that affect the build plate. 
+
 ·  Do not confuse build plate leveling with adjusting the four legs of the machine.
 
 **How do I level my build plate?** 
