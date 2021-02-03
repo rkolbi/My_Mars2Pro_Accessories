@@ -535,11 +535,7 @@ The only proper way to dispose of the wash is to reduce the solution by evaporat
 
 **My print stuck so well to the build plate that I can't remove it?** 
 
-Congratulations on having a well-leveled plate. Sometimes prints adhere so well that removal is difficult. Try the following methods to remove recalcitrant prints, in order of recommendation:
-
-·  Heat up the print and build plate to around 40~50°C by using a hairdryer or running them under hot water. Your print can then be easily removed. 
-
-·  Use the provided sharpened steel scraper - place the build plate on your working surface with its edge on the working table (so the model is facing left and adjustable head facing right or vise-versa), position the steel scraper on the edge where the model and build plate interface, and then give a gentle downwards knock to the handle - fracturing the model off the plate.
+When prints adhere so well that removal is difficult, use the provided sharpened steel scraper to fracture the model off the plate. Place the build-plate/print on your working surface, in a position where the model is facing left and adjustable head facing right or vice-versa. While using a very low, near-parallel to the build-plate angle, position the steel scraper on the edge where the model and build plate interface and then give a quick, gentle downwards knock to the handle. Running hot water over the print/build-plate for several seconds may provide additional assistance.
 
 **When should I remove supports?** 
 
