@@ -189,16 +189,6 @@ No, this should not be required. If you have correctly leveled, securely tighten
 
 Sanding is the last resort you should attempt, and only when you have verified that the build-plate surface is not flat.
 
-**I'm sure my build-plate is level, but I still can't get a print!** 
-
-Did you just switch resins? Did you use an unsuitable resin formulated for SLA Laser or DLP printers? Are you using specialty castable resins? Did you mix the resin properly before use? Is the resin expired? Is it too cold? Many factors may affect print adhesion. Keep testing to find the root causes for your plate adhesion issues. 
-
-For the vast majority of standard modeling resins, ensuring a leveled build-plate and increasing bottom exposures should enable plate adhesion.
-
-Some resins such as Anycubic Maroon or Monocure Rapid are known to be notoriously tricky to obtain adhesion. This is due to their formulation. Try other resins, or increase bottom exposures by 10-second increments and keep testing. 
-
-Castable and other specialty resins such as Blue cast (monomer-free) generally need longer bottom exposures and the help of a primer coat. Primers are just UV glue and can be found online cheaply. You can also try LOCA (Liquid Optically Clear Adhesive), 
-
 
 
 ## :microscope:MODEL SETUP AND SETTINGS
