@@ -10,7 +10,7 @@
 
 ·  [POWERING ON THE PRINTER](#electric_plugPOWERING-ON-THE-PRINTER)
 
-·  [BUILD PLATE LEVELING](#roller_coasterBUILD-PLATE-AND-LEVELING)
+·  [BUILD-PLATE LEVELING](#roller_coasterBUILD-PLATE-AND-LEVELING)
 
 ·  [MODEL SETUP & SETTINGS](#microscopeMODEL-SETUP-AND-SETTINGS)
 
@@ -34,11 +34,11 @@
 
 **Your Elegoo is a <u>M</u>asked <u>S</u>tereo<u>L</u>ithography <u>A</u>pparatus resin printer or MSLA for short.** The word stereolithography comes from the Greek word stereo, meaning solid, and (photo)lithography, a form of 'writing' with light. Stereolithography with your 3D printer does precisely that, drawing solids with light one layer at a time. Masked Stereolithography Apparatus(MSLA) utilizes a 405nm wavelength LED array as its light source and an LCD photomask to shape the LED array's light image. The LCD photomask is digitally displayed and composed of square pixels. Then individual pixels are deactivated on the LCD to allow the LED light to pass through to form the resulting layer.
 
-The printing process starts as the build plate descends into a resin vat, leaving space equal to the layer height between the build platform, or the last completed layer, and the bottom of the vat. The LCD mask then selectively allows UV light to pass through it, shining the light upward through the vat's bottom and curing a layer of resin. 
+The printing process starts as the build-plate descends into a resin vat, leaving space equal to the layer height between the build platform, or the last completed layer, and the bottom of the vat. The LCD mask then selectively allows UV light to pass through it, shining the light upward through the vat's bottom and curing a layer of resin. 
 
-The cured layer then gets peeled from the bottom of the vat as the build platform moves up, pulling the layer off the FEP. In essence, this is a tug of war between the build plate surface and the FEP film. The build plate usually wins this challenge as it remains flat, not allowing any edges to start peeling. The FEP film however is non-stick, highly flexible, and purposely loose. When the cured layer gets pulled upwards by the build plate, the FEP film curves, letting the cured layer's edges begin to break free as the build plate rises - breaking the surface suction force and yielding a peel. Once the layer is detached and raised, the fresh resin flows beneath, and the process repeats until the print is complete.
+The cured layer then gets peeled from the bottom of the vat as the build platform moves up, pulling the layer off the FEP. In essence, this is a tug of war between the build-plate surface and the FEP film. The build-plate usually wins this challenge as it remains flat, not allowing any edges to start peeling. The FEP film however is non-stick, highly flexible, and purposely loose. When the cured layer gets pulled upwards by the build-plate, the FEP film curves, letting the cured layer's edges begin to break free as the build-plate rises - breaking the surface suction force and yielding a peel. Once the layer is detached and raised, the fresh resin flows beneath, and the process repeats until the print is complete.
 
-:bulb:To allow the tug of war to work in favor of yielding a successful print, the FEP has to remain non-stick and flexible, the resin has to stay viscous, and the build plate needs to bond to the resin. Assuming the item to be printed has been orientated and sliced correctly, the easiest way to ensure success is to keep the build plate and FEP clean, operate the printer at a room temperature of 21'C and above, and have a leveled build plate. Regarding temperature, always check the resin manufacturer's data as some require it to be a bit higher.
+:bulb:To allow the tug of war to work in favor of yielding a successful print, the FEP has to remain non-stick and flexible, the resin has to stay viscous, and the build-plate needs to bond to the resin. Assuming the item to be printed has been orientated and sliced correctly, the easiest way to ensure success is to keep the build-plate and FEP clean, operate the printer at a room temperature of 21'C and above, and have a leveled build-plate. Regarding temperature, always check the resin manufacturer's data as some require it to be a bit higher.
 
 
 
@@ -78,7 +78,7 @@ Always handle resins as though they are toxic unless you have specific documenta
 
 ·  [APPLY POWER TO THE PRINTER](#electric_plugPOWERING-ON-THE-PRINTER)
 
-·  [LEVEL THE BUILD PLATE](#roller_coasterBUILD-PLATE-AND-LEVELING)
+·  [LEVEL THE BUILD-PLATE](#roller_coasterBUILD-PLATE-AND-LEVELING)
 
 ·  [PREPARE AND PRINT THE TEST FILE](#rocketPRINTING)
 
@@ -100,72 +100,72 @@ Always handle resins as though they are toxic unless you have specific documenta
 
 
 
-## :roller_coaster:BUILD PLATE AND LEVELING 
+## :roller_coaster:BUILD-PLATE AND LEVELING 
 
-As touched on in the front matter, the printing process starts with the build plate descending into the resin vat, leaving space equal to the layer height between the build-plate and the vat's bottom FEP lining. An improperly leveled build-plate will cause this space to be too large or too small, leading to failed print will with harden resin stuck to the vat's bottom. 
-Make sure you take the time to level your build plate correctly. Do not rush this step in your hurry to start printing, take time and get it right. Once your build plate is leveled correctly and locked down tight, you do not have to relevel it anymore unless you make other adjustments that affect the build plate. *Do not confuse build plate leveling with adjusting the four legs of the machine - which is leveling the machine itself.*
+As touched on in the front matter, the printing process starts with the build-plate descending into the resin vat, leaving space equal to the layer height between the build-plate and the vat's bottom FEP lining. An improperly leveled build-plate will cause this space to be too large or too small, leading to failed print will with harden resin stuck to the vat's bottom. 
+Make sure you take the time to level your build-plate correctly. Do not rush this step in your hurry to start printing, take time and get it right. Once your build-plate is leveled correctly and locked down tight, you do not have to relevel it anymore unless you make other adjustments that affect the build-plate. *Do not confuse build-plate leveling with adjusting the four legs of the machine - which is leveling the machine itself.*
 
-**How do I level my build plate?** 
+**How do I level my build-plate?** 
 
 It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw), and the reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4).
 
 **:wrench:Preferred Method - Step by step follows:**  
-- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
-- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
+- [ ] If the build-plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
+- [ ] Remove the build-plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build-plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
 - [ ] Optional but recommended: Test the UV light source by selecting the 'Tool' button, 'Exposure' button, adjust for a few seconds and select the 'Next' button to begin.  You should see a complete rectangular image on the top LCD; the front touchscreen should display the same.  
-- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
-- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
+- [ ] Ensure the build-plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build-plate surface with alcohol and lint-free cloth.  
+- [ ] Loosen the two bright hex-head bolts on the build-plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build-plate to rotate freely as well as up and down.  
 - [ ] Remove the resin vat and place it on its side, in an area where you won't knock it. Check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
 - [ ] Get a standard sheet of printer paper, cut it in half, and place it over the top LCD screen.  
-- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
+- [ ] Slide the build-plate back onto the printer's Z-axis and tighten the rotary knob.  
 - [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
-- [ ] The build plate will go down to the paper, slightly rise, and then down again. Check the build plate's alignment and rotate as needed to ensure it is square with the printer.  
-- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
-- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. :warning:If one side was easier to pull the paper than the other, you will have to readjust by loosening the securing screws and go up three steps. If this is a continuing problem, see the notes following the leveling section.:warning: 
+- [ ] The build-plate will go down to the paper, slightly rise, and then down again. Check the build-plate's alignment and rotate as needed to ensure it is square with the printer.  
+- [ ] While gently pressing down on the build-plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
+- [ ] Gently try to pull the paper out, not all the way but just only by a few millimeters or so. Try the pull test from the left and then the right edges. If the paper is unable to move, raise the build-plate 0.1mm by first selecting the '0.1mm' button, followed by the Up button - this is not always required, only if you feel the paper will tear when pulling. :warning:If one side was easier to pull the paper than the other, you will have to readjust by loosening the securing screws and go up three steps. If this is a continuing problem, see the notes following the leveling section.:warning: 
 - [ ] Select the 'Z=0' button, and select confirm.  
-- [ ] After setting Z=0, verify that it is set correctly by starting a dry-run print, leaving the piece of paper on the screen, and checking that the build plate starts the first layer at the correct Z=0 position have set. !Remember that Z=0 is not the same as Home.  
-- [ ] Raise the build plate by pressing the 10mm button, followed by the up button, at least seven times. Remove the paper.  
+- [ ] After setting Z=0, verify that it is set correctly by starting a dry-run print, leaving the piece of paper on the screen, and checking that the build-plate starts the first layer at the correct Z=0 position have set. !Remember that Z=0 is not the same as Home.  
+- [ ] Raise the build-plate by pressing the 10mm button, followed by the up button, at least seven times. Remove the paper.  
 - [ ] Grab the resin vat. Check it free and clean - both sides. And again, check the top LCD free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
 - [ ] Gently slide the resin vat into position, taking care to glide it in with a slight upward force against the securing towers and not the LCD screen (the vat film and LCD screen scratch quickly). Ensure the vat is in place before screwing in the two-tower side bolts by feeling a small detent position where it sits securely without wobble. The max resin fill indication should be visible from the front, and the resin pour-out groove should be furthest from you on the left.
 
 **:wrench:Alternate Method 1 / Clean & Empty VAT in place - Step by step follows:**  
 
-- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
-- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
-- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
-- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
+- [ ] If the build-plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
+- [ ] Remove the build-plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build-plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
+- [ ] Ensure the build-plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build-plate surface with alcohol and lint-free cloth.  
+- [ ] Loosen the two bright hex-head bolts on the build-plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build-plate to rotate freely as well as up and down.  
 - [ ] Check the FEP free and clean. If dust or residue is present, remove using a clean microfiber cloth - apply alcohol if needed. !Only use microfiber cloth!  
-- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
+- [ ] Slide the build-plate back onto the printer's Z-axis and tighten the rotary knob.  
 - [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
-- [ ] The build plate will go down to the FEP, slightly rise, and then down again. Check the build plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
-- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
+- [ ] The build-plate will go down to the FEP, slightly rise, and then down again. Check the build-plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
+- [ ] While gently pressing down on the build-plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
 - [ ] Select the 'Z=0' button, and select confirm.  
 
 **:wrench:Alternate Method 2 / Resin Filled VAT in place - Step by step follows:**  
 
-- [ ] If the build plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
-- [ ] Remove the build plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
-- [ ] Ensure the build plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build plate surface with alcohol and lint-free cloth.  
-- [ ] Loosen the two bright hex-head bolts on the build plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build plate to rotate freely as well as up and down.  
-- [ ] Ensure there are no solidified/hardened pieces of resin present in the VAT. Ensure the FEP surface is smooth by gently raking a soft silicone spatula across all of its surface areas. :warning: If roughness exists, stop the leveling process, filter the VAT's contents back into the resin bottle, clean the VAT, and then restart leveling :warning: Damage to the FEP and LCD screen is possible when debris exists between the FEP and build plate.   
-- [ ] Slide the build plate back onto the printer's Z-axis and tighten the rotary knob.  
+- [ ] If the build-plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
+- [ ] Remove the build-plate by turning the top black rotary knob (on the Z-axis) in a counter-clockwise direction, enabling the build-plate to be slid towards you. Do not remove the rotary knob; only rotate it enough to slide the plate off.  
+- [ ] Ensure the build-plate surface is clean and free of any resin or gunk; gently scrape if needed. Clean the build-plate surface with alcohol and lint-free cloth.  
+- [ ] Loosen the two bright hex-head bolts on the build-plate head using the large hex wrench - one is on the front, the other on the side. Do not unscrew completely, just enough to allow the build-plate to rotate freely as well as up and down.  
+- [ ] Ensure there are no solidified/hardened pieces of resin present in the VAT. Ensure the FEP surface is smooth by gently raking a soft silicone spatula across all of its surface areas. :warning: If roughness exists, stop the leveling process, filter the VAT's contents back into the resin bottle, clean the VAT, and then restart leveling :warning: Damage to the FEP and LCD screen is possible when debris exists between the FEP and build-plate.   
+- [ ] Slide the build-plate back onto the printer's Z-axis and tighten the rotary knob.  
 - [ ] Home the Z-axis by selecting the 'Tool' button, 'Manual' button, and Home button (looks like an upside-down T).  
-- [ ] The build plate will go down to the FEP, slightly rise, and then down again. Check the build plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
-- [ ] While gently pressing down on the build plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
+- [ ] The build-plate will go down to the FEP, slightly rise, and then down again. Check the build-plate's alignment and very gently rotate as needed to ensure it is square with the printer.  
+- [ ] While gently pressing down on the build-plate, ensuring it is completely flat and square, tighten the forward-facing hex-head bolt first, followed by the side facing.  
 - [ ] Select the 'Z=0' button, and select confirm.
 
 
-**How tight to the paper should I level the build plate?**
+**How tight to the paper should I level the build-plate?**
 
-When using the recommended paper method, the paper should be tight enough to pull out with even resistance but not push back in. Remember that the build plate must grip the paper evenly. 
+When using the recommended paper method, the paper should be tight enough to pull out with even resistance but not push back in. Remember that the build-plate must grip the paper evenly. 
 
-**Remember** that as you tighten the front and side securing screws, it can move the plate by a tiny fraction - when tightening the bolts, always keep a hand gently pressing the build plate down and level. When done, if you will find that you cannot pull the paper without tearing, you should raise / backoff the build plate level by 0.1mm (100um) until the plate is gripping the paper with even resistance and that you can pull but not push it back. This usually requires just one raising of 0.1mm. Lastly, whether you had to raise the plate or not, set Z=0.
+**Remember** that as you tighten the front and side securing screws, it can move the plate by a tiny fraction - when tightening the bolts, always keep a hand gently pressing the build-plate down and level. When done, if you will find that you cannot pull the paper without tearing, you should raise / backoff the build-plate level by 0.1mm (100um) until the plate is gripping the paper with even resistance and that you can pull but not push it back. This usually requires just one raising of 0.1mm. Lastly, whether you had to raise the plate or not, set Z=0.
 
-**What type of paper should I use to level the build plate?** 
+**What type of paper should I use to level the build-plate?** 
 
 Just regular photocopy paper, they're generally around 80gsm, but any paper 70 ~ 120gsm (average thickness ranging from 0.05 to 0.10mm) should work too. Just ensure that the paper is clean and not creased or folded. 
 
-**I tried to level the build plate, but one side is tighter than the other?** 
+**I tried to level the build-plate, but one side is tighter than the other?** 
 
 Using your fingers, push the opposite side of the plate when tightening the set bolts. Alternatively, if you're using the paper method, you can slip another strip of paper to the side, which is too tight, and then tighten the screw. You may need to try this a few times to get the perfect level. 
 
@@ -175,25 +175,25 @@ Using your fingers, push the opposite side of the plate when tightening the set 
 
 When a new Z=0 is specified, pressing Home will NOT move the platform to the position you set; it will be the start position when a print is initiated. You can check it by removing the vat and starting a print.
 
-As said, improper leveling contributes to a lot of frustration, mostly because of its mechanics' poor documentation. In this example, let's say you are leveling the printer, loosened the screws, and press home. You tug on the paper, it feels tight, so you raise by .1mm, then hit 'Z=0' because you raised Z. With this, once you home again, the build plate will still stop at mechanical zero because of homing stops at the endstop trigger. If you looked at the electrical position of Z, it would read Z:-0.1. Now we know that when we initiate a print, it will home and then go to Z offset (raise .1mm), and then start printing.
+As said, improper leveling contributes to a lot of frustration, mostly because of its mechanics' poor documentation. In this example, let's say you are leveling the printer, loosened the screws, and press home. You tug on the paper, it feels tight, so you raise by .1mm, then hit 'Z=0' because you raised Z. With this, once you home again, the build-plate will still stop at mechanical zero because of homing stops at the endstop trigger. If you looked at the electrical position of Z, it would read Z:-0.1. Now we know that when we initiate a print, it will home and then go to Z offset (raise .1mm), and then start printing.
 
 Flash forward several prints later, and you level the machine again. You place your piece of paper on the LCD, loosen the screws, and press home. This time you tighten the screws and then remove the paper with no significant tension/friction and think that you don't have to press 'Z=0' because you didn't move Z to take out the paper... WRONG - This is what gives people issues - IF you don't press Z=0, the printer will still have an offset of 0.1mm from the previous leveling, and you may run into problems due to incorrect leveling - because it's 0.1mm off. Remember, homing goes to mechanical zero when the endstop is triggered and doesn't care about the offset!
 
 *Try this for fun: Home and then raise Z by 10mm, press Z=0, and then home again to see where it stops - it will stop when the endstop is triggered, and it will seem as if the Z=0 did nothing. Then, with vat out and no resin, start a print - it will home and then begin to print 10mm above the LCD. So, long story short, when leveling and you're happy with the paper pull test - whether you bumped Z height or not, press 'Z=0'.*
 
-**Do I have to relevel my build plate after every print?**
+**Do I have to relevel my build-plate after every print?**
 
-No, this should not be required. If you have correctly leveled, securely tightened, and locked down the build plate tight, it will remain in place and correctly leveled for a very long time. You only need to relevel your build plate if it has slipped, been knocked, or you made changes that affect the Z=0 position. 
+No, this should not be required. If you have correctly leveled, securely tightened, and locked down the build-plate tight, it will remain in place and correctly leveled for a very long time. You only need to relevel your build-plate if it has slipped, been knocked, or you made changes that affect the Z=0 position. 
 
-**Should I sand my build plate?**
+**Should I sand my build-plate?**
 
-Sanding is the last resort you should attempt, and only when you have verified that the build plate surface is not flat.
+Sanding is the last resort you should attempt, and only when you have verified that the build-plate surface is not flat.
 
-**I'm sure my build plate is level, but I still can't get a print!** 
+**I'm sure my build-plate is level, but I still can't get a print!** 
 
 Did you just switch resins? Did you use an unsuitable resin formulated for SLA Laser or DLP printers? Are you using specialty castable resins? Did you mix the resin properly before use? Is the resin expired? Is it too cold? Many factors may affect print adhesion. Keep testing to find the root causes for your plate adhesion issues. 
 
-For the vast majority of standard modeling resins, ensuring a leveled build plate and increasing bottom exposures should enable plate adhesion.
+For the vast majority of standard modeling resins, ensuring a leveled build-plate and increasing bottom exposures should enable plate adhesion.
 
 Some resins such as Anycubic Maroon or Monocure Rapid are known to be notoriously tricky to obtain adhesion. This is due to their formulation. Try other resins, or increase bottom exposures by 10-second increments and keep testing. 
 
@@ -215,13 +215,13 @@ The test file that came on the included USB stick has been pre-sliced and settin
 
 By orientating the part in different directions, there can be a significant difference in the print quality. Sudden changes of the model structure from a small cross-section to a large cross-section area will lead to severe volumetric changes of layers as the volume of 3D resin in each layer highly affects each cured layer's shrinkage. This can affect the model's integrity and will typically result in visible surface lines.
 CHITBOX has a good article on this topic [here](https://www.chitubox.com/en/article/support/howto/chitubox-free/editing/25). 3DPrintingPro's related video is [here](https://www.youtube.com/watch?v=8xolVj0izVo&t=19s). 
-Lastly, vary the placement of your part on the build plate. If you consistently place your objects in the build plate's center, your FEP will prematurely wear out in the center yet be absolutely fine in the surrounding, unused, wasted areas.
+Lastly, vary the placement of your part on the build-plate. If you consistently place your objects in the build-plate's center, your FEP will prematurely wear out in the center yet be absolutely fine in the surrounding, unused, wasted areas.
 
 **I bought x resin; what are the best settings for it?** 
 
 Every resin behaves differently; there are no best settings that will work for every resin and every machine. For a quick start, you can refer to the [community resin exposure settings](https://www.elegoo.com/pages/3d-printing-user-suupport). Those settings should enable you to get a print going quickly, but you will need to test and adjust from there to find the best settings applicable for your machine. 
 
-Casting resins can have a difficult time bonding to the build plate, and subsequently ruining your print. There are multiple ways to increase adhesion during printing. You may apply a thin layer of primer (can be the very resin you are using) on the plate to improve adhesion. Apply to the build plate and keep under UV light for 10 to 15 minutes. Another way would be to change the profile settings, increase the number of bottom layers, and simultaneously increase the bottom curing time, increasing adhesion. If build plate bonding persists, you can apply resin on the build plate surface and leave for 3 mins before printing. Your last resort would be to rough up the build plate by scrubbing it with a clean 'cooking pan' abrasive pad, using a circular motion, covering the entire plate while it is flat on the working surface. A good video applying primer [here](https://www.youtube.com/watch?v=eDl3vzZy0qQ).
+Casting resins can have a difficult time bonding to the build-plate, and subsequently ruining your print. There are multiple ways to increase adhesion during printing. You may apply a thin layer of primer (can be the very resin you are using) on the plate to improve adhesion. Apply to the build-plate and keep under UV light for 10 to 15 minutes. Another way would be to change the profile settings, increase the number of bottom layers, and simultaneously increase the bottom curing time, increasing adhesion. If build-plate bonding persists, you can apply resin on the build-plate surface and leave for 3 mins before printing. Your last resort would be to rough up the build-plate by scrubbing it with a clean 'cooking pan' abrasive pad, using a circular motion, covering the entire plate while it is flat on the working surface. A good video applying primer [here](https://www.youtube.com/watch?v=eDl3vzZy0qQ).
 
 **How do I find the optimal settings for my resin and machine?** 
 
@@ -244,7 +244,7 @@ Generally, the printers' minimum functional layer height is 25 µm (0.025mm) lay
 
 **·  Bottom Exposure Time:**  Same as *Exposure Time* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
-**·  Light-off Delay:** This is the amount of time that the UV light is turned off between the end of one exposure cycle and the beginning of the next. After exposure, the UV light turns off, the build plate lifts and peels, and then descends; ready for the next cycle and will wait at the bottom (resting at the set layer height over the FEP sheet, at the bottom of your vat) before the UV light comes on again for the next exposure cycle. Longer off-times leave more time for the resin to settle out and form a new layer with fresh resin. This is especially useful for more viscous resins to mitigate issues of poor definition of surfaces facing the build plate.
+**·  Light-off Delay:** This is the amount of time that the UV light is turned off between the end of one exposure cycle and the beginning of the next. After exposure, the UV light turns off, the build-plate lifts and peels, and then descends; ready for the next cycle and will wait at the bottom (resting at the set layer height over the FEP sheet, at the bottom of your vat) before the UV light comes on again for the next exposure cycle. Longer off-times leave more time for the resin to settle out and form a new layer with fresh resin. This is especially useful for more viscous resins to mitigate issues of poor definition of surfaces facing the build-plate.
 
 **·  Bottom Light-off Delay:** Same as *Light-off Delay* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
@@ -252,7 +252,7 @@ Generally, the printers' minimum functional layer height is 25 µm (0.025mm) lay
 
 **·  Bottom Lift Distance:** Same as *Lifting Distance* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
-**·  Lifting Speed:** Lift speed refers to the rate at which the build plate is lifted from the resin vat between layers. When lift speed is too fast, the model and supports can be broken or damaged due to the tug of war between the build plate and the FEP film. But if reduced too much, the printing time will be unnecessarily increased. When modifying this setting, you should take both print quality and print time into account. 
+**·  Lifting Speed:** Lift speed refers to the rate at which the build-plate is lifted from the resin vat between layers. When lift speed is too fast, the model and supports can be broken or damaged due to the tug of war between the build-plate and the FEP film. But if reduced too much, the printing time will be unnecessarily increased. When modifying this setting, you should take both print quality and print time into account. 
 
 **·  Bottom Lift Speed:** Same as *Lifting Speed* but only applies to the bottom layers, as set in the *Bottom Layer Count*.
 
@@ -298,12 +298,12 @@ There isn't one best angle for printing everything. It really depends on your la
 - [ ] Once it opens the file, you will see two columns of numerical data in the lower portion of the screen. Check that 'Exposure Time(s):' and 'Bottom Exposure Time(s):' match the numbers corresponding to your printer/resin in the excel spreadsheet above. 
 - [ ] If the numbers in Chitubox differ from the spreadsheet, double-click the number to change and type the value obtained from the spreadsheet.
 - [ ] Click the 'Save' button and call the file '__My-Rook.ctb'. Safely eject the USB stick from your computer.
-- [ ] Inspect the build plate surface and ensure it is free of any debris. Give it a good wipe down with IPA and a lint-free cloth. Ensure the build plate a firmly secured by snugging the black rotary knob.
+- [ ] Inspect the build-plate surface and ensure it is free of any debris. Give it a good wipe down with IPA and a lint-free cloth. Ensure the build-plate a firmly secured by snugging the black rotary knob.
 - [ ] Inspect the FEP film on the bottom of the resin vat. Make sure it is clean and clear, free of any holes, deep dents, and deep scratches. Ensure the resin vat is secured by snugging the two vat screws.
 - [ ] Identify the max file line in the resin vat. Pour your prepared resin into the vat, filling it halfway - to a level between the FEP film and the max fill line. If any air bubbles exist, wait a few minutes for them to dissipate.
 - [ ] Plug the USB stick in to your printer, select the '__My-Rook.ctb', and commence the print.
 
-A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the vat after every print.
+A successful test print with a known-good model will confirm that your printer works as it should and that you have precisely leveled your build-plate and your FEP tension is correct. It is also inevitable that sooner or later, a print will fail. A failed print will often leave small, partially cured resin pieces floating in the vat or hard cured resin stuck to the FEP. For subsequent prints to have the highest success rate, the resin vat must be cleaned and cleared of debris.  Although it is not required, it is good practice to inspect and clean the vat after every print.
 
 **I'm about to start a print, but the touchscreen shows a filename highlighted in red?** 
 
@@ -323,7 +323,7 @@ To start, fill the VAT about halfway between the FEP surface and max fill line. 
 
 **Can I add resin halfway through a print?**
 
-·  Yes, no problem. You do not have to pause the print; just slowly and gently pour the resin into the vat. Make sure to not bump or touch the build plate while pouring. Be mindful of displacement when adding resin. 
+·  Yes, no problem. You do not have to pause the print; just slowly and gently pour the resin into the vat. Make sure to not bump or touch the build-plate while pouring. Be mindful of displacement when adding resin. 
 
 ·  Make sure to mix the fresh resin well before adding. Try to ensure the resin temperature is the same.
 
@@ -386,13 +386,13 @@ See Elegoo's support guide [here](https://www.elegoo.com/blogs/3d-printer-user-g
 
 **I hear a rumbling / loud humming noise once I start a print?** 
 
-If you're having issues with the build plate homing fine but then trying to bury itself into the LCD and making a rumbling/loud humming noise once a print is initiated - relevel the build plate and ensure you use Z=0.
+If you're having issues with the build-plate homing fine but then trying to bury itself into the LCD and making a rumbling/loud humming noise once a print is initiated - relevel the build-plate and ensure you use Z=0.
 
 **I hear a strange faint knock or a suction/sticking sound every time the plate lifts. Is this normal?** 
 
-It's completely normal. It's a good sign that your print is sticking to the build plate and that the layers are releasing from the FEP film. It will be more audible during the first few bottom layers of the print, don't worry if you can't hear it later on as it depends on the layer section being printed. 
+It's completely normal. It's a good sign that your print is sticking to the build-plate and that the layers are releasing from the FEP film. It will be more audible during the first few bottom layers of the print, don't worry if you can't hear it later on as it depends on the layer section being printed. 
 
-**How do I know that my print is sticking to the build plate?** 
+**How do I know that my print is sticking to the build-plate?** 
 
 ·  One easy way to tell is by listening for the sound that's made as the layer peels off the FEP. You can hear it clearly, especially for the first few bottom layers. Don't worry if you can't hear it anymore later; it varies depending on the layer's size being printed. 
 
@@ -400,17 +400,17 @@ It's completely normal. It's a good sign that your print is sticking to the buil
 
 **My prints just won't stick?** 
 
-This is almost always a build plate leveling issue. Make sure your leveling is 100% correct before attempting these other solutions. 
+This is almost always a build-plate leveling issue. Make sure your leveling is 100% correct before attempting these other solutions. 
 
-·  Clean the build plate carefully with IPA or other solvents. Dry before use. 
+·  Clean the build-plate carefully with IPA or other solvents. Dry before use. 
 
 ·  Shake your resin in the bottle well before using it. Resin already in the vat may have settled and need to be stirred. 
 
 ·  Preheat or warm the resin, you can use a hairdryer or heating pad on most bottles to gently heat the resin to 20~30°C. 
 
-·  Preheat the build plate, same as the resin. 
+·  Preheat the build-plate, same as the resin. 
 
-·  The build plate may have shifted. Try and level it again; make sure to tighten well. 
+·  The build-plate may have shifted. Try and level it again; make sure to tighten well. 
 
 ·  There may be cured resin in your vat, in which case you should drain and clean. 
 
@@ -444,7 +444,7 @@ If your prints have good bottom adhesion but fail at the supports, this is gener
 
 During the printing process, resin components form covalent bonds, but layer to layer, the part remains in a semi-reacted or semi-cured state. While in this semi-reacted state, the resin retains polymerizable groups that can still form bonds across layers. Polymerization only stops when the resin is fully cured via post-processing in a UV station or sunlight. 
 
-Simply put, during printing, the layers of the model facing the FEP film are always sharply defined as the layer is exposed perfectly against it. Whereas the layers facing the build plate, previously exposed, still receive UV light from diffusion/diffraction/scattering from the current exposed layer and thus will still cure slightly. This is akin to overexposure and thus details will be lost. Coupled with this, some resin always remains around the bottom parts (facing the build plate) and will also bond and cure to the details. 
+Simply put, during printing, the layers of the model facing the FEP film are always sharply defined as the layer is exposed perfectly against it. Whereas the layers facing the build-plate, previously exposed, still receive UV light from diffusion/diffraction/scattering from the current exposed layer and thus will still cure slightly. This is akin to overexposure and thus details will be lost. Coupled with this, some resin always remains around the bottom parts (facing the build-plate) and will also bond and cure to the details. 
 
 This is a limitation of the technology but can be largely mitigated and overcome by the following:
 
@@ -452,7 +452,7 @@ This is a limitation of the technology but can be largely mitigated and overcome
 
 ·  Ensure that the model is well orientated and angled to minimize resin pooling and that important details are presented facing the FEP film. 
 
-·  Allow enough clearance for the supports so that resin does not get trapped between the bottom of the print and the build plate.
+·  Allow enough clearance for the supports so that resin does not get trapped between the bottom of the print and the build-plate.
 
 ·  Set longer UV off-times so that more viscous resins can drain during lift. It will also help to heat the resin during colder temperatures. 
 
@@ -508,7 +508,7 @@ It depends on environmental factors and type/brand of resin. Typically if the re
 
 ·  Before printing, carefully stir the resin for 1 - 2 minutes with a soft silicone spatula, be careful not to scratch the FEP screen.
 
-·  Do not leave the build plate hanging with uncured resin. Take it out and clean with IPA - leave it out until you are ready to print. This will lessen the weight on the single lead screw prevent deformation and potential Z wobble. 
+·  Do not leave the build-plate hanging with uncured resin. Take it out and clean with IPA - leave it out until you are ready to print. This will lessen the weight on the single lead screw prevent deformation and potential Z wobble. 
 
 **Can I put excess resin that didn't get used during a print back into the original bottle?**
 
@@ -523,9 +523,9 @@ The only proper way to dispose of the wash is to reduce the solution by evaporat
 
 ## :hammer:POST PROCESSING
 
-**My print stuck so well to the build plate that I can't remove it?** 
+**My print stuck so well to the build-plate that I can't remove it?** 
 
-When prints adhere so well that removal is difficult, use the provided sharpened steel scraper to fracture the model off the plate. Place the build-plate/print on your working surface, in a position where the model is facing left and adjustable head facing right or vice-versa. While using a very low, near-parallel to the build-plate angle, position the steel scraper on the edge where the model and build plate interface and then give a quick, gentle downwards knock to the handle. Running hot water over the print/build-plate for several seconds may provide additional assistance.
+When prints adhere so well that removal is difficult, use the provided sharpened steel scraper to fracture the model off the plate. Place the build-plate/print on your working surface, in a position where the model is facing left and adjustable head facing right or vice-versa. While using a very low, near-parallel to the build-plate angle, position the steel scraper on the edge where the model and build-plate interface and then give a quick, gentle downwards knock to the handle. Running hot water over the print/build-plate for several seconds may provide additional assistance.
 
 **When should I remove supports?** 
 
@@ -575,7 +575,7 @@ If it sounds like a snare drum when you lightly tap with a finger, it should be 
 
 When your print peels from the FEP film, there are a lot of suction forces involved. Unlike more expensive machines, it does not have a tilt peel mechanism; therefore, it relies on the FEP film's flexibility to provide a clean and successful peel. 
 
-*If the film is too tightly tensioned, your prints won't peel off properly and may stick to the build plate, too loosely tensioned, and it'll have layer lines or other unwanted artifacts.*
+*If the film is too tightly tensioned, your prints won't peel off properly and may stick to the build-plate, too loosely tensioned, and it'll have layer lines or other unwanted artifacts.*
 
 A correctly tensioned FEP at a normal room temperature will give the best print results and avoid print failures or delamination problems. 
 
