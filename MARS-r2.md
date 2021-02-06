@@ -251,6 +251,8 @@ Generally, the printers' minimum functional layer height is 25 µm (0.025mm) lay
 **·  Anti-aliasing:** Aliasing is the staircase effect that occurs when diagonal or curved lines or borders are drawn on raster displays consisting of square or rectangular pixels. Anti-aliasing is to smooth object edges by reducing the number of lines and vertical artifacts you see on your 3D printed model.
 CHITUBOX provides an anti-aliasing function with a 2/4/8 level. After special algorithm processing, it makes the model more smooth and effectively reduces edge aliasing.
 
+**·  Transition Layer Count:** This is the number of layers where the bottom and normal exposure times will gradually decrease rather than an abrupt drop, aiding the adhesion between them.   At present, this is only available for the ELEGOO SATURN, and the transition type is linear only.
+
 **What is cupping / suction warping, and how do I combat it? Should I add a vent hole?**
 
 Vent holes are often improperly called "drain" holes; they are not for draining resin. Imagine a glass full of water upside down in a bucket of water. When you pull the glass up out of the bucket, it stays full until the lip of the glass breaks the surface of the water in the bucket. 
