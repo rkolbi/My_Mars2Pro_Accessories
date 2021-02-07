@@ -69,20 +69,20 @@ $`sudo apt-get install samba winbind -y`
 
 $`sudo nano /etc/samba/smb.conf`
 Add the following to the end of the file:
-[Elegoo]
-   comment = Saturn
-   path = /mnt/usb_share/
-   browseable = Yes
-   writeable = Yes
-   only guest = no
-   create mask = 0777
-   directory mask = 0777
-   public = yes
-   read only = no
-   force user = root
-   force group = root
-
-Then ctrl+o, ctrl+x
+[Elegoo]  
+   comment = Saturn  
+   path = /mnt/usb_share/  
+   browseable = Yes  
+   writeable = Yes  
+   only guest = no  
+   create mask = 0777  
+   directory mask = 0777  
+   public = yes  
+   read only = no  
+   force user = root  
+   force group = root  
+  
+Then ctrl+o, ctrl+x  
 
 $`wget https://github.com/luizribeiro/mariner/releases/download/v0.1.1-1/mariner3d_0.1.1-1_armhf.deb`
 
