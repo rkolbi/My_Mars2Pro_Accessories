@@ -80,7 +80,8 @@ Add the following to the end of the file:
    public = yes  
    read only = no  
    force user = root  
-   force group = root  ```
+   force group = root
+   ```
   
 Then ctrl+o, ctrl+x  
 
