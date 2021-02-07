@@ -68,7 +68,7 @@ $`sudo systemctl disable serial-getty@ttyS0`
 $`sudo apt-get install samba winbind -y`
 
 $`sudo nano /etc/samba/smb.conf`
-Add the following to the end of the file:
+Add the following to the end of the file:  
 [Elegoo]  
    comment = Saturn  
    path = /mnt/usb_share/  
