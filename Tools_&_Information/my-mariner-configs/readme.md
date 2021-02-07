@@ -35,7 +35,7 @@ Then ctrl+o, ctrl+x
 
 $`sudo nano /boot/cmdline.txt` -> add `modules-load=dwc2` to the end of the line. Remove `console=serial0,115200`
 Should look like: 
-```console=tty1 root=PARTUUID=BLAHBLAHBLAH rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2
+``` console=tty1 root=PARTUUID=BLAHBLAHBLAH rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2
 ```
 Then ctrl+o, ctrl+x
 
