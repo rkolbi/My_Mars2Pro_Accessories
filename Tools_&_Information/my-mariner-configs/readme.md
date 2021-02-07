@@ -69,7 +69,7 @@ $`sudo apt-get install samba winbind -y`
 
 $`sudo nano /etc/samba/smb.conf`
 Add the following to the end of the file:  
-[Elegoo]  
+```[Elegoo]  
    comment = Saturn  
    path = /mnt/usb_share/  
    browseable = Yes  
@@ -80,7 +80,7 @@ Add the following to the end of the file:
    public = yes  
    read only = no  
    force user = root  
-   force group = root  
+   force group = root  ```
   
 Then ctrl+o, ctrl+x  
 
