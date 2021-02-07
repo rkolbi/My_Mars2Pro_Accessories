@@ -34,8 +34,10 @@ $`sudo nano /boot/config.txt` -> add the following lines to the end of the file:
 Then ctrl+o, ctrl+x
 
 $`sudo nano /boot/cmdline.txt` -> add `modules-load=dwc2` to the end of the line. Remove `console=serial0,115200`
+Should look like: 
+```console=tty1 root=PARTUUID=BLAHBLAHBLAH rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2
+```
 Then ctrl+o, ctrl+x
-Should look like: `console=tty1 root=PARTUUID=BLAHBLAHBLAH rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2`
 
 $`sudo dd bs=1M if=/dev/zero of=/piusb.bin count=4096`
 *This can take several minutes
