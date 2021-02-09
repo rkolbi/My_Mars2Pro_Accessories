@@ -265,7 +265,7 @@ In the vat, the lowest point of the print, the new layer does not generally rise
 
 Initially, in the printer's vat, the inside volume of resin will be pulled up. Eventually, depending on the volume of the inside space and the volume of resin in the vat, the new layer will rise above the fluid level because the surface of the fluid will be moving down at ever-increasing rates with each layer. That is, the level of the fluid inside the space and in the vat are actually moving in opposite directions. When that happens, all of the fluid inside will be released, but now you have a trapped volume of air, so you will alternate between struggling with lifting up and struggling with pushing down. 
 
-Without vent holes, it's a recipe for bad prints. The result is that you can get multiple failures at various heights, depending on where these extremes occur. Formlabs has a good article on [model orientation, venting, and suction cups.](https://support.formlabs.com/hc/en-us/articles/115000018124-Model-Orientation)
+Without vent holes, it's a recipe for bad prints. The result is that you can get multiple failures at various heights, depending on where these extremes occur. Formlabs has a good article on [model orientation](https://support.formlabs.com/s/article/Model-Orientation?language=en_US), [venting, and suction cups](https://support.formlabs.com/s/article/Preventing-suction-cups-in-PreForm?language=en_US).
 
 **How do I hollow my model?**
 
