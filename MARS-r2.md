@@ -203,9 +203,13 @@ The test file that came on the included USB stick has been pre-sliced and settin
 
 **How should I orientate my part?**
 
-By orientating the part in different directions, there can be a significant difference in the print quality. Sudden changes in the layer's cross-section, small to large or vice versa, will lead to a drastic volumetric change of exposed resin, affecting each layer's shrinkage. In severe instances, this can affect inter-layer adhesion but almost always will result in visible surface lines.
-CHITBOX has a good article on this topic [here](https://www.chitubox.com/en/article/support/howto/chitubox-free/editing/25). 3DPrintingPro's related video is [here](https://www.youtube.com/watch?v=8xolVj0izVo&t=19s). 
+By orientating the part in different directions, there can be a significant difference in the print quality. Sudden changes in the layer's cross-section, small to large or vice versa, will lead to a drastic volumetric change of exposed resin, affecting each layer's shrinkage. In severe instances, this can affect inter-layer adhesion but almost always will result in visible surface lines. CHITBOX has a good article on this topic [here](https://www.chitubox.com/en/article/support/howto/chitubox-free/editing/25). 3DPrintingPro's related video is [here](https://www.youtube.com/watch?v=8xolVj0izVo&t=19s). 
+
 Lastly, vary the placement of your part on the build-plate. If you consistently place your objects in the build-plate's center, your FEP will prematurely wear out in the center yet be absolutely fine in the surrounding, unused, wasted areas.
+
+**What angle should I use to minimize layer lines?**
+
+There isn't one best angle for printing everything. It really depends on your layer height and the type of model you're printing. Don't forget that model orientation also plays a big part in determining the best angles. You could actually be losing details printing at the wrong angle for the layer height. See a detailed explanation [here](https://www.youtube.com/watch?v=Qs2Rb0ExnIM). 
 
 **I bought x resin; what are the best settings for it?** 
 
@@ -270,10 +274,6 @@ It depends on the software. Two popular free programs that make it easy to hollo
 **Can I just use auto supports for all my models?** 
 
 Not the best idea. For simple models, auto supports should generally work, but as with anything automatic, it will never be perfect. For a start, you can use auto supports and supplement with manual supports on parts that the software missed. But it will be best to [learn to place your supports manually](https://www.youtube.com/channel/UCbv2mDrRqXovPdahRyoCFhA/search?query=supports) and precisely; you will find that you will need less supports and produce better prints in the long run. 
-
-**What angle should I use to minimize layer lines?**
-
-There isn't one best angle for printing everything. It really depends on your layer height and the type of model you're printing. Don't forget that model orientation also plays a big part in determining the best angles. You could actually be losing details printing at the wrong angle for the layer height. See a detailed explanation [here](https://www.youtube.com/watch?v=Qs2Rb0ExnIM). 
 
 
 
