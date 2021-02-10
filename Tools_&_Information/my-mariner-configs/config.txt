@@ -57,11 +57,8 @@
 #storage device. To do this, add the following line at the end of the Raspberry
 #configuration file (/boot/config.txt):
 
-#For rPi4
+# Enable virtual USB memory stick
 dtoverlay=dwc2,dr_mode=peripheral
-
-#For rPi-W
-#dtoverlay=dwc2
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
@@ -76,4 +73,5 @@ max_framebuffers=2
 dtparam=act_led_trigger=actpwr
 gpu_mem=32
 
+# Enable serial communications with printer contoller
 enable_uart=1
