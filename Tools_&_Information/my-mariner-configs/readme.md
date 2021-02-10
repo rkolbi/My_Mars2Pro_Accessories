@@ -20,9 +20,9 @@
 
 -Download and install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Run the Putty Application. Enter `raspberrypi.local` as the address you wish to connect to in Putty. Click OK/Yes if you get a security warning. When prompted on a black terminal window, enter `pi` as your username and `raspberry` as your password.
 
-$`sudo raspi-config`: system options -> Password (enter a new password), system options -> hostname (enter you printers nick-name), advanced options -> expand filesystem, Finish -> reboot
+$`sudo raspi-config`: system options -> Password (enter a new password), system options -> hostname (enter mariner), advanced options -> expand filesystem, Finish -> reboot
 
--Close Putty, wait a few minutes for rPi to reboot, Open Putty, and use your printer's `nick-name.local` as address to connect to, use pi as username and new password as just changed.
+-Close Putty, wait a few minutes for rPi to reboot, Open Putty, use `mariner` as address to connect to, and use pi as username and new password as just changed.
 
 $`sudo apt-get update`
 
@@ -75,8 +75,8 @@ $`sudo apt-get install samba winbind -y`
 
 $`sudo nano /etc/samba/smb.conf`
 Add the following to the end of the file:  
-```[Elegoo]  
-   comment = Saturn  
+```[mariner]  
+   comment = mariner_virtual_usb_stick  
    path = /mnt/usb_share/  
    browseable = Yes  
    writeable = Yes  
@@ -97,9 +97,9 @@ $`sudo apt install ./mariner3d_0.1.1-1_armhf.deb`
 
 $`sudo reboot`
 
--Once rebooted, open windows file explore and type your printer's nick-name as \\nick-name\
+-Once rebooted, open windows file explore and type your printer's nick-name as \\mariner\
 You should now see the USB_Share folder. Right click this and map network drive.
 
 
 
-If everything is good, you should be able to access it by opening http://PRINTER_NICKNAME:5000/ on your browser.
+If everything is good, you should be able to access the webpage interface by opening http://mariner:5000/ on your browser.
