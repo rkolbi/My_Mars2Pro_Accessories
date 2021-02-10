@@ -20,9 +20,9 @@
 
 -Download and install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Run the Putty Application. Enter `raspberrypi.local` as the address you wish to connect to in Putty. Click OK/Yes if you get a security warning. When prompted on a black terminal window, enter `pi` as your username and `raspberry` as your password.
 
-$`sudo raspi-config`: system options -> Password (enter a new password), system options -> hostname (enter mariner), advanced options -> expand filesystem, Finish -> reboot
+$`sudo raspi-config`: system options -> Password (enter a new password), system options -> hostname (enter `mariner`), advanced options -> expand filesystem, Finish -> reboot
 
--Close Putty, wait a few minutes for rPi to reboot, Open Putty, use `mariner` as address to connect to, and use pi as username and new password as just changed.
+-Close Putty, wait a few minutes for rPi to reboot, Open Putty, use `mariner` or  `mariner.local` as address to connect to, and use pi as username and new password as just changed.
 
 $`sudo apt-get update`
 
