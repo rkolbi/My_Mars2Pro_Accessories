@@ -221,9 +221,13 @@ Casting resins can have a difficult time bonding to the build-plate, and subsequ
 
 It's usually best to start with the community resin exposure settings and then dial them in with a few test prints. These test prints will allow you to obtain the optimum settings for your resin, in your environment, matched to your machine. A good instructional video can be found [here](https://www.youtube.com/watch?v=r9GwPEJ8Lq8).
 
+**Resin storage**
+
+Store resins at room temperature in a tightly-closed container away from direct sunlight, preferably in a leak-proof bag. When choosing a storage location, remember that although your room temperature may be adequate, locations at floor level and against exterior walls can expose the resin to varying temperature fluctuations. Inspect the bottles for leakage every couple of weeks, ensure that the caps are on tightly, and give a quick shake to ensure the resin components stay uniformly mixed.
+
 **My resin is expired, can I still use it?** 
 
-Generally, most resin manufacturers advise that resin be used within one year. The dates are basically "use by" dates, not expiry per se. In practice, when kept properly in a cool, dry location and unexposed to light, the resin can be stored and used without issues. 
+Generally, most resin manufacturers advise using the product within one year. These are basically "use by" dates, not expiry per se. In practice, if it was stored at room temperature, in a tightly-closed container, and had no contamination from any cleaning products - It should be acceptable for use. Start by giving the resin a good shake mixing. When pouring it from the bottle to the vat, use a paint filter to catch any particulates that may be present, pay attention to how it flows out of the bottle; it should have a smooth uniform flow as you'd expect with no lumps, chunks, or crystals. Lastly, do a small/quick test print so you can avoid wasting time down the road.
 
 **What do the print settings mean?**
 
