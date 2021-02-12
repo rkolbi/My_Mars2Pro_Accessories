@@ -97,7 +97,7 @@ $`sudo apt install ./mariner3d_0.1.1-1_armhf.deb`
 
 $`sudo reboot`
 
--Once rebooted, open windows file explore and type your printer's nick-name as \\mariner\
+-Once rebooted, open windows file explore and type your printer's nick-name as `\\mariner\`
 You should now see the USB_Share folder. Right click this and map network drive.
 
 
