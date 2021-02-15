@@ -1,4 +1,4 @@
-## :milky_way:Various parts, tools, and information for the Saturn & Elegoo 2 Pro printers.
+## :milky_way:Various parts, tools, and information for the Elegoo Saturn & Mars2 printers.
 
 Quick links:
 
@@ -12,4 +12,7 @@ Quick links:
 
 **:droplet:Resin label (Avery 18163) [here](resin-label-avery18163.doc).**
 
-**:wrench:My mariner config files and step-by-step [here](/Tools_&_Information/my-mariner-configs/).**
+**:wrench:G-Code helper files [here](/Tools_&_Information/gcode/).**
+
+**:wrench:rPi + mariner + Samba walkthrough & config files [here](/Tools_&_Information/my-mariner-configs/).**
+
