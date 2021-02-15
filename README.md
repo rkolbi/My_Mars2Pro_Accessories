@@ -14,5 +14,7 @@ Quick links:
 
 **:wrench:G-Code helper files [here](/Tools_&_Information/gcode/).**
 
+**:wrench:Saturn and Mars2 parts [here](/Parts_STLs/).**
+
 **:wrench:rPi + mariner + Samba walkthrough & config files [here](/Tools_&_Information/my-mariner-configs/).**
 
