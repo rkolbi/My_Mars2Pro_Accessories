@@ -7,3 +7,5 @@ Quick links:
 **:bulb:Downloadable PDF version [here](MARS-r2.pdf).**
 
 **:droplet:Resin label (Avery 18163) [here](resin-label-avery18163.doc).**
+
+**:wrench:My mariner config files and step-by-step [here](Tools_&_Information\my-mariner-configs).**
