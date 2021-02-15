@@ -6,7 +6,7 @@ Quick links:
 
 **:bulb:Downloadable PDF version [here](MARS-r2.pdf).**
 
-**:droplet:MARS2 Pre-sliced resin exposure tests [here](/Resin-exposure-testing/MARS2-Presliced/).**
+**:droplet:MARS2 Pre-sliced resin exposure tests [here](/Resin exposure testing/MARS2-Presliced/).**
 
 **:droplet:Resin label (Avery 18163) [here](resin-label-avery18163.doc).**
 
