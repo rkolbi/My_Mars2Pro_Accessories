@@ -6,7 +6,7 @@ Quick links:
 
 **:bulb:Downloadable PDF version [here](MARS-r2.pdf).**
 
-**:mag:Request change or addition to the guide [here](https://github.com/rkolbi/My_Mars2Pro_Accessories/issues/new?assignees=rkolbi&labels=&template=document-change-request.md&title=Document+Change+%2F+Document+Add).**
+**:zap:Request change or addition to the guide [here](https://github.com/rkolbi/My_Mars2Pro_Accessories/issues/new?assignees=rkolbi&labels=&template=document-change-request.md&title=Document+Change+%2F+Document+Add).**
 
 **:droplet:MARS2 Pre-sliced resin exposure tests [here](/Resin_exposure_testing/MARS2-Presliced/).**
 
