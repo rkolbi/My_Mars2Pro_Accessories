@@ -702,3 +702,5 @@ Hex Driver Set
 
 Information was gathered from the [Photonsters](http://photonsters.org), [Elegoo product site](https://www.elegoo.com/), [Chitubox](https://www.chitubox.com/en/support/indepth/technology), [ElegooMars Reddit Sub](https://www.reddit.com/r/ElegooMars/), and various others.  
 Photonsters.org is a wealth of information, always worth is visit, even if you don't have a Photon... 
+
+:zap: If you have any suggestions for a change, addition, or correction to this guide - please feel free to either submit it via form [here](https://github.com/rkolbi/My_Mars2Pro_Accessories/issues/new?assignees=rkolbi&labels=&template=document-change-request.md&title=Document+Change+%2F+Document+Add) or in the discussions page [here](https://github.com/rkolbi/My_Mars2Pro_Accessories/discussions/categories/printer-guide).  
