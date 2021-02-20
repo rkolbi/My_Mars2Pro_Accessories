@@ -107,7 +107,7 @@ Make sure you take the time to level your build-plate correctly. Do not rush thi
 
 **How do I level my build-plate?** 
 
-It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw), and the reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4).
+It is highly recommended that you use the official method, aka paper method, if you're using standard FEP film thickness (100~200um). Watch the Official Elegoo Leveling instructional video [here](https://youtu.be/tiHu3o72NDw), and the reset Z=0 instructional video [here](https://youtu.be/cqRBZUAEWD4). 3dPrintingPro covers leveling and associated issues [here](https://youtu.be/Zh9dx1fKnqI).
 
 **:wrench:Preferred Method - Step by step follows:**  
 - [ ] If the build-plate is not at least halfway up, raise it by selecting the 'Tool' Button, 'Manual' Button, '10mm' Button, then Up Bottom. Each time you press this, it will raise only 10mm, so you may have to press this multiple times.  
@@ -398,11 +398,11 @@ It's completely normal. It's a good sign that your print is sticking to the buil
 
 This is almost always a build-plate leveling issue. Make sure your leveling is 100% correct before attempting these other solutions. 
 
-·  Clean the build-plate carefully with IPA or other solvents. Dry before use. 
+·  Preheat or warm the resin, you can use a hairdryer or heating pad on most bottles to gently heat the resin to 22~30°C. 
 
 ·  Shake your resin in the bottle well before using it. Resin already in the vat may have settled and need to be stirred. 
 
-·  Preheat or warm the resin, you can use a hairdryer or heating pad on most bottles to gently heat the resin to 20~30°C. 
+·  Clean the build-plate carefully with IPA or other solvents - dry before use. 
 
 ·  Preheat the build-plate, same as the resin. 
 
