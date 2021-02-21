@@ -175,7 +175,7 @@ Using your fingers, push the opposite side of the plate when tightening the set 
 
 When a new Z=0 is specified, pressing Home will NOT move the platform to the position you set; it will be the start position when a print is initiated. You can check it by removing the vat and starting a print.
 
-As said, improper leveling contributes to a lot of frustration, mostly because of its mechanics' poor documentation. In this example, let's say you are leveling the printer, loosened the screws, and press home. You tug on the paper, it feels tight, so you raise by .1mm, then hit 'Z=0' because you raised Z. With this, once you home again, the build-plate will still stop at mechanical zero because of homing stops at the endstop trigger. If you looked at the electrical position of Z, it would read Z:-0.1. Now we know that when we initiate a print, it will home and then go to Z offset (raise .1mm), and then start printing.
+As said, improper leveling contributes to a lot of frustration, mostly because of its mechanics' poor documentation. Here is an example to consider; let's say you are leveling the printer, loosened the screws, and press home. You tug on the paper, it feels tight, so you raise by .1mm, then hit 'Z=0' because you raised Z. With this, once you home again, the build-plate will still stop at mechanical zero because of homing stops at the endstop trigger. If you looked at the electrical position of Z, it would read Z:-0.1. Now we know that when we initiate a print, it will home and then go to Z offset (raise .1mm), and then start printing.
 
 Flash forward several prints later, and you level the machine again. You place your piece of paper on the LCD, loosen the screws, and press home. This time you tighten the screws and then remove the paper with no significant tension/friction and think that you don't have to press 'Z=0' because you didn't move Z to take out the paper... WRONG - This is what gives people issues - IF you don't press Z=0, the printer will still have an offset of 0.1mm from the previous leveling, and you may run into problems due to incorrect leveling - because it's 0.1mm off. Remember, homing goes to mechanical zero when the endstop is triggered and doesn't care about the offset!
 
@@ -414,9 +414,9 @@ This is almost always a build-plate leveling issue. Make sure your leveling is 1
 
 ·  The FEP film may be too tight or too loose. 
 
-·  You may be using resin formulated for SLA laser or DLP printers. Check the resin manufacturer's recommendations. 
+·  You may be using bad resin, either very expired or contaminated with cleaning product, or a resin formulated for SLA laser or DLP printers. 
 
-·  Are you using a specialty monomer-free resin such as Blue cast? You may need a primer coat. Check the resin manufacturer's recommendations. 
+·  Are you using a specialty resin for casting such as Blue cast? You may need a primer coat. Check the resin manufacturer's recommendations. 
 
 ·  If all else fails, check your plate level once again and use Z=0! 
 
@@ -438,7 +438,7 @@ If your prints have good bottom adhesion but fail at the supports, this is gener
 
 **The top of my prints are sharp and detailed, but the bottoms seem soft and less defined?** 
 
-During the printing process, resin components form covalent bonds, but layer to layer, the part remains in a semi-reacted or semi-cured state. While in this semi-reacted state, the resin retains polymerizable groups that can still form bonds across layers. Polymerization only stops when the resin is fully cured via post-processing in a UV station or sunlight. 
+During the printing process, the part remains in a semi-reacted or semi-cured state. While in this semi-reacted state, the resin retains polymerizable groups that can still form bonds across layers. Polymerization only stops when the resin is fully cured via post-processing in a UV station or sunlight. 
 
 Simply put, during printing, the layers of the model facing the FEP film are always sharply defined as the layer is exposed perfectly against it. Whereas the layers facing the build-plate, previously exposed, still receive UV light from diffusion/diffraction/scattering from the current exposed layer and thus will still cure slightly. This is akin to overexposure and thus details will be lost. Coupled with this, some resin always remains around the bottom parts (facing the build-plate) and will also bond and cure to the details. 
 
