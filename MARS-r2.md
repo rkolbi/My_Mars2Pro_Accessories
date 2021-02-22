@@ -102,7 +102,7 @@ Always handle resins as though they are toxic unless you have specific documenta
 
 ## :roller_coaster:BUILD-PLATE AND LEVELING 
 
-As touched on in the front matter, the printing process starts with the build-plate descending into the resin vat, leaving space equal to the layer height between the build-plate and the vat's bottom FEP lining. An improperly leveled build-plate will cause this space to be too large or too small, leading to failed print will with harden resin stuck to the vat's bottom. 
+As touched on in the front matter, the printing process starts with the build-plate descending into the resin vat, leaving space equal to the layer height between the build-plate and the vat's bottom FEP lining. An improperly leveled build-plate will cause this space to be too large leading to failed print with harden resin stuck to the vat's bottom, or too small making the Z-axis bottom-out - causing the stepper motor miss steps and emit a vibrating / grinding noise. 
 Make sure you take the time to level your build-plate correctly. Do not rush this step in your hurry to start printing, take time and get it right. Once your build-plate is leveled correctly and locked down tight, you do not have to relevel it anymore unless you make other adjustments that affect the build-plate. *Do not confuse build-plate leveling with adjusting the four legs of the machine - which is leveling the machine itself.*
 
 **How do I level my build-plate?** 
