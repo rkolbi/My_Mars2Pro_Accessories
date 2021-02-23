@@ -24,9 +24,7 @@ $`sudo raspi-config`: system options -> Password (enter a new password), system 
 
 -Close Putty, wait a few minutes for rPi to reboot, Open Putty, use `mariner` or  `mariner.local` as address to connect to, and use pi as username and new password as just changed.
 
-$`sudo apt-get update`
-
-$`sudo apt-get upgrade`
+$`sudo apt-get update && sudo apt-get -y upgrade`
 
 $`sudo nano /boot/config.txt` -> add the following lines to the end of the file:
 `dtoverlay=dwc2,dr_mode=peripheral`
@@ -57,7 +55,7 @@ $`sudo mount -a`
 
 $`sudo nano /etc/rc.local` Add the following before the exit 0, so it looks like this:
 ```/bin/sleep 5
-modprobe g_mass_storage file=/piusb.bin removable=1
+modprobe g_mass_storage file=/piusb.bin removable=1 ro=0 stall=0
 
 /sbin/iwconfig wlan0 power off
 
@@ -87,8 +85,8 @@ Add the following to the end of the file:
    read only = no  
    force user = root  
    force group = root
-   ```
-  
+```
+
 Then ctrl+o, ctrl+x  
 
 $`wget https://github.com/luizribeiro/mariner/releases/download/v0.1.1-1/mariner3d_0.1.1-1_armhf.deb`
