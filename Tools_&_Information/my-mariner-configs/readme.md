@@ -54,7 +54,9 @@ Then ctrl+o, ctrl+x
 $`sudo mount -a`
 
 $`sudo nano /etc/rc.local` Add the following before the exit 0, so it looks like this:
-```/bin/sleep 5
+```
+/bin/sleep 5
+
 modprobe g_mass_storage file=/piusb.bin removable=1 ro=0 stall=0
 
 /sbin/iwconfig wlan0 power off
