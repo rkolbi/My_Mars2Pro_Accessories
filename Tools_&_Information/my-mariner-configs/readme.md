@@ -74,16 +74,17 @@ $`sudo apt-get install samba winbind -y`
 $`sudo nano /etc/samba/smb.conf`
 Add the following to the end of the file:  
 ```[mariner]  
-   comment = mariner_virtual_usb_stick  
-   path = /mnt/usb_share/  
-   browseable = Yes  
-   writeable = Yes  
-   only guest = no  
-   create mask = 0777  
-   directory mask = 0777  
-   public = yes  
-   read only = no  
-   force user = root  
+[USB_Share]
+   comment = Saturn
+   path = /mnt/usb_share/
+   browseable = Yes
+   writeable = Yes
+   only guest = no
+   create mask = 0777
+   directory mask = 0777
+   public = yes
+   read only = no
+   force user = root
    force group = root
 ```
 
