@@ -11,8 +11,6 @@
 #
 # By default this script does nothing.
 
-modprobe g_mass_storage file=/piusb.bin removable=1
-
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
@@ -20,8 +18,8 @@ if [ "$_IP" ]; then
 fi
 
 /bin/sleep 5
-modprobe g_mass_storage file=/piusb.bin removable=1
 
+modprobe g_mass_storage file=/piusb.bin removable=1 ro=0 stall=0
 
 /sbin/iwconfig wlan0 power off
 
