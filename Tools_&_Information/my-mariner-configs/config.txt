@@ -52,13 +52,6 @@
 #dtoverlay=gpio-ir-tx,gpio_pin=18
 
 # Additional overlays and parameters are documented /boot/overlays/README
-#Instead of being used in host mode, the Raspberry can also be operated via the
-#USB-C port as a peripheral device – e.g., as an Ethernet adapter or as a mass
-#storage device. To do this, add the following line at the end of the Raspberry
-#configuration file (/boot/config.txt):
-
-# Enable virtual USB memory stick
-dtoverlay=dwc2,dr_mode=peripheral
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
@@ -71,7 +64,5 @@ max_framebuffers=2
 [all]
 #dtoverlay=vc4-fkms-v3d
 dtparam=act_led_trigger=actpwr
-gpu_mem=32
-
-# Enable serial communications with printer contoller
+dtoverlay=dwc2,dr_mode=peripheral
 enable_uart=1
