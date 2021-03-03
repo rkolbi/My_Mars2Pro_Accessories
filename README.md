@@ -4,6 +4,8 @@ Quick links:
 
 **:bulb:Printer guide located [here](MARS-r2.md).**
 
+**:bulb:Printer guide (Wiki) located [here](wiki).**
+
 **:bulb:Downloadable PDF version [here](MARS-r2.pdf).**
 
 **:droplet:MARS2 Pre-sliced resin exposure tests [here](/Resin_exposure_testing/MARS2-Presliced/).**
