@@ -26,9 +26,11 @@ $`sudo raspi-config`: system options -> Password (enter a new password), system 
 
 $`sudo apt-get update && sudo apt-get -y upgrade`
 
-$`sudo nano /boot/config.txt` -> add the following lines to the end of the file:
-`dtoverlay=dwc2,dr_mode=peripheral`
-`enable_uart=1`
+$`sudo nano /boot/config.txt` -> add the following lines to the end of the file:  
+```
+dtoverlay=dwc2,dr_mode=peripheral  
+enable_uart=1
+```
 Then ctrl+o, ctrl+x
 
 $`sudo nano /boot/cmdline.txt` -> add `modules-load=dwc2` to the end of the line. Remove `console=serial0,115200`
