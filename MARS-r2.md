@@ -305,7 +305,7 @@ A successful test print with a known-good model will confirm that your printer w
 
 That's normal; it's showing the last file you selected or printed. 
 
-**I can't see my files on the touch screen  
+**I can't see my files on the touch screen**  
 
 -Ensure the memory stick is USB 2.0, from a reputable manufacturer, formatted as MS-DOS (FAT32), and between the sizes of 1GB to 16GB.  
 -Ensure the memory stick is directly connected to the printer and not being run through numerous extension cables.  
