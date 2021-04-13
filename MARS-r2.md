@@ -307,16 +307,16 @@ That's normal; it's showing the last file you selected or printed.
 
 **I can't see my files on the touch screen**  
 
--Ensure the memory stick is USB 2.0, from a reputable manufacturer, formatted as MS-DOS (FAT32), and between the sizes of 1GB to 16GB.  
--Ensure the memory stick is directly connected to the printer and not being run through numerous extension cables.  
--Ensure that you properly eject the memory stick from your computer after writing print files to it.  
+·  Ensure the memory stick is USB 2.0, from a reputable manufacturer, formatted as MS-DOS (FAT32), and between the sizes of 1GB to 16GB.  
+·  Ensure the memory stick is directly connected to the printer and not being run through numerous extension cables.  
+·  Ensure that you properly eject the memory stick from your computer after writing print files to it.  
   
 If all else fails, perform the following action:  
--Remove the memory stick from the printer.  
--Restart your printer.  
--Check the USB port free of foreign debris.  
--Reformat the USB stick, place your print files on it, then safely remove it.  
--Inserting the stick into the printer and verify files are displayed on the touch screen.  
+·  Remove the memory stick from the printer.  
+·  Restart your printer.  
+·  Check the USB port free of foreign debris.  
+·  Reformat the USB stick, place your print files on it, then safely remove it.  
+·  Inserting the stick into the printer and verify files are displayed on the touch screen.  
   
 If no resolve is presented, try a new USB stick.  
 
