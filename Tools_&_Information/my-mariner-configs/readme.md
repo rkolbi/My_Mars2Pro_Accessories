@@ -96,7 +96,7 @@ Then ctrl+o, ctrl+x
 
 $`wget https://github.com/luizribeiro/mariner/releases/download/v0.1.1-1/mariner3d_0.1.1-1_armhf.deb`
 
-*updated - see here: https://github.com/luizribeiro/mariner/releases*
+*updated - see here: https://github.com/luizribeiro/mariner/releases*  
 $`wget https://github.com/luizribeiro/mariner/releases/download/v0.2.0-1/mariner3d_0.2.0-1_armhf.deb`
 
 $`sudo apt install ./mariner3d_0.1.1-1_armhf.deb`
