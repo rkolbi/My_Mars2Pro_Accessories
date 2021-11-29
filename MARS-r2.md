@@ -213,7 +213,7 @@ There isn't one best angle for printing everything. It really depends on your la
 
 **I bought x resin; what are the best settings for it?** 
 
-Every resin behaves differently; there are no best settings that will work for every resin and every machine. For a quick start, you can refer to the [community resin exposure settings](https://www.elegoo.com/pages/3d-printing-user-suupport). Those settings should enable you to get a print going quickly, but you will need to test and adjust from there to find the best settings applicable for your machine. 
+Every resin behaves differently; there are no best settings that will work for every resin and every machine. For a quick start, you can refer to the [community resin exposure settings](https://www.elegoo.com/pages/3d-printing-user-support). Those settings should enable you to get a print going quickly, but you will need to test and adjust from there to find the best settings applicable for your machine. 
 
 Casting resins can have a difficult time bonding to the build-plate, and subsequently ruining your print. There are multiple ways to increase adhesion during printing. The easiest option would be to change the profile settings, increase the number of bottom layers, and simultaneously increase the bottom curing time, increasing adhesion. If that doesn't work, apply resin on the build-plate surface and leave for 3 mins before printing. If issues persist, apply a thin layer of primer (can be the very resin you are using) on the plate to improve adhesion - Apply to the build-plate and keep under UV light for 10 to 15 minutes. Your last resort would be to rough up the build-plate by scrubbing it with a clean 'cooking pan' abrasive pad, using a circular motion, covering the entire plate while it is flat on the working surface, and then going through the above steps again. A good video applying primer [here](https://www.youtube.com/watch?v=eDl3vzZy0qQ).
 
@@ -660,7 +660,7 @@ From Elegoo's website [here](https://www.elegoo.com/collections/parts-accessorie
 
 **Where can I find firmware updates, original manual, original USB drive files, and resin settings?**
 
-From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-suupport).
+From Elegoo's website [here](https://www.elegoo.com/pages/3d-printing-user-support).
 
 
 
