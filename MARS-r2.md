@@ -289,7 +289,7 @@ Not the best idea. For simple models, auto supports should generally work, but a
 
 :wrench:It is recommended that you print it, but before you print the rook file from the USB stick, there are some steps you need to take to ensure success.
 
-- [ ] Check your resin's bottom & normal exposure times, for your printer model, [here](https://docs.google.com/spreadsheets/d/1pXFnb8nZNR-jC5h0_t28NJ3jpmWeOPu6bmYNY05lysU/edit#gid=0).
+- [ ] Check your resin's bottom & normal exposure times, for your printer model, [here](https://github.com/rkolbi/My_Mars2Pro_Accessories/blob/main/Tools_%26_Information/ELEGOO_Resin_Settings_for_Elegoo_Printers(Official).pdf).
 - [ ] Plug the USB stick in your computer and open the __Rook.ctb file in Chitubox slicer, you should just have to double-click on the file to open it. 
 - [ ] Once it opens the file, you will see two columns of numerical data in the lower portion of the screen. Check that 'Exposure Time(s):' and 'Bottom Exposure Time(s):' match the numbers corresponding to your printer/resin in the excel spreadsheet above. 
 - [ ] If the numbers in Chitubox differ from the spreadsheet, double-click the number to change and type the value obtained from the spreadsheet.
