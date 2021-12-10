@@ -310,14 +310,14 @@ That's normal; it's showing the last file you selected or printed.
 ·  Ensure the memory stick is USB 2.0, from a reputable manufacturer, formatted as MS-DOS (FAT32), and between the sizes of 1GB to 16GB.  
 ·  Ensure the memory stick is directly connected to the printer and not being run through numerous extension cables.  
 ·  Ensure that you properly eject the memory stick from your computer after writing print files to it.  
-  
+
 If all else fails, perform the following action:  
 ·  Remove the memory stick from the printer.  
 ·  Restart your printer.  
 ·  Check the USB port free of foreign debris.  
 ·  Reformat the USB stick, place your print files on it, then safely remove it.  
 ·  Inserting the stick into the printer and verify files are displayed on the touch screen.  
-  
+
 If no resolve is presented, try a new USB stick.  
 
 **How long do I have to shake the resin up or heat it?**
@@ -411,7 +411,7 @@ It's completely normal. It's a good sign that your print is sticking to the buil
 
 **My prints just won't stick?** 
 
-This is almost always a build-plate leveling issue. Make sure your leveling is 100% correct before attempting these other solutions. 
+This is almost always a build-plate leveling issue. Make sure your leveling is 100% correct before attempting these other solutions. An easy way to check the level is by placing a sheet of paper between the LCD and build-plate - press the 'home' button and if done correctly, there should be some resistance when pulling the paper, just as when you leveled it. You can also try this at each corner of the build-plate. 
 
 ·  Preheat or warm the resin, you can use a hairdryer or heating pad on most bottles to gently heat the resin to 22~30°C. 
 
@@ -421,11 +421,9 @@ This is almost always a build-plate leveling issue. Make sure your leveling is 1
 
 ·  Preheat the build-plate, same as the resin. 
 
-·  The build-plate may have shifted. Try and level it again; make sure to tighten well. 
+·  Did you remember to set, or reset, Z=0?  
 
-·  There may be cured resin in your vat, in which case you should drain and clean. 
-
-·  Did you remember to set, or reset, Z=0?
+·  Check your print and exposure settings.  
 
 ·  The FEP film may be too tight or too loose. 
 
